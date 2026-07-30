@@ -1,7 +1,7 @@
-// minimal-uniformity — the machine-checked verification artifact for the paper
+// minimal-uniformity-three — the machine-checked verification artifact for the paper
 //   "Minimal uniformity three: unit-edge tilings around the non-Archimedean vertex types".
 // It contains only the paper's proof specs; every piece of machinery is the pinned research-core library.
-// The specs live in package io.github.scala_tessella.minimal_uniformity and import the library from
+// The specs live in package io.github.scala_tessella.minimal_uniformity_three and import the library from
 // io.github.scala_tessella.research_core. All specs run under `sbt test` — exact, in-JVM, no external tools.
 
 ThisBuild / scalaVersion  := "3.8.4"
@@ -11,7 +11,7 @@ ThisBuild / versionScheme := Some("early-semver")
 lazy val root = project
   .in(file("."))
   .settings(
-    name           := "minimal-uniformity",
+    name           := "minimal-uniformity-three",
     publish / skip := true,
     libraryDependencies ++= Seq(
       "io.github.scala-tessella" %% "research-core"   % "0.3.0",

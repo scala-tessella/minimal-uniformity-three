@@ -1,4 +1,4 @@
-package io.github.scala_tessella.minimal_uniformity
+package io.github.scala_tessella.minimal_uniformity_three
 
 import io.github.scala_tessella.research_core.*
 

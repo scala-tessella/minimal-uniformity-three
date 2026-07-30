@@ -1,4 +1,4 @@
-# minimal-uniformity — verification artifact
+# minimal-uniformity-three — verification artifact
 
 Machine-checked companion to the paper
 
