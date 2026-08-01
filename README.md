@@ -5,8 +5,9 @@ Machine-checked companion to the paper
 > **Minimal uniformity three: unit-edge tilings around the non-Archimedean vertex types.**
 
 This repository contains **only the paper's proof specs**. All machinery — the Delaney–Dress symbol engine,
-the exact angle/moduli layer, cyclotomic arithmetic, and the U(z) class construction — is the pinned
-[`research-core`](https://github.com/scala-tessella/research-core) `0.3.0` library. Nothing here is specific
+the exact angle/moduli layer, cyclotomic arithmetic, the U(z) class construction, and the SAT/DRAT
+certification harness — is the pinned
+[`research-core`](https://github.com/scala-tessella/research-core) `0.3.1` library. Nothing here is specific
 to any other result.
 
 ## Reproduce
@@ -14,12 +15,16 @@ to any other result.
 ```bash
 sbt test                              # the fast verdicts (exact, in-JVM, no external tools)
 sbt -Duclass.k2 -Duclass.k3x test     # + the two exhaustive searches (long: hours at k=2)
+tools/install-sat-tools.sh            # build kissat + drat-trim at pinned tags (once, for the line below)
+sbt -Dcert.k2 test                    # + the k <= 2 DRAT completeness certificate (~1 h, resumable)
 ```
 
 `sbt test` runs the pinned-verdict specs, which re-verify the extremal witnesses and refutations from their
-canonical keys. The two exhaustive searches that *produced* those results — `UClassK2Probe` (the ≤ 24-chamber
-k = 2 catalogue) and `UClassK3Probe` (the k = 3 all-species search) — are heavy and opt-in behind
-`-Duclass.k2` / `-Duclass.k3x`. `research-core 0.3.0` resolves from Maven Central.
+canonical keys. The heavy, opt-in runs: the two exhaustive searches that *produced* the results —
+`UClassK2Probe` (the ≤ 24-chamber k = 2 catalogue) and `UClassK3Probe` (the k = 3 all-species search) —
+behind `-Duclass.k2` / `-Duclass.k3x`, and the completeness certification campaign `K2CompletenessProbe`
+behind `-Dcert.k2` (the only spec that shells out: kissat to solve, drat-trim to verify the proofs;
+everything else is in-JVM). `research-core 0.3.1` resolves from Maven Central.
 
 ## Claim → check
 
@@ -33,19 +38,26 @@ Run one with `sbt "testOnly *<SpecName>"`.
 | The k = 3 all-species search | `UClassK3Probe` | The exhaustive k = 3 search across all species. *(opt-in: `-Duclass.k3x`)* |
 | **The four witnesses** | `UClassK3ExistenceSpec` | Pins the four extremal symbols by canonical key and re-verifies end to end that minimal uniformity of (3.8.24), (3.4.3.12), (3.4².6) and (3².6²) is exactly **3** — including reconstruction of the appendix witness strings. |
 | Essential irregularity | `UClassEssentialIrregularitySpec` | Exact areas and the essential-irregularity verdicts: the (3.8.24) and (3.4.3.12) theorems persist under essentially-irregular tiles; (3.4².6) and (3².6²) reopen. |
+| **The k ≤ 2 completeness certificate** | `K2CompletenessProbe` | The DRAT certificate behind the lower bound (paper §8): generates the tier-1 certification universe (2,710 D-sets, ≤ 2 vertex orbits, ≤ 24 chambers), and per chamber count C = 1..24 proves base + blocking UNSAT under kissat with drat-trim-verified proofs, with exhaustive two-enumerator agreement and a pure-JVM fidelity check; the exact euclidean tail over the certified universe reproduces the 1,363-symbol catalogue (93 + 1,270). Artifacts land in `certs/k2/`. *(opt-in: `-Dcert.k2`; needs `tools/install-sat-tools.sh`)* |
+| The certification universe sizing | `K2UniverseSizingProbe` | The sizing scan behind the certificate's architecture: the raw ≤ 2-orbit universe grows ×5.1 per two chambers (~10⁸ at the top slices — out of blocking reach), the tier-1 relaxation cuts it to 2,710, and the tier-1 lemma (euclidean-feasible ⇒ tier-1) is machine-checked on every raw D-set generated. *(opt-in: `-Dcert.k2.size`)* |
 
 ## Scope notes
 
-- **One disclosed completeness gap (as in the paper):** the ≤ 24-chamber k ≤ 2 catalogue behind the lower
-  bound is *trusted-generator* — the SAT/DRAT completeness track of the companion classification is not (yet)
-  extended to that universe. Everything else is exact and, at k = 1, DRAT-certified upstream in
-  `research-core`.
+- **The k ≤ 2 catalogue is DRAT-certified complete** (it was a disclosed trusted-generator gap through
+  paper drafts of July 2026): `K2CompletenessProbe` runs the certificate end to end — the tier-1 curvature
+  relaxation whose lemma (euclidean-feasible ⇒ tier-1) is proved in `research-core`'s
+  `DelaneySymbols.tier1Feasible` scaladoc, per-chamber-count UNSAT obligations with machine-checkable DRAT
+  proofs, and the exact euclidean tail reproducing the 1,363-symbol catalogue. The trusted generator
+  survives only as one side of the (fully checked) agreement gate. The kissat/drat-trim binaries are built
+  at pinned tags by `tools/install-sat-tools.sh`, which records versions and binary hashes.
 - **Figure generation is excluded.** The paper's `UClassK3FiguresProbe` draws the witness figures; like the
   companion `31-unit-edge-tilings` repo, this artifact carries the *proof*, not presentation. The witnesses'
   metric data is fully re-verified here by `UClassK3ExistenceSpec`.
 
 ## Archival
 
-Deposited on Zenodo as a supplement to the paper record, pinned to `research-core 0.3.0` (an immutable Central
+Deposited on Zenodo as a supplement to the paper record, pinned to `research-core 0.3.1` (an immutable Central
 release, archived with its own DOI). The pin plus the source snapshot make this a closed, reproducible
-artifact independent of any moving repository.
+artifact independent of any moving repository. The DRAT proofs themselves are regenerable by `-Dcert.k2`
+(~1 h on a dual-core laptop) and are therefore not stored here; the campaign's manifest and per-C verdicts
+are.
