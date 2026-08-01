@@ -1,6 +1,7 @@
 # minimal-uniformity-three — verification artifact
 
 [![CI](https://github.com/scala-tessella/minimal-uniformity-three/actions/workflows/ci.yml/badge.svg)](https://github.com/scala-tessella/minimal-uniformity-three/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21739355.svg)](https://doi.org/10.5281/zenodo.21739355)
 
 Machine-checked companion to the paper
 
@@ -64,11 +65,12 @@ not the all-versions concept DOI — the latter always resolves to whatever is n
 
 | Version | DOI |
 |---|---|
-| 0.1.0 | *(recorded here, in `CITATION.cff`, and as the README badge in the first commit after the tag)* |
+| 0.1.0 | [10.5281/zenodo.21739355](https://doi.org/10.5281/zenodo.21739355) |
 
 Zenodo assigns a release's version DOI at the moment that release is published, so it cannot be present in
 the tree that release archives: the `CITATION.cff` inside a deposit carries no version DOI. The version DOI
-is recorded in this table, and in `CITATION.cff` on the main branch, in the first commit after the tag.
+is recorded in this table, and in `CITATION.cff` on the main branch, in the first commit after the tag; the
+concept DOI (all versions) is [10.5281/zenodo.21739354](https://doi.org/10.5281/zenodo.21739354).
 
 Pinned to `research-core 0.3.1` / `research-core-solver 0.3.1` (each an immutable Central release), archived
 as [10.5281/zenodo.21739112](https://doi.org/10.5281/zenodo.21739112). That archived snapshot — not the

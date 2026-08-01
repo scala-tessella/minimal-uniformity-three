@@ -10,9 +10,8 @@ an earlier version should be able to tell from here whether the claims, the spec
 ## [0.1.0] — 2026-08-01
 
 Initial release: the complete verification surface for the paper, pinned to `research-core 0.3.1` /
-`research-core-solver 0.3.1`. The version DOI is recorded here, in `CITATION.cff`, and in the README's
-Archival table in the first commit after the release tag (Zenodo mints it at publication, so it cannot be
-present in the tree the release archives).
+`research-core-solver 0.3.1`. Archived as
+[doi:10.5281/zenodo.21739355](https://doi.org/10.5281/zenodo.21739355) — the version DOI to cite.
 
 ### Added
 
