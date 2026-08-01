@@ -52,6 +52,6 @@ references:
         family-names: Càllisto
         orcid: https://orcid.org/0009-0009-1215-3278
     version: 0.3.1
-    # doi: record the research-core 0.3.1 version DOI here once that release is archived on Zenodo
+    doi: 10.5281/zenodo.21739112
     repository-code: https://github.com/scala-tessella/research-core
     license: Apache-2.0

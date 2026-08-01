@@ -70,9 +70,10 @@ Zenodo assigns a release's version DOI at the moment that release is published, 
 the tree that release archives: the `CITATION.cff` inside a deposit carries no version DOI. The version DOI
 is recorded in this table, and in `CITATION.cff` on the main branch, in the first commit after the tag.
 
-Pinned to `research-core 0.3.1` / `research-core-solver 0.3.1` (each an immutable Central release). That
-archived snapshot — not the `research-core` repository's main branch, which may since have moved on — is
-the authoritative source for what this artifact depends on. The pin plus the snapshot make this a closed,
+Pinned to `research-core 0.3.1` / `research-core-solver 0.3.1` (each an immutable Central release), archived
+as [10.5281/zenodo.21739112](https://doi.org/10.5281/zenodo.21739112). That archived snapshot — not the
+`research-core` repository's main branch, which may since have moved on — is the authoritative source for
+what this artifact depends on. The pin plus the snapshot make this a closed,
 reproducible artifact independent of any moving repository. The DRAT proofs themselves are regenerable by
 `-Dcert.k2` (~1 h on a dual-core laptop; also runnable in public from the Actions tab) and are therefore
 not stored in git; the producing run's manifest and the 1,363 catalogue keys are, under `certs/k2-record/`.
