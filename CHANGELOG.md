@@ -7,6 +7,14 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 a paper, entries state what a re-check would find different from the previous release — a referee who checked
 an earlier version should be able to tell from here whether the claims, the specs, or only the packaging moved.
 
+## [Unreleased]
+
+### Added
+
+- README: link to the green public CI reproduction of the k ≤ 2 certification campaign (ubuntu runner,
+  24 minutes, toolchain built from source, 24/24 obligations verified, proofs re-checked by `verify.sh`),
+  with a note that it is re-runnable by anyone from the Actions tab.
+
 ## [0.1.0] — 2026-08-01
 
 Initial release: the complete verification surface for the paper, pinned to `research-core 0.3.1` /
@@ -39,4 +47,5 @@ Initial release: the complete verification surface for the paper, pinned to `res
   asserts that. The opt-in probes appear as *canceled*, not failed. A manual-dispatch job runs the full
   k ≤ 2 certification campaign (tools build + `-Dcert.k2` + `verify.sh`) in public on demand.
 
+[Unreleased]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/scala-tessella/minimal-uniformity-three/releases/tag/v0.1.0

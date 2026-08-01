@@ -30,6 +30,13 @@ behind `-Duclass.k2` / `-Duclass.k3x`, and the completeness certification campai
 behind `-Dcert.k2` (the only spec that shells out: kissat to solve, drat-trim to verify the proofs;
 everything else is in-JVM). `research-core 0.3.1` resolves from Maven Central.
 
+The certification campaign has been **run in public CI**: green in 24 minutes on an ubuntu runner —
+toolchain built from source, all 24 obligations verified, proofs re-checked by `verify.sh` —
+[run #5](https://github.com/scala-tessella/minimal-uniformity-three/actions/runs/30699952586). It is
+re-runnable by anyone at any time from the [Actions tab](https://github.com/scala-tessella/minimal-uniformity-three/actions/workflows/ci.yml)
+("Run workflow" → the `cert-k2` job), so the evidence does not depend on any single machine — including the
+author's.
+
 ## Claim → check
 
 Run one with `sbt "testOnly *<SpecName>"`.
