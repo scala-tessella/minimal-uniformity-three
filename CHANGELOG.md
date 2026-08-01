@@ -9,6 +9,9 @@ an earlier version should be able to tell from here whether the claims, the spec
 
 ## [0.1.1] — 2026-08-01
 
+Archived as [doi:10.5281/zenodo.21740457](https://doi.org/10.5281/zenodo.21740457) — the version DOI to
+cite when pinning this release.
+
 **No claim or spec logic changed** — every verdict a referee checked against 0.1.0 still holds. This
 release archives the producing-run records behind the two exhaustive opt-in searches (a referee request:
 the claims "exactly one pair survives at k = 2" and "the ≤ 22-chamber k = 3 search leaves convex

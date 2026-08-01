@@ -1,7 +1,7 @@
 # minimal-uniformity-three — verification artifact
 
 [![CI](https://github.com/scala-tessella/minimal-uniformity-three/actions/workflows/ci.yml/badge.svg)](https://github.com/scala-tessella/minimal-uniformity-three/actions/workflows/ci.yml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21739355.svg)](https://doi.org/10.5281/zenodo.21739355)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21740457.svg)](https://doi.org/10.5281/zenodo.21740457)
 
 Machine-checked companion to the paper
 
@@ -72,6 +72,7 @@ not the all-versions concept DOI — the latter always resolves to whatever is n
 
 | Version | DOI |
 |---|---|
+| 0.1.1 | [10.5281/zenodo.21740457](https://doi.org/10.5281/zenodo.21740457) |
 | 0.1.0 | [10.5281/zenodo.21739355](https://doi.org/10.5281/zenodo.21739355) |
 
 Zenodo assigns a release's version DOI at the moment that release is published, so it cannot be present in
