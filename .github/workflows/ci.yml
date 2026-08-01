@@ -1,0 +1,73 @@
+# Runs the artifact's self-contained verification surface — the claim specs — on every push.
+#
+# `sbt test` needs no external tools: everything here is exact rational / cyclotomic arithmetic against the
+# pinned research-core release from Maven Central. The opt-in probes (the two exhaustive searches and the
+# k <= 2 certification campaign) are guarded by `assume(...)` and so appear as CANCELED in the log rather
+# than failed. A green badge therefore means: the paper's claims re-derive from scratch on a clean machine.
+#
+# The JDK matrix is deliberate — the arithmetic is exact, so the verdicts must not depend on the runtime.
+
+name: CI
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        java: [17, 21]
+    name: Claim specs (JDK ${{ matrix.java }})
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up JDK ${{ matrix.java }}
+        uses: actions/setup-java@v5
+        with:
+          java-version: ${{ matrix.java }}
+          distribution: temurin
+          cache: sbt
+
+      - name: Setup sbt
+        uses: sbt/setup-sbt@v1
+
+      - name: Verify claim specs
+        run: sbt test
+
+  # The k <= 2 DRAT completeness certificate (paper §8): opt-in (-Dcert.k2) rather than part of the
+  # per-push surface, because it is long (~70 min on a 2017 dual-core laptop; the campaign is resumable
+  # but CI runs it in one go) and needs the external kissat/drat-trim toolchain, built here at the pinned
+  # tags. verify.sh then re-checks every deposited proof with drat-trim alone. Run it from the Actions tab
+  # ("Run workflow") whenever the certificate, its encoding, or the pinned library changes.
+  cert-k2:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    name: k <= 2 DRAT completeness certificate (opt-in)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v5
+        with:
+          java-version: 21
+          distribution: temurin
+          cache: sbt
+
+      - name: Setup sbt
+        uses: sbt/setup-sbt@v1
+
+      - name: Build the SAT toolchain at pinned tags
+        run: tools/install-sat-tools.sh
+
+      - name: Run the certification campaign
+        run: sbt -Dcert.k2 "testOnly io.github.scala_tessella.minimal_uniformity_three.K2CompletenessProbe"
+
+      - name: Independently re-verify the proofs
+        run: ./verify.sh

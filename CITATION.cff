@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: >-
+  If you cite this verification artifact, please cite the specific archived version you
+  checked, not the repository in general. Each release has its own version DOI; see the
+  "Archival" section in README.md.
+title: >-
+  minimal-uniformity-three: machine-checked companion to "Minimal uniformity three:
+  unit-edge tilings around the non-Archimedean vertex types"
+abstract: >-
+  The verification artifact for the paper's claims: the U(z) minimal-uniformity ladder
+  (the k = 1 scan, the k <= 2 catalogue and refutation, the four rigid uniformity-3
+  witnesses, the essential-irregularity verdicts), re-derived in exact rational and
+  cyclotomic arithmetic, and the k <= 2 DRAT completeness certificate — 24 UNSAT
+  obligations over the tier-1 certification universe, kissat-solved and
+  drat-trim-verified. The repository holds only the claim specs; all machinery is the
+  pinned research-core library.
+type: software
+authors:
+  - given-names: Mario
+    family-names: Càllisto
+    orcid: https://orcid.org/0009-0009-1215-3278
+    email: mario.callisto@gmail.com
+    alias: mcallisto
+license: Apache-2.0
+repository-code: https://github.com/scala-tessella/minimal-uniformity-three
+url: https://github.com/scala-tessella/minimal-uniformity-three
+version: 0.1.0
+date-released: '2026-08-01'
+# Version DOI of this release — the one to cite. Zenodo mints it when the release is published, so
+# it cannot be present in the tree that release archives; it is recorded here, with the concept DOI
+# in `identifiers`, in the first commit after the tag.
+keywords:
+  - tilings
+  - tessellations
+  - unit-edge polygons
+  - minimal uniformity
+  - k-uniform tilings
+  - Delaney-Dress symbols
+  - exact arithmetic
+  - DRAT
+  - formal verification
+  - reproducibility
+  - Scala
+references:
+  - type: software
+    title: research-core
+    abstract: >-
+      The pinned library providing every piece of machinery this artifact depends on
+      (research-core 0.3.1 and research-core-solver 0.3.1).
+    authors:
+      - given-names: Mario
+        family-names: Càllisto
+        orcid: https://orcid.org/0009-0009-1215-3278
+    version: 0.3.1
+    # doi: record the research-core 0.3.1 version DOI here once that release is archived on Zenodo
+    repository-code: https://github.com/scala-tessella/research-core
+    license: Apache-2.0

@@ -1,5 +1,7 @@
 # minimal-uniformity-three — verification artifact
 
+[![CI](https://github.com/scala-tessella/minimal-uniformity-three/actions/workflows/ci.yml/badge.svg)](https://github.com/scala-tessella/minimal-uniformity-three/actions/workflows/ci.yml)
+
 Machine-checked companion to the paper
 
 > **Minimal uniformity three: unit-edge tilings around the non-Archimedean vertex types.**
@@ -15,8 +17,9 @@ to any other result.
 ```bash
 sbt test                              # the fast verdicts (exact, in-JVM, no external tools)
 sbt -Duclass.k2 -Duclass.k3x test     # + the two exhaustive searches (long: hours at k=2)
-tools/install-sat-tools.sh            # build kissat + drat-trim at pinned tags (once, for the line below)
+tools/install-sat-tools.sh            # build kissat + drat-trim at pinned tags (once, for the lines below)
 sbt -Dcert.k2 test                    # + the k <= 2 DRAT completeness certificate (~1 h, resumable)
+./verify.sh                           # re-check the 24 proofs with drat-trim alone, independently
 ```
 
 `sbt test` runs the pinned-verdict specs, which re-verify the extremal witnesses and refutations from their
@@ -56,8 +59,20 @@ Run one with `sbt "testOnly *<SpecName>"`.
 
 ## Archival
 
-Deposited on Zenodo as a supplement to the paper record, pinned to `research-core 0.3.1` (an immutable Central
-release, archived with its own DOI). The pin plus the source snapshot make this a closed, reproducible
-artifact independent of any moving repository. The DRAT proofs themselves are regenerable by `-Dcert.k2`
-(~1 h on a dual-core laptop) and are therefore not stored here; the campaign's manifest and per-C verdicts
-are.
+Deposited on Zenodo as a supplement to the paper record. **Cite the version DOI of the release you checked**,
+not the all-versions concept DOI — the latter always resolves to whatever is newest:
+
+| Version | DOI |
+|---|---|
+| 0.1.0 | *(recorded here, in `CITATION.cff`, and as the README badge in the first commit after the tag)* |
+
+Zenodo assigns a release's version DOI at the moment that release is published, so it cannot be present in
+the tree that release archives: the `CITATION.cff` inside a deposit carries no version DOI. The version DOI
+is recorded in this table, and in `CITATION.cff` on the main branch, in the first commit after the tag.
+
+Pinned to `research-core 0.3.1` / `research-core-solver 0.3.1` (each an immutable Central release). That
+archived snapshot — not the `research-core` repository's main branch, which may since have moved on — is
+the authoritative source for what this artifact depends on. The pin plus the snapshot make this a closed,
+reproducible artifact independent of any moving repository. The DRAT proofs themselves are regenerable by
+`-Dcert.k2` (~1 h on a dual-core laptop; also runnable in public from the Actions tab) and are therefore
+not stored in git; the producing run's manifest and the 1,363 catalogue keys are, under `certs/k2-record/`.
