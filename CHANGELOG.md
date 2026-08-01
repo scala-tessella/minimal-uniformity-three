@@ -7,10 +7,20 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 a paper, entries state what a re-check would find different from the previous release — a referee who checked
 an earlier version should be able to tell from here whether the claims, the specs, or only the packaging moved.
 
-## [Unreleased]
+## [0.1.1] — 2026-08-01
+
+**No claim or spec logic changed** — every verdict a referee checked against 0.1.0 still holds. This
+release archives the producing-run records behind the two exhaustive opt-in searches (a referee request:
+the claims "exactly one pair survives at k = 2" and "the ≤ 22-chamber k = 3 search leaves convex
+candidates for exactly four species" previously rested on hours-long re-runs), and surfaces the public CI
+reproduction of the certificate.
 
 ### Added
 
+- `certs/uclass-k2-record/` — the k = 2 campaign's record: the 1,363-symbol catalogue size, the single
+  surviving designation (`survivors.tsv`, refuted in `UClassK2VerdictSpec`), and the run log.
+- `certs/uclass-k3-record/` — the k = 3 all-species search's records: hit lists per chamber ramp
+  (≤ 14/18/22/24 — the ≤ 22 list is the paper's exhaustive search, 42 hits), and the run log.
 - README: link to the green public CI reproduction of the k ≤ 2 certification campaign (ubuntu runner,
   24 minutes, toolchain built from source, 24/24 obligations verified, proofs re-checked by `verify.sh`),
   with a note that it is re-runnable by anyone from the Actions tab.
@@ -47,5 +57,5 @@ Initial release: the complete verification surface for the paper, pinned to `res
   asserts that. The opt-in probes appear as *canceled*, not failed. A manual-dispatch job runs the full
   k ≤ 2 certification campaign (tools build + `-Dcert.k2` + `verify.sh`) in public on demand.
 
-[Unreleased]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.1.0...HEAD
+[0.1.1]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/scala-tessella/minimal-uniformity-three/releases/tag/v0.1.0

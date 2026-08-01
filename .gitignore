@@ -6,6 +6,8 @@ target/
 
 # A2 certification run products (regenerable by -Dcert.k2; the committed record lives in certs/k2-record/)
 certs/k2/
+certs/uclass-k2/
+certs/uclass-k3/
 tools/bin/
 tools/vendor/
 /*.log

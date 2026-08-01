@@ -44,9 +44,9 @@ Run one with `sbt "testOnly *<SpecName>"`.
 | Paper result | Spec | Certifies |
 |---|---|---|
 | The k = 1 scan | `UClassSpec` | The one-vertex-orbit members of each class U(z) — the base case of the minimal-uniformity search. |
-| The k ≤ 2 catalogue & scan | `UClassK2Probe` | Enumerates the ≤ 2-orbit catalogue and scans it for class-U(z) survivors. *(opt-in: `-Duclass.k2`)* |
+| The k ≤ 2 catalogue & scan | `UClassK2Probe` | Enumerates the ≤ 2-orbit catalogue and scans it for class-U(z) survivors; the producing run's record (the 1,363-symbol catalogue size and the single survivor) is archived in `certs/uclass-k2-record/`. *(opt-in: `-Duclass.k2`)* |
 | The k ≤ 2 refutation | `UClassK2VerdictSpec` | Refutes the single surviving 2-orbit designation on metric feasibility — no tiling in U(z) has fewer than three vertex orbits. |
-| The k = 3 all-species search | `UClassK3Probe` | The exhaustive k = 3 search across all species. *(opt-in: `-Duclass.k3x`)* |
+| The k = 3 all-species search | `UClassK3Probe` | The exhaustive k = 3 search across all species; the producing runs' hit lists per chamber ramp are archived in `certs/uclass-k3-record/`. *(opt-in: `-Duclass.k3x`)* |
 | **The four witnesses** | `UClassK3ExistenceSpec` | Pins the four extremal symbols by canonical key and re-verifies end to end that minimal uniformity of (3.8.24), (3.4.3.12), (3.4².6) and (3².6²) is exactly **3** — including reconstruction of the appendix witness strings. |
 | Essential irregularity | `UClassEssentialIrregularitySpec` | Exact areas and the essential-irregularity verdicts: the (3.8.24) and (3.4.3.12) theorems persist under essentially-irregular tiles; (3.4².6) and (3².6²) reopen. |
 | **The k ≤ 2 completeness certificate** | `K2CompletenessProbe` | The DRAT certificate behind the lower bound (paper §8): generates the tier-1 certification universe (2,710 D-sets, ≤ 2 vertex orbits, ≤ 24 chambers), and per chamber count C = 1..24 proves base + blocking UNSAT under kissat with drat-trim-verified proofs, with exhaustive two-enumerator agreement and a pure-JVM fidelity check; the exact euclidean tail over the certified universe reproduces the 1,363-symbol catalogue (93 + 1,270). Artifacts land in `certs/k2/`. *(opt-in: `-Dcert.k2`; needs `tools/install-sat-tools.sh`)* |
@@ -86,3 +86,7 @@ what this artifact depends on. The pin plus the snapshot make this a closed,
 reproducible artifact independent of any moving repository. The DRAT proofs themselves are regenerable by
 `-Dcert.k2` (~1 h on a dual-core laptop; also runnable in public from the Actions tab) and are therefore
 not stored in git; the producing run's manifest and the 1,363 catalogue keys are, under `certs/k2-record/`.
+Every heavy campaign's producing-run record is archived the same way: `certs/uclass-k2-record/` (the k = 2
+scan's catalogue size and single survivor) and `certs/uclass-k3-record/` (the k = 3 hit lists per chamber
+ramp) — so the claims resting on hours-long opt-in runs are all backed by small, archived, independently
+inspectable records.

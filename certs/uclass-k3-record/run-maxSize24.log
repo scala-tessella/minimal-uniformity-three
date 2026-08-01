@@ -1,0 +1,482 @@
+[info] welcome to sbt 1.12.11 (Eclipse Adoptium Java 21.0.11)
+[info] loading global plugins from /Users/mariocallisto/.sbt/1.0/plugins
+[info] loading settings for project uniform-tilings-build from plugins.sbt...
+[info] loading project definition from /Users/mariocallisto/IdeaProjects/scala-tessella/uniform-tilings/project
+[info] loading settings for project root from build.sbt...
+[info] set current project to uniform-tilings (in build file:/Users/mariocallisto/IdeaProjects/scala-tessella/uniform-tilings/)
+[warn] Getting the hostname MacBook-Pro-di-Mario.local was slow (5002.237045 ms). This is likely because the computer's hostname is not set. You can set the hostname with the command: scutil --set HostName "$(scutil --get LocalHostName).local".
+  [relaxed maxSize=24] 15s  dsets=3264 (217/s)  distinct=25
+  [relaxed maxSize=24] 30s  dsets=7584 (252/s)  distinct=48
+  [relaxed maxSize=24] 45s  dsets=15661 (347/s)  distinct=101
+  [relaxed maxSize=24] 60s  dsets=23349 (389/s)  distinct=138
+  [relaxed maxSize=24] 75s  dsets=25877 (344/s)  distinct=151
+  [relaxed maxSize=24] 90s  dsets=28393 (315/s)  distinct=164
+  [relaxed maxSize=24] 105s  dsets=38572 (367/s)  distinct=225
+  [relaxed maxSize=24] 120s  dsets=48098 (400/s)  distinct=262
+  [relaxed maxSize=24] 135s  dsets=65072 (481/s)  distinct=328
+  [relaxed maxSize=24] 150s  dsets=76325 (508/s)  distinct=438
+  [relaxed maxSize=24] 165s  dsets=84619 (512/s)  distinct=485
+  [relaxed maxSize=24] 180s  dsets=89302 (495/s)  distinct=501
+  [relaxed maxSize=24] 195s  dsets=91985 (471/s)  distinct=509
+  [relaxed maxSize=24] 210s  dsets=95006 (452/s)  distinct=625
+  [relaxed maxSize=24] 225s  dsets=97720 (434/s)  distinct=629
+  [relaxed maxSize=24] 240s  dsets=98977 (412/s)  distinct=629
+  [relaxed maxSize=24] 255s  dsets=109713 (430/s)  distinct=721
+  [relaxed maxSize=24] 270s  dsets=115074 (426/s)  distinct=732
+  [relaxed maxSize=24] 285s  dsets=117921 (413/s)  distinct=739
+  [relaxed maxSize=24] 300s  dsets=133294 (444/s)  distinct=853
+  [relaxed maxSize=24] 315s  dsets=155045 (492/s)  distinct=923
+  [relaxed maxSize=24] 330s  dsets=177328 (537/s)  distinct=1028
+  [relaxed maxSize=24] 345s  dsets=188797 (547/s)  distinct=1140
+  [relaxed maxSize=24] 360s  dsets=195907 (544/s)  distinct=1151
+  [relaxed maxSize=24] 375s  dsets=207648 (553/s)  distinct=1269
+  [relaxed maxSize=24] 390s  dsets=213119 (546/s)  distinct=1273
+  [relaxed maxSize=24] 405s  dsets=217770 (537/s)  distinct=1277
+  [relaxed maxSize=24] 420s  dsets=222743 (530/s)  distinct=1327
+  [relaxed maxSize=24] 435s  dsets=245637 (564/s)  distinct=1381
+  [relaxed maxSize=24] 450s  dsets=260720 (579/s)  distinct=1406
+  [relaxed maxSize=24] 465s  dsets=275047 (591/s)  distinct=1426
+  [relaxed maxSize=24] 480s  dsets=285320 (594/s)  distinct=1440
+  [relaxed maxSize=24] 495s  dsets=288197 (582/s)  distinct=1493
+  [relaxed maxSize=24] 510s  dsets=306106 (600/s)  distinct=1628
+  [relaxed maxSize=24] 525s  dsets=316727 (603/s)  distinct=1654
+  [relaxed maxSize=24] 540s  dsets=324215 (600/s)  distinct=1663
+  [relaxed maxSize=24] 555s  dsets=331955 (597/s)  distinct=1683
+  [relaxed maxSize=24] 570s  dsets=342402 (600/s)  distinct=1709
+  [relaxed maxSize=24] 585s  dsets=349160 (596/s)  distinct=1741
+  [relaxed maxSize=24] 600s  dsets=353233 (588/s)  distinct=1745
+  [relaxed maxSize=24] 615s  dsets=355438 (577/s)  distinct=1746
+  [relaxed maxSize=24] 630s  dsets=360583 (572/s)  distinct=1756
+  [relaxed maxSize=24] 645s  dsets=363369 (563/s)  distinct=1758
+  [relaxed maxSize=24] 660s  dsets=367233 (556/s)  distinct=1765
+  [relaxed maxSize=24] 675s  dsets=369110 (546/s)  distinct=1767
+  [relaxed maxSize=24] 690s  dsets=370992 (537/s)  distinct=1774
+  [relaxed maxSize=24] 705s  dsets=372778 (528/s)  distinct=1781
+  [relaxed maxSize=24] 720s  dsets=376841 (523/s)  distinct=1801
+  [relaxed maxSize=24] 735s  dsets=387104 (526/s)  distinct=1805
+  [relaxed maxSize=24] 750s  dsets=393226 (524/s)  distinct=1826
+  [relaxed maxSize=24] 765s  dsets=398693 (520/s)  distinct=1847
+  [relaxed maxSize=24] 780s  dsets=405405 (519/s)  distinct=1853
+  [relaxed maxSize=24] 795s  dsets=408707 (513/s)  distinct=1857
+  [relaxed maxSize=24] 810s  dsets=411505 (507/s)  distinct=1859
+  [relaxed maxSize=24] 825s  dsets=416466 (504/s)  distinct=1941
+  [relaxed maxSize=24] 840s  dsets=420047 (499/s)  distinct=1946
+  [relaxed maxSize=24] 855s  dsets=422058 (493/s)  distinct=1962
+  [relaxed maxSize=24] 870s  dsets=422882 (485/s)  distinct=1962
+  [relaxed maxSize=24] 885s  dsets=423535 (478/s)  distinct=1963
+  [relaxed maxSize=24] 900s  dsets=425248 (472/s)  distinct=2047
+  [relaxed maxSize=24] 915s  dsets=425910 (465/s)  distinct=2057
+  [relaxed maxSize=24] 930s  dsets=454575 (488/s)  distinct=2312
+  [relaxed maxSize=24] 945s  dsets=476144 (503/s)  distinct=2381
+  [relaxed maxSize=24] 960s  dsets=502320 (523/s)  distinct=2464
+  [relaxed maxSize=24] 975s  dsets=512363 (525/s)  distinct=2479
+  [relaxed maxSize=24] 990s  dsets=523623 (528/s)  distinct=2495
+  [relaxed maxSize=24] 1005s  dsets=531043 (528/s)  distinct=2507
+  [relaxed maxSize=24] 1020s  dsets=538621 (527/s)  distinct=2530
+  [relaxed maxSize=24] 1035s  dsets=547788 (529/s)  distinct=2556
+  [relaxed maxSize=24] 1050s  dsets=559380 (532/s)  distinct=2590
+  [relaxed maxSize=24] 1065s  dsets=565908 (531/s)  distinct=2597
+  [relaxed maxSize=24] 1080s  dsets=578144 (535/s)  distinct=2625
+  [relaxed maxSize=24] 1095s  dsets=591385 (539/s)  distinct=2741
+  [relaxed maxSize=24] 1110s  dsets=596579 (537/s)  distinct=2743
+  [relaxed maxSize=24] 1125s  dsets=598637 (531/s)  distinct=2749
+  [relaxed maxSize=24] 1140s  dsets=602323 (528/s)  distinct=2750
+  [relaxed maxSize=24] 1155s  dsets=610799 (528/s)  distinct=2759
+  [relaxed maxSize=24] 1170s  dsets=614900 (525/s)  distinct=2765
+  [relaxed maxSize=24] 1185s  dsets=627472 (529/s)  distinct=2863
+  [relaxed maxSize=24] 1200s  dsets=629883 (524/s)  distinct=2863
+  [relaxed maxSize=24] 1215s  dsets=635863 (523/s)  distinct=3131
+  [relaxed maxSize=24] 1230s  dsets=639870 (520/s)  distinct=3159
+  [relaxed maxSize=24] 1245s  dsets=640235 (514/s)  distinct=3160
+  [relaxed maxSize=24] 1260s  dsets=640801 (508/s)  distinct=3160
+  [relaxed maxSize=24] 1275s  dsets=641228 (502/s)  distinct=3161
+  [relaxed maxSize=24] 1291s  dsets=642805 (497/s)  distinct=3169
+  [relaxed maxSize=24] 1306s  dsets=643280 (492/s)  distinct=3172
+  [relaxed maxSize=24] 1321s  dsets=644333 (487/s)  distinct=3174
+  [relaxed maxSize=24] 1336s  dsets=645349 (483/s)  distinct=3186
+  [relaxed maxSize=24] 1351s  dsets=654559 (484/s)  distinct=3214
+  [relaxed maxSize=24] 1366s  dsets=661671 (484/s)  distinct=3256
+  [relaxed maxSize=24] 1381s  dsets=672702 (487/s)  distinct=3573
+  [relaxed maxSize=24] 1396s  dsets=681002 (487/s)  distinct=3699
+  [relaxed maxSize=24] 1411s  dsets=689910 (488/s)  distinct=3797
+  [relaxed maxSize=24] 1426s  dsets=698133 (489/s)  distinct=3841
+  [relaxed maxSize=24] 1441s  dsets=703923 (488/s)  distinct=3978
+  [relaxed maxSize=24] 1456s  dsets=707574 (485/s)  distinct=4007
+  [relaxed maxSize=24] 1471s  dsets=710403 (482/s)  distinct=4025
+  [relaxed maxSize=24] 1486s  dsets=716351 (482/s)  distinct=4059
+  [relaxed maxSize=24] 1501s  dsets=717908 (478/s)  distinct=4067
+  [relaxed maxSize=24] 1516s  dsets=728715 (480/s)  distinct=4138
+  [relaxed maxSize=24] 1531s  dsets=736196 (480/s)  distinct=4296
+  [relaxed maxSize=24] 1546s  dsets=738727 (477/s)  distinct=4303
+  [relaxed maxSize=24] 1561s  dsets=741746 (475/s)  distinct=4304
+  [relaxed maxSize=24] 1576s  dsets=748091 (474/s)  distinct=4407
+  [relaxed maxSize=24] 1591s  dsets=751677 (472/s)  distinct=4447
+  [relaxed maxSize=24] 1606s  dsets=754320 (469/s)  distinct=4534
+  [relaxed maxSize=24] 1621s  dsets=759256 (468/s)  distinct=5555
+  [relaxed maxSize=24] 1636s  dsets=763996 (466/s)  distinct=5691
+  [relaxed maxSize=24] 1651s  dsets=772600 (467/s)  distinct=5956
+  [relaxed maxSize=24] 1666s  dsets=778069 (466/s)  distinct=7554
+  [relaxed maxSize=24] 1681s  dsets=782574 (465/s)  distinct=8032
+  [relaxed maxSize=24] 1696s  dsets=791781 (466/s)  distinct=8056
+  [relaxed maxSize=24] 1711s  dsets=799985 (467/s)  distinct=8072
+  [relaxed maxSize=24] 1726s  dsets=807005 (467/s)  distinct=8072
+  [relaxed maxSize=24] 1741s  dsets=813475 (467/s)  distinct=8088
+  [relaxed maxSize=24] 1756s  dsets=817748 (465/s)  distinct=8134
+  [relaxed maxSize=24] 1771s  dsets=824609 (465/s)  distinct=8234
+  [relaxed maxSize=24] 1786s  dsets=828013 (463/s)  distinct=8281
+  [relaxed maxSize=24] 1801s  dsets=829679 (460/s)  distinct=8309
+  [relaxed maxSize=24] 1816s  dsets=834411 (459/s)  distinct=8522
+  [relaxed maxSize=24] 1831s  dsets=836150 (456/s)  distinct=8603
+  [relaxed maxSize=24] 1846s  dsets=842271 (456/s)  distinct=8607
+  [relaxed maxSize=24] 1861s  dsets=846599 (454/s)  distinct=8607
+  [relaxed maxSize=24] 1876s  dsets=849245 (452/s)  distinct=8607
+  [relaxed maxSize=24] 1891s  dsets=850486 (449/s)  distinct=8607
+  [relaxed maxSize=24] 1906s  dsets=873027 (457/s)  distinct=8795
+  [relaxed maxSize=24] 1921s  dsets=902462 (469/s)  distinct=9031
+  [relaxed maxSize=24] 1936s  dsets=924934 (477/s)  distinct=9235
+  [relaxed maxSize=24] 1951s  dsets=949794 (486/s)  distinct=9505
+  [relaxed maxSize=24] 1966s  dsets=970338 (493/s)  distinct=9635
+  [relaxed maxSize=24] 1981s  dsets=986393 (497/s)  distinct=9678
+  [relaxed maxSize=24] 1996s  dsets=994863 (498/s)  distinct=9702
+  [relaxed maxSize=24] 2011s  dsets=1003124 (498/s)  distinct=9713
+  [relaxed maxSize=24] 2026s  dsets=1013438 (500/s)  distinct=9756
+  [relaxed maxSize=24] 2041s  dsets=1035546 (507/s)  distinct=10596
+  [relaxed maxSize=24] 2056s  dsets=1043797 (507/s)  distinct=10646
+  [relaxed maxSize=24] 2071s  dsets=1049307 (506/s)  distinct=10683
+  [relaxed maxSize=24] 2086s  dsets=1051934 (504/s)  distinct=10712
+  [relaxed maxSize=24] 2101s  dsets=1053883 (501/s)  distinct=10727
+  [relaxed maxSize=24] 2116s  dsets=1064878 (503/s)  distinct=10782
+  [relaxed maxSize=24] 2131s  dsets=1073268 (503/s)  distinct=10803
+  [relaxed maxSize=24] 2146s  dsets=1083182 (504/s)  distinct=11271
+  [relaxed maxSize=24] 2161s  dsets=1090501 (504/s)  distinct=11316
+  [relaxed maxSize=24] 2176s  dsets=1094086 (502/s)  distinct=11370
+  [relaxed maxSize=24] 2191s  dsets=1096473 (500/s)  distinct=11396
+  [relaxed maxSize=24] 2206s  dsets=1105113 (500/s)  distinct=11428
+  [relaxed maxSize=24] 2221s  dsets=1121150 (504/s)  distinct=11581
+  [relaxed maxSize=24] 2236s  dsets=1132804 (506/s)  distinct=11634
+  [relaxed maxSize=24] 2251s  dsets=1134345 (503/s)  distinct=11642
+  [relaxed maxSize=24] 2266s  dsets=1153590 (509/s)  distinct=11756
+  [relaxed maxSize=24] 2282s  dsets=1166958 (511/s)  distinct=11769
+  [relaxed maxSize=24] 2297s  dsets=1169991 (509/s)  distinct=11774
+  [relaxed maxSize=24] 2312s  dsets=1174674 (508/s)  distinct=11786
+  [relaxed maxSize=24] 2327s  dsets=1180795 (507/s)  distinct=11795
+  [relaxed maxSize=24] 2342s  dsets=1183989 (505/s)  distinct=11798
+  [relaxed maxSize=24] 2357s  dsets=1185252 (502/s)  distinct=11818
+  [relaxed maxSize=24] 2372s  dsets=1186869 (500/s)  distinct=11828
+  [relaxed maxSize=24] 2387s  dsets=1196547 (501/s)  distinct=11877
+  [relaxed maxSize=24] 2402s  dsets=1207965 (502/s)  distinct=11896
+  [relaxed maxSize=24] 2417s  dsets=1216933 (503/s)  distinct=11919
+  [relaxed maxSize=24] 2432s  dsets=1226390 (504/s)  distinct=11952
+  [relaxed maxSize=24] 2447s  dsets=1245829 (509/s)  distinct=12379
+  [relaxed maxSize=24] 2462s  dsets=1264982 (513/s)  distinct=12539
+  [relaxed maxSize=24] 2477s  dsets=1272201 (513/s)  distinct=12611
+  [relaxed maxSize=24] 2492s  dsets=1277846 (512/s)  distinct=12662
+  [relaxed maxSize=24] 2507s  dsets=1282584 (511/s)  distinct=12697
+  [relaxed maxSize=24] 2522s  dsets=1292418 (512/s)  distinct=12713
+  [relaxed maxSize=24] 2537s  dsets=1298428 (511/s)  distinct=12714
+  [relaxed maxSize=24] 2552s  dsets=1309448 (513/s)  distinct=13110
+  [relaxed maxSize=24] 2567s  dsets=1312598 (511/s)  distinct=13154
+  [relaxed maxSize=24] 2582s  dsets=1318488 (510/s)  distinct=13186
+  [relaxed maxSize=24] 2597s  dsets=1320774 (508/s)  distinct=13198
+  [relaxed maxSize=24] 2612s  dsets=1323432 (506/s)  distinct=13208
+  [relaxed maxSize=24] 2627s  dsets=1326087 (504/s)  distinct=13216
+  [relaxed maxSize=24] 2642s  dsets=1327547 (502/s)  distinct=13225
+  [relaxed maxSize=24] 2657s  dsets=1330197 (500/s)  distinct=13234
+  [relaxed maxSize=24] 2672s  dsets=1338231 (500/s)  distinct=13293
+  [relaxed maxSize=24] 2687s  dsets=1343772 (500/s)  distinct=13394
+  [relaxed maxSize=24] 2702s  dsets=1347043 (498/s)  distinct=13456
+  [relaxed maxSize=24] 2717s  dsets=1348684 (496/s)  distinct=13503
+  [relaxed maxSize=24] 2732s  dsets=1355577 (496/s)  distinct=13566
+  [relaxed maxSize=24] 2747s  dsets=1361890 (495/s)  distinct=13576
+  [relaxed maxSize=24] 2762s  dsets=1368700 (495/s)  distinct=13643
+  [relaxed maxSize=24] 2777s  dsets=1375031 (495/s)  distinct=13678
+  [relaxed maxSize=24] 2792s  dsets=1376603 (493/s)  distinct=13689
+  [relaxed maxSize=24] 2807s  dsets=1380375 (491/s)  distinct=13729
+  [relaxed maxSize=24] 2822s  dsets=1385234 (490/s)  distinct=13797
+  [relaxed maxSize=24] 2837s  dsets=1387639 (489/s)  distinct=13829
+  [relaxed maxSize=24] 2852s  dsets=1389170 (487/s)  distinct=13834
+  [relaxed maxSize=24] 2867s  dsets=1389964 (484/s)  distinct=13835
+  [relaxed maxSize=24] 2882s  dsets=1390501 (482/s)  distinct=13837
+  [relaxed maxSize=24] 2897s  dsets=1390730 (480/s)  distinct=13839
+  [relaxed maxSize=24] 2912s  dsets=1390844 (477/s)  distinct=13839
+  [relaxed maxSize=24] 2927s  dsets=1390951 (475/s)  distinct=13840
+  [relaxed maxSize=24] 2942s  dsets=1391391 (472/s)  distinct=13841
+  [relaxed maxSize=24] 2957s  dsets=1391708 (470/s)  distinct=13842
+  [relaxed maxSize=24] 2972s  dsets=1391843 (468/s)  distinct=13842
+  [relaxed maxSize=24] 2987s  dsets=1392603 (466/s)  distinct=13865
+  [relaxed maxSize=24] 3002s  dsets=1394429 (464/s)  distinct=13947
+  [relaxed maxSize=24] 3017s  dsets=1398212 (463/s)  distinct=14010
+  [relaxed maxSize=24] 3032s  dsets=1398991 (461/s)  distinct=14030
+  [relaxed maxSize=24] 3047s  dsets=1399597 (459/s)  distinct=14054
+  [relaxed maxSize=24] 3062s  dsets=1399835 (457/s)  distinct=14069
+  [relaxed maxSize=24] 3077s  dsets=1400409 (455/s)  distinct=14097
+  [relaxed maxSize=24] 3092s  dsets=1400727 (452/s)  distinct=14106
+  [relaxed maxSize=24] 3107s  dsets=1400907 (450/s)  distinct=14132
+  [relaxed maxSize=24] 3122s  dsets=1401167 (448/s)  distinct=14132
+  [relaxed maxSize=24] 3137s  dsets=1401344 (446/s)  distinct=14134
+  [relaxed maxSize=24] 3152s  dsets=1401523 (444/s)  distinct=14139
+  [relaxed maxSize=24] 3167s  dsets=1401670 (442/s)  distinct=14139
+  [relaxed maxSize=24] 3182s  dsets=1401764 (440/s)  distinct=14142
+  [relaxed maxSize=24] 3197s  dsets=1401872 (438/s)  distinct=14142
+  [relaxed maxSize=24] 3212s  dsets=1402043 (436/s)  distinct=14143
+  [relaxed maxSize=24] 3227s  dsets=1402392 (434/s)  distinct=14144
+  [relaxed maxSize=24] 3242s  dsets=1402529 (432/s)  distinct=14144
+  [relaxed maxSize=24] 3257s  dsets=1402921 (430/s)  distinct=14144
+  [relaxed maxSize=24] 3272s  dsets=1403304 (428/s)  distinct=14144
+  [relaxed maxSize=24] 3287s  dsets=1403439 (426/s)  distinct=14145
+  [relaxed maxSize=24] 3302s  dsets=1403655 (425/s)  distinct=14145
+  [relaxed maxSize=24] 3317s  dsets=1403803 (423/s)  distinct=14145
+  [relaxed maxSize=24] 3332s  dsets=1406908 (422/s)  distinct=14157
+  [relaxed maxSize=24] 3347s  dsets=1407669 (420/s)  distinct=14158
+  [relaxed maxSize=24] 3362s  dsets=1407965 (418/s)  distinct=14158
+  [relaxed maxSize=24] 3377s  dsets=1408315 (416/s)  distinct=14161
+  [relaxed maxSize=24] 3392s  dsets=1409194 (415/s)  distinct=14163
+  [relaxed maxSize=24] 3407s  dsets=1409743 (413/s)  distinct=14167
+  [relaxed maxSize=24] 3422s  dsets=1410079 (412/s)  distinct=14172
+  [relaxed maxSize=24] 3437s  dsets=1410486 (410/s)  distinct=14172
+  [relaxed maxSize=24] 3452s  dsets=1410720 (408/s)  distinct=14173
+  [relaxed maxSize=24] 3467s  dsets=1411035 (406/s)  distinct=14175
+  [relaxed maxSize=24] 3482s  dsets=1411255 (405/s)  distinct=14180
+  [relaxed maxSize=24] 3497s  dsets=1411372 (403/s)  distinct=14180
+  [relaxed maxSize=24] 3512s  dsets=1411621 (401/s)  distinct=14180
+  [relaxed maxSize=24] 3527s  dsets=1413259 (400/s)  distinct=14208
+  [relaxed maxSize=24] 3542s  dsets=1414729 (399/s)  distinct=14238
+  [relaxed maxSize=24] 3557s  dsets=1415590 (397/s)  distinct=14260
+  [relaxed maxSize=24] 3572s  dsets=1416026 (396/s)  distinct=14264
+  [relaxed maxSize=24] 3587s  dsets=1417160 (395/s)  distinct=14339
+  [relaxed maxSize=24] 3602s  dsets=1419036 (393/s)  distinct=14366
+  [relaxed maxSize=24] 3617s  dsets=1419889 (392/s)  distinct=14456
+  [relaxed maxSize=24] 3632s  dsets=1421104 (391/s)  distinct=14524
+  [relaxed maxSize=24] 3647s  dsets=1422398 (389/s)  distinct=14529
+  [relaxed maxSize=24] 3663s  dsets=1424392 (388/s)  distinct=14536
+  [relaxed maxSize=24] 3678s  dsets=1426013 (387/s)  distinct=14583
+  [relaxed maxSize=24] 3693s  dsets=1427401 (386/s)  distinct=14614
+  [relaxed maxSize=24] 3708s  dsets=1427952 (385/s)  distinct=14617
+  [relaxed maxSize=24] 3723s  dsets=1431198 (384/s)  distinct=14660
+  [relaxed maxSize=24] 3738s  dsets=1433460 (383/s)  distinct=14678
+  [relaxed maxSize=24] 3753s  dsets=1434148 (382/s)  distinct=14681
+  [relaxed maxSize=24] 3768s  dsets=1435871 (381/s)  distinct=14695
+  [relaxed maxSize=24] 3783s  dsets=1436727 (379/s)  distinct=14701
+  [relaxed maxSize=24] 3798s  dsets=1438199 (378/s)  distinct=14707
+  [relaxed maxSize=24] 3813s  dsets=1440180 (377/s)  distinct=14713
+  [relaxed maxSize=24] 3828s  dsets=1441282 (376/s)  distinct=14715
+  [relaxed maxSize=24] 3843s  dsets=1446256 (376/s)  distinct=14776
+  [relaxed maxSize=24] 3858s  dsets=1448084 (375/s)  distinct=14788
+  [relaxed maxSize=24] 3873s  dsets=1450163 (374/s)  distinct=14813
+  [relaxed maxSize=24] 3888s  dsets=1451990 (373/s)  distinct=14856
+  [relaxed maxSize=24] 3903s  dsets=1453465 (372/s)  distinct=14863
+  [relaxed maxSize=24] 3918s  dsets=1453884 (371/s)  distinct=14866
+  [relaxed maxSize=24] 3933s  dsets=1455139 (370/s)  distinct=14901
+  [relaxed maxSize=24] 3948s  dsets=1456019 (368/s)  distinct=14945
+  [relaxed maxSize=24] 3963s  dsets=1457501 (367/s)  distinct=14960
+  [relaxed maxSize=24] 3978s  dsets=1461175 (367/s)  distinct=15020
+  [relaxed maxSize=24] 3993s  dsets=1467371 (367/s)  distinct=15155
+  [relaxed maxSize=24] 4008s  dsets=1476434 (368/s)  distinct=15503
+  [relaxed maxSize=24] 4023s  dsets=1481039 (368/s)  distinct=15917
+  [relaxed maxSize=24] 4038s  dsets=1482789 (367/s)  distinct=15995
+  [relaxed maxSize=24] 4053s  dsets=1483526 (366/s)  distinct=15999
+  [relaxed maxSize=24] 4068s  dsets=1484455 (364/s)  distinct=16021
+  [relaxed maxSize=24] 4083s  dsets=1486043 (363/s)  distinct=16041
+  [relaxed maxSize=24] 4098s  dsets=1486580 (362/s)  distinct=16061
+  [relaxed maxSize=24] 4113s  dsets=1487528 (361/s)  distinct=16071
+  [relaxed maxSize=24] 4128s  dsets=1487731 (360/s)  distinct=16076
+  [relaxed maxSize=24] 4143s  dsets=1488439 (359/s)  distinct=16085
+  [relaxed maxSize=24] 4158s  dsets=1489381 (358/s)  distinct=16106
+  [relaxed maxSize=24] 4173s  dsets=1490040 (357/s)  distinct=16118
+  [relaxed maxSize=24] 4188s  dsets=1491337 (356/s)  distinct=16140
+  [relaxed maxSize=24] 4203s  dsets=1492501 (355/s)  distinct=16153
+  [relaxed maxSize=24] 4218s  dsets=1493369 (354/s)  distinct=16202
+  [relaxed maxSize=24] 4233s  dsets=1496731 (353/s)  distinct=16486
+  [relaxed maxSize=24] 4248s  dsets=1497066 (352/s)  distinct=16518
+  [relaxed maxSize=24] 4263s  dsets=1497649 (351/s)  distinct=16532
+  [relaxed maxSize=24] 4278s  dsets=1497911 (350/s)  distinct=16535
+  [relaxed maxSize=24] 4293s  dsets=1498685 (349/s)  distinct=16535
+  [relaxed maxSize=24] 4308s  dsets=1499782 (348/s)  distinct=16697
+  [relaxed maxSize=24] 4323s  dsets=1500070 (347/s)  distinct=16705
+  [relaxed maxSize=24] 4338s  dsets=1500644 (345/s)  distinct=16771
+  [relaxed maxSize=24] 4353s  dsets=1501230 (344/s)  distinct=16796
+  [relaxed maxSize=24] 4368s  dsets=1501428 (343/s)  distinct=16801
+  [relaxed maxSize=24] 4383s  dsets=1502786 (342/s)  distinct=17020
+  [relaxed maxSize=24] 4398s  dsets=1503271 (341/s)  distinct=17095
+  [relaxed maxSize=24] 4413s  dsets=1503454 (340/s)  distinct=17108
+  [relaxed maxSize=24] 4428s  dsets=1503830 (339/s)  distinct=17111
+  [relaxed maxSize=24] 4443s  dsets=1504416 (338/s)  distinct=17118
+  [relaxed maxSize=24] 4458s  dsets=1505419 (337/s)  distinct=17129
+  [relaxed maxSize=24] 4473s  dsets=1508117 (337/s)  distinct=17262
+  [relaxed maxSize=24] 4488s  dsets=1510385 (336/s)  distinct=17307
+  [relaxed maxSize=24] 4503s  dsets=1512445 (335/s)  distinct=17345
+  [relaxed maxSize=24] 4518s  dsets=1513238 (334/s)  distinct=17370
+  [relaxed maxSize=24] 4533s  dsets=1514726 (334/s)  distinct=17505
+  [relaxed maxSize=24] 4548s  dsets=1515424 (333/s)  distinct=17508
+  [relaxed maxSize=24] 4563s  dsets=1516624 (332/s)  distinct=17508
+  [relaxed maxSize=24] 4578s  dsets=1517216 (331/s)  distinct=17508
+  [relaxed maxSize=24] 4593s  dsets=1517899 (330/s)  distinct=17745
+  [relaxed maxSize=24] 4608s  dsets=1519754 (329/s)  distinct=17748
+  [relaxed maxSize=24] 4623s  dsets=1521550 (329/s)  distinct=17815
+  [relaxed maxSize=24] 4638s  dsets=1522588 (328/s)  distinct=17841
+  [relaxed maxSize=24] 4653s  dsets=1523030 (327/s)  distinct=17899
+  [relaxed maxSize=24] 4668s  dsets=1523773 (326/s)  distinct=17900
+  [relaxed maxSize=24] 4683s  dsets=1523896 (325/s)  distinct=17900
+  [relaxed maxSize=24] 4698s  dsets=1524483 (324/s)  distinct=17900
+  [relaxed maxSize=24] 4713s  dsets=1525192 (323/s)  distinct=17901
+  [relaxed maxSize=24] 4728s  dsets=1526074 (322/s)  distinct=17901
+  [relaxed maxSize=24] 4743s  dsets=1527359 (322/s)  distinct=17901
+  [relaxed maxSize=24] 4758s  dsets=1527622 (321/s)  distinct=17901
+  [relaxed maxSize=24] 4773s  dsets=1528506 (320/s)  distinct=17902
+  [relaxed maxSize=24] 4788s  dsets=1528594 (319/s)  distinct=17902
+  [relaxed maxSize=24] 4803s  dsets=1528834 (318/s)  distinct=17902
+  [relaxed maxSize=24] 4818s  dsets=1528938 (317/s)  distinct=17902
+  [relaxed maxSize=24] 4833s  dsets=1529084 (316/s)  distinct=17902
+  [relaxed maxSize=24] 4848s  dsets=1529735 (315/s)  distinct=17905
+  [relaxed maxSize=24] 4863s  dsets=1530001 (314/s)  distinct=17905
+  [relaxed maxSize=24] 4878s  dsets=1530544 (313/s)  distinct=17915
+  [relaxed maxSize=24] 4893s  dsets=1531455 (312/s)  distinct=17925
+  [relaxed maxSize=24] 4908s  dsets=1531690 (312/s)  distinct=17926
+  [relaxed maxSize=24] 4923s  dsets=1532147 (311/s)  distinct=17926
+  [relaxed maxSize=24] 4938s  dsets=1532240 (310/s)  distinct=17927
+  [relaxed maxSize=24] 4953s  dsets=1532411 (309/s)  distinct=17930
+  [relaxed maxSize=24] 4968s  dsets=1532557 (308/s)  distinct=17940
+  [relaxed maxSize=24] 4983s  dsets=1532698 (307/s)  distinct=17957
+  [relaxed maxSize=24] 4998s  dsets=1532837 (306/s)  distinct=17963
+  [relaxed maxSize=24] 5013s  dsets=1533801 (305/s)  distinct=17964
+  [relaxed maxSize=24] 5028s  dsets=1534223 (305/s)  distinct=17971
+  [relaxed maxSize=24] 5043s  dsets=1534291 (304/s)  distinct=17971
+  [relaxed maxSize=24] 5058s  dsets=1535593 (303/s)  distinct=17971
+  [relaxed maxSize=24] 5073s  dsets=1536362 (302/s)  distinct=17972
+  [relaxed maxSize=24] 5088s  dsets=1536833 (302/s)  distinct=17977
+  [relaxed maxSize=24] 5103s  dsets=1536919 (301/s)  distinct=17977
+  [relaxed maxSize=24] 5118s  dsets=1537631 (300/s)  distinct=17978
+  [relaxed maxSize=24] 5133s  dsets=1539161 (299/s)  distinct=17985
+  [relaxed maxSize=24] 5148s  dsets=1540112 (299/s)  distinct=17985
+  [relaxed maxSize=24] 5163s  dsets=1540548 (298/s)  distinct=17985
+  [relaxed maxSize=24] 5178s  dsets=1540815 (297/s)  distinct=17985
+  [relaxed maxSize=24] 5193s  dsets=1541485 (296/s)  distinct=17990
+  [relaxed maxSize=24] 5208s  dsets=1542596 (296/s)  distinct=17992
+  [relaxed maxSize=24] 5223s  dsets=1543286 (295/s)  distinct=17995
+  [relaxed maxSize=24] 5238s  dsets=1543752 (294/s)  distinct=18004
+  [relaxed maxSize=24] 5253s  dsets=1544272 (293/s)  distinct=18004
+  [relaxed maxSize=24] 5268s  dsets=1545590 (293/s)  distinct=18014
+  [relaxed maxSize=24] 5283s  dsets=1546335 (292/s)  distinct=18017
+  [relaxed maxSize=24] 5298s  dsets=1546642 (291/s)  distinct=18021
+  [relaxed maxSize=24] 5313s  dsets=1546747 (291/s)  distinct=18022
+  [relaxed maxSize=24] 5328s  dsets=1547211 (290/s)  distinct=18022
+  [relaxed maxSize=24] 5343s  dsets=1548017 (289/s)  distinct=18023
+  [relaxed maxSize=24] 5358s  dsets=1548457 (288/s)  distinct=18024
+  [relaxed maxSize=24] 5373s  dsets=1548921 (288/s)  distinct=18031
+  [relaxed maxSize=24] 5388s  dsets=1549297 (287/s)  distinct=18039
+  [relaxed maxSize=24] 5403s  dsets=1549339 (286/s)  distinct=18039
+  [relaxed maxSize=24] 5418s  dsets=1550325 (286/s)  distinct=18039
+  [relaxed maxSize=24] 5434s  dsets=1551418 (285/s)  distinct=18043
+  [relaxed maxSize=24] 5449s  dsets=1552835 (285/s)  distinct=18051
+  [relaxed maxSize=24] 5464s  dsets=1553785 (284/s)  distinct=18056
+  [relaxed maxSize=24] 5479s  dsets=1554107 (283/s)  distinct=18062
+  [relaxed maxSize=24] 5494s  dsets=1554429 (282/s)  distinct=18063
+  [relaxed maxSize=24] 5509s  dsets=1555252 (282/s)  distinct=18064
+  [relaxed maxSize=24] 5524s  dsets=1555807 (281/s)  distinct=18065
+  [relaxed maxSize=24] 5539s  dsets=1556002 (280/s)  distinct=18068
+  [relaxed maxSize=24] 5554s  dsets=1557227 (280/s)  distinct=18073
+  [relaxed maxSize=24] 5569s  dsets=1557803 (279/s)  distinct=18075
+  [relaxed maxSize=24] 5584s  dsets=1558776 (279/s)  distinct=18095
+  [relaxed maxSize=24] 5599s  dsets=1559979 (278/s)  distinct=18102
+  [relaxed maxSize=24] 5614s  dsets=1560300 (277/s)  distinct=18111
+  [relaxed maxSize=24] 5629s  dsets=1560688 (277/s)  distinct=18112
+  [relaxed maxSize=24] 5644s  dsets=1560736 (276/s)  distinct=18112
+  [relaxed maxSize=24] 5659s  dsets=1560837 (275/s)  distinct=18112
+  [relaxed maxSize=24] 5674s  dsets=1560901 (275/s)  distinct=18112
+  [relaxed maxSize=24] 5689s  dsets=1561144 (274/s)  distinct=18112
+  [relaxed maxSize=24] 5704s  dsets=1561177 (273/s)  distinct=18112
+  [relaxed maxSize=24] 5719s  dsets=1561596 (273/s)  distinct=18115
+  [relaxed maxSize=24] 5734s  dsets=1561606 (272/s)  distinct=18115
+  [relaxed maxSize=24] 5749s  dsets=1561707 (271/s)  distinct=18120
+  [relaxed maxSize=24] 5764s  dsets=1562182 (271/s)  distinct=18144
+  [relaxed maxSize=24] 5779s  dsets=1562274 (270/s)  distinct=18150
+  [relaxed maxSize=24] 5794s  dsets=1562381 (269/s)  distinct=18162
+RELAXED k <= 3 CATALOGUE (maxSize=24): 18162 symbols
+RUNG-3 EXISTENCE HITS (combinatorial + pinned-linear + un-forced): 79
+z=3.4.4.6	claimed=3	n=3	chambers=16	sigs=List(4.4.6, 3.4.4.4.4, 3.4.4.6)	regularOrbits=0,2,3,4,5	irregularOrbits=1	key=1,1,2,6|3;2,3,1,4|3;4,2,3,4|3;3,5,4,4|5;5,4,6,4|5;6,7,5,4|5;8,6,9,4|5;7,10,11,4|4;11,9,7,3|5;10,8,12,4|4;9,13,8,3|4;12,14,10,4|4;13,11,15,3|4;14,12,16,4|4;15,16,13,6|4;16,15,14,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=12	sigs=List(3.3.6, 3.6.3.6.6, 3.3.6.6)	regularOrbits=1,2	irregularOrbits=0	key=2,1,3,6|3;1,2,4,6|5;4,5,1,3|3;3,6,2,3|5;7,3,5,3|3;8,4,9,3|5;5,8,7,3|4;6,7,10,3|4;10,11,6,6|5;9,12,8,6|4;12,9,11,6|5;11,10,12,6|4;
+z=3.4.3.12	claimed=3	n=3	chambers=12	sigs=List(3.6.3.12, 3.4.3.12, 3.4.3.6)	regularOrbits=0,1,3	irregularOrbits=2	key=2,1,3,12|4;1,2,4,12|4;4,5,1,3|4;3,6,2,3|4;7,3,8,3|4;9,4,10,3|4;5,9,11,3|4;11,8,5,4|4;6,7,12,3|4;12,10,6,6|4;8,11,7,4|4;10,12,9,6|4;
+z=3.4.4.6	claimed=3	n=3	chambers=18	sigs=List(3.3.3.6, 3.3.3.4.3.4, 3.4.4.6)	regularOrbits=0,3,4,5,6	irregularOrbits=1,2	key=1,1,2,6|4;2,3,1,3|4;4,2,5,3|4;3,4,6,3|6;6,5,3,3|4;5,7,4,3|6;7,6,8,3|6;8,9,7,4|6;10,8,11,4|6;9,12,13,4|4;13,11,9,3|6;12,10,14,4|4;11,15,10,3|4;14,16,12,4|4;15,13,17,3|4;16,14,18,4|4;17,18,15,6|4;18,17,16,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=16	sigs=List(3.3.4.6.6.4, 3.3.6.6, 3.4.6)	regularOrbits=0,2	irregularOrbits=1	key=2,3,1,3|4;1,4,2,3|6;5,1,6,3|4;7,2,8,3|6;3,7,9,3|3;9,10,3,6|4;4,5,11,3|3;11,12,4,4|6;6,13,5,6|3;14,6,10,6|4;8,15,7,4|3;15,8,16,4|6;16,9,15,6|3;10,16,14,6|6;12,11,13,4|3;13,14,12,6|6;
+z=3.3.6.6	claimed=7	n=3	chambers=18	sigs=List(3.3.6.6, 3.3.3.3.3.3.6.6, 3.3.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,1,3|4;1,4,2,3|8;5,1,6,3|4;7,2,8,3|8;3,7,9,3|3;9,10,3,6|4;4,5,11,3|3;11,12,4,3|8;6,13,5,6|3;14,6,10,6|4;8,15,7,3|3;16,8,16,3|8;17,9,15,6|3;10,17,14,6|8;18,11,13,3|3;12,18,12,3|8;13,14,18,6|8;15,16,17,3|8;
+z=3.3.6.6	claimed=7	n=3	chambers=18	sigs=List(3.3.6.6, 3.3.3.3.6.6, 3.3.3.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,1,3|4;1,4,2,3|6;5,1,6,3|4;7,2,8,3|6;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,3|6;6,13,5,6|4;14,6,10,6|4;8,15,7,3|4;16,8,17,3|6;17,9,16,6|4;10,17,14,6|6;18,11,18,3|4;12,18,13,3|4;13,14,12,6|6;15,16,15,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=22	sigs=List(3.3.6.6, 3.6.4.6, 4.6.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;12,6,12,6|4;8,14,7,6|4;10,8,10,6|4;15,9,16,6|4;17,11,18,6|4;13,19,20,6|3;20,18,13,4|4;14,21,22,6|3;22,16,14,4|4;21,15,21,6|3;16,22,15,4|3;19,17,19,6|3;18,20,17,4|3;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;12,6,12,6|4;8,14,7,6|4;10,8,10,6|4;15,9,16,6|4;17,11,18,6|4;13,19,20,6|4;20,18,13,3|4;14,21,22,6|4;22,16,14,3|4;21,15,21,6|4;16,23,15,3|4;19,17,19,6|4;18,24,17,3|4;24,20,24,3|4;23,22,23,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=1,2	irregularOrbits=0	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;12,6,12,6|4;8,14,7,6|4;10,8,10,6|4;15,9,16,6|4;17,11,18,6|4;13,19,20,6|4;20,18,13,3|4;14,21,22,6|4;22,16,14,3|4;21,15,21,6|4;16,23,15,3|4;19,17,19,6|4;18,24,17,3|4;24,20,24,3|4;23,22,23,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.6.3.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;12,6,12,6|4;8,14,7,6|4;10,8,10,6|4;15,9,16,6|4;17,11,18,6|4;13,19,20,6|4;20,18,13,3|4;14,21,22,6|4;22,16,14,3|4;21,15,23,6|4;16,24,15,3|4;19,17,24,6|4;18,23,17,3|4;24,22,19,3|4;23,20,21,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.3.6.3.6, 3.6.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|5;9,10,3,6|4;4,5,11,3|5;11,12,4,6|4;6,13,5,6|5;12,6,12,6|4;8,14,7,6|5;10,8,10,6|4;15,9,16,6|5;17,11,18,6|5;13,19,20,6|3;20,21,13,3|5;14,22,23,6|3;23,24,14,3|5;22,15,22,6|3;16,23,15,3|3;24,16,24,3|5;19,17,19,6|3;18,20,17,3|3;21,18,21,3|5;
+z=3.3.6.6	claimed=7	n=3	chambers=22	sigs=List(3.3.6.6, 3.6.4.6, 4.6.6)	regularOrbits=0,1,2	irregularOrbits=3	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;14,6,12,6|4;8,15,7,6|4;16,8,10,6|4;17,9,18,6|4;10,17,16,6|3;19,11,20,6|4;12,19,14,6|3;13,14,21,6|3;21,20,13,4|4;15,16,22,6|3;22,18,15,4|4;18,22,17,4|3;20,21,19,4|3;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=0,1,2	irregularOrbits=3	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;14,6,12,6|4;8,15,7,6|4;16,8,10,6|4;17,9,18,6|4;10,17,16,6|4;19,11,20,6|4;12,19,14,6|4;13,14,21,6|4;21,20,13,3|4;15,16,22,6|4;22,18,15,3|4;18,23,17,3|4;20,24,19,3|4;24,21,24,3|4;23,22,23,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=1,2,3	irregularOrbits=0	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;14,6,12,6|4;8,15,7,6|4;16,8,10,6|4;17,9,18,6|4;10,17,16,6|4;19,11,20,6|4;12,19,14,6|4;13,14,21,6|4;21,20,13,3|4;15,16,22,6|4;22,18,15,3|4;18,23,17,3|4;20,24,19,3|4;24,21,24,3|4;23,22,23,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=0,1,2	irregularOrbits=3	key=2,3,2,6|4;1,4,1,6|4;5,1,6,6|4;7,2,8,6|4;3,7,9,6|4;9,10,3,3|4;4,5,11,6|4;11,12,4,3|4;6,13,5,3|4;14,6,12,3|4;8,15,7,3|4;16,8,10,3|4;17,9,18,3|4;10,17,16,3|4;19,11,20,3|4;12,19,14,3|4;13,14,21,3|4;21,20,13,6|4;15,16,22,3|4;22,18,15,6|4;18,23,17,6|4;20,24,19,6|4;24,21,24,6|4;23,22,23,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=1,2,3	irregularOrbits=0	key=2,3,2,6|4;1,4,1,6|4;5,1,6,6|4;7,2,8,6|4;3,7,9,6|4;9,10,3,3|4;4,5,11,6|4;11,12,4,3|4;6,13,5,3|4;14,6,12,3|4;8,15,7,3|4;16,8,10,3|4;17,9,18,3|4;10,17,16,3|4;19,11,20,3|4;12,19,14,3|4;13,14,21,3|4;21,20,13,6|4;15,16,22,3|4;22,18,15,6|4;18,23,17,6|4;20,24,19,6|4;24,21,24,6|4;23,22,23,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.3.6.3.6, 3.6.6)	regularOrbits=0,1,2	irregularOrbits=3	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|5;9,10,3,6|4;4,5,11,3|5;11,12,4,6|4;6,13,5,6|5;14,6,12,6|4;8,15,7,6|5;16,8,10,6|4;17,9,18,6|5;10,17,16,6|3;19,11,20,6|5;12,19,14,6|3;13,14,21,6|3;21,22,13,3|5;15,16,23,6|3;23,24,15,3|5;18,23,17,3|3;24,18,24,3|5;20,21,19,3|3;22,20,22,3|5;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6.6, 3.3.6)	regularOrbits=0,1,2	irregularOrbits=3	key=2,3,2,6|4;1,4,1,6|4;5,1,6,6|4;7,2,8,6|4;3,7,9,6|5;9,10,3,3|4;4,5,11,6|5;11,12,4,3|4;6,13,5,3|5;14,6,12,3|4;8,15,7,3|5;16,8,10,3|4;17,9,18,3|5;10,17,16,3|3;19,11,20,3|5;12,19,14,3|3;13,14,21,3|3;21,22,13,6|5;15,16,23,3|3;23,24,15,6|5;18,23,17,6|3;24,18,24,6|5;20,21,19,6|3;22,20,22,6|5;
+z=3.3.6.6	claimed=7	n=3	chambers=22	sigs=List(3.3.6.6, 3.6.4.6, 4.6.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;14,6,12,6|4;8,15,7,6|4;16,8,10,6|4;17,9,18,6|4;10,19,16,6|3;19,11,20,6|4;12,17,14,6|3;13,16,21,6|3;21,20,13,4|4;15,14,22,6|3;22,18,15,4|4;18,22,17,4|3;20,21,19,4|3;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;14,6,12,6|4;8,15,7,6|4;16,8,10,6|4;17,9,18,6|4;10,19,16,6|4;19,11,20,6|4;12,17,14,6|4;13,16,21,6|4;21,20,13,3|4;15,14,22,6|4;22,18,15,3|4;18,23,17,3|4;20,24,19,3|4;24,21,24,3|4;23,22,23,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=1,2	irregularOrbits=0	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|4;9,10,3,6|4;4,5,11,3|4;11,12,4,6|4;6,13,5,6|4;14,6,12,6|4;8,15,7,6|4;16,8,10,6|4;17,9,18,6|4;10,19,16,6|4;19,11,20,6|4;12,17,14,6|4;13,16,21,6|4;21,20,13,3|4;15,14,22,6|4;22,18,15,3|4;18,23,17,3|4;20,24,19,3|4;24,21,24,3|4;23,22,23,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.3.6.3.6, 3.6.6)	regularOrbits=0,1	irregularOrbits=2	key=2,3,2,3|4;1,4,1,3|4;5,1,6,3|4;7,2,8,3|4;3,7,9,3|5;9,10,3,6|4;4,5,11,3|5;11,12,4,6|4;6,13,5,6|5;14,6,12,6|4;8,15,7,6|5;16,8,10,6|4;17,9,18,6|5;10,19,16,6|3;19,11,20,6|5;12,17,14,6|3;13,16,21,6|3;21,22,13,3|5;15,14,23,6|3;23,24,15,3|5;18,23,17,3|3;24,18,24,3|5;20,21,19,3|3;22,20,22,3|5;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.4.6, 3.4.4.6.4, 3.4.6)	regularOrbits=0,1,2	irregularOrbits=3	key=2,3,2,4|4;1,4,1,4|4;5,1,6,4|4;7,2,8,4|4;3,9,10,4|5;10,11,3,3|4;4,12,13,4|5;13,14,4,6|4;12,5,12,4|5;6,15,5,3|5;16,6,14,3|4;9,7,9,4|5;8,17,7,6|5;18,8,11,6|4;19,10,20,3|5;11,19,18,3|3;21,13,22,6|5;14,21,16,6|3;15,16,23,3|3;23,22,15,4|5;17,18,24,6|3;24,20,17,4|5;20,24,19,4|3;22,23,21,4|3;
+z=3.4.4.6	claimed=3	n=3	chambers=22	sigs=List(3.4.4.6, 3.6.4.12, 3.4.12)	regularOrbits=0,1,2	irregularOrbits=3	key=2,3,2,4|4;1,4,1,4|4;5,1,6,4|4;7,2,8,4|4;3,9,10,4|3;10,11,3,3|4;4,12,13,4|4;13,14,4,6|4;12,5,15,4|3;6,16,5,3|3;17,6,14,3|4;9,7,18,4|4;8,19,7,6|4;19,8,11,6|4;18,20,9,12|3;21,10,20,3|3;11,21,19,3|4;15,22,12,12|4;14,13,17,6|4;22,15,16,12|3;16,17,22,3|4;20,18,21,12|4;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.4.6, 3.4.4.6.4, 3.4.6)	regularOrbits=0,1,2,3	irregularOrbits=4	key=2,3,4,3|3;1,5,6,3|4;7,1,8,3|3;6,9,1,6|3;10,2,11,3|4;4,12,2,6|4;3,10,13,3|5;13,14,3,4|3;15,4,14,6|3;5,7,16,3|5;16,17,5,4|4;18,6,19,6|4;8,20,7,4|5;20,8,9,4|3;9,18,20,6|5;11,21,10,4|5;21,11,22,4|4;12,15,23,6|5;23,22,12,4|4;14,13,15,4|5;17,16,24,4|5;24,19,17,4|4;19,24,18,4|5;22,23,21,4|5;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6.6, 3.3.6)	regularOrbits=0,1,2,3	irregularOrbits=4	key=2,3,4,3|3;1,5,6,3|4;7,1,8,3|3;6,9,1,3|3;10,2,11,3|4;4,12,2,3|4;3,10,13,3|5;13,14,3,6|3;15,4,14,3|3;5,7,16,3|5;16,17,5,6|4;18,6,19,3|4;8,20,7,6|5;20,8,9,6|3;9,18,20,3|5;11,21,10,6|5;21,11,22,6|4;12,15,23,3|5;23,22,12,6|4;14,13,15,6|5;17,16,24,6|5;24,19,17,6|4;19,24,18,6|5;22,23,21,6|5;
+z=3.3.4.12	claimed=4	n=3	chambers=24	sigs=List(3.3.4.12, 3.4.12.3.6, 3.3.6)	regularOrbits=0,1,2,3	irregularOrbits=4	key=2,3,4,12|4;1,5,6,12|5;5,1,7,12|4;6,8,1,3|4;3,2,9,12|5;4,10,2,3|5;9,11,3,4|4;12,4,13,3|4;7,14,5,4|5;15,6,16,3|5;14,7,17,4|4;8,15,18,3|3;18,17,8,3|4;11,9,19,4|5;10,12,20,3|3;20,21,10,6|5;19,13,11,3|4;13,22,12,3|3;17,23,14,3|5;16,24,15,6|3;24,16,23,6|5;23,18,24,3|3;22,19,21,3|5;21,20,22,6|3;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.6, 3.4.4.6.4, 3.4.4.6)	regularOrbits=1,2,3	irregularOrbits=0	key=2,3,4,3|3;1,5,6,3|4;7,1,8,3|3;6,9,1,6|3;10,2,11,3|4;4,12,2,6|4;3,10,13,3|5;13,14,3,4|3;15,4,14,6|3;5,7,16,3|5;16,17,5,4|4;18,6,19,6|4;8,20,7,4|5;20,8,9,4|3;9,18,20,6|5;11,21,10,4|5;22,11,23,4|4;12,15,24,6|5;24,23,12,4|4;14,13,15,4|5;23,16,22,4|5;17,24,21,4|5;21,19,17,4|4;19,22,18,4|5;
+z=3.4.3.12	claimed=3	n=3	chambers=24	sigs=List(3.6.3.12, 3.4.3.12, 3.4.3.6)	regularOrbits=0,1,2,4	irregularOrbits=3	key=2,3,4,12|4;1,5,6,12|4;5,1,7,12|4;6,8,1,3|4;3,2,9,12|4;4,10,2,3|4;9,11,3,3|4;12,4,13,3|4;7,14,5,3|4;15,6,16,3|4;17,7,18,3|4;8,15,19,3|4;19,18,8,4|4;20,9,21,3|4;10,12,22,3|4;22,21,10,6|4;11,20,23,3|4;23,13,11,4|4;13,23,12,4|4;14,17,24,3|4;24,16,14,6|4;16,24,15,6|4;18,19,17,4|4;21,22,20,6|4;
+z=3.3.4.12	claimed=4	n=3	chambers=22	sigs=List(4.4.12, 3.4.4.12, 3.3.4.12)	regularOrbits=0,2,3,4	irregularOrbits=1	key=1,2,3,12|3;4,1,5,12|3;3,6,1,4|3;2,7,8,12|4;8,9,2,4|3;6,3,9,4|3;10,4,11,12|4;5,12,4,4|4;9,5,6,4|3;7,13,14,12|4;14,15,7,3|4;12,8,16,4|4;13,10,17,12|4;11,18,10,3|4;19,11,20,3|4;16,20,12,4|4;17,21,13,4|4;22,14,22,3|4;15,22,21,3|4;21,16,15,4|4;20,17,19,4|4;18,19,18,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=11	sigs=List(3.3.6.6, 3.6.4.6, 4.6.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,3|4;3,1,4,3|4;2,3,5,3|4;5,6,2,6|4;4,7,3,6|4;6,4,6,6|4;8,5,9,6|4;7,10,11,6|3;11,9,7,4|4;10,8,10,6|3;9,11,8,4|3;
+z=3.3.6.6	claimed=7	n=3	chambers=14	sigs=List(3.3.6.6, 3.6.5.6, 5.5.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,3|4;3,1,4,3|4;2,3,5,3|4;5,6,2,6|4;4,7,3,6|4;6,4,6,6|4;8,5,9,6|4;7,10,11,6|3;11,9,7,5|4;10,8,12,6|3;9,13,8,5|3;12,14,10,5|3;14,11,14,5|3;13,12,13,5|3;
+z=3.3.6.6	claimed=7	n=3	chambers=12	sigs=List(3.3.6.6, 3.3.6.3.6, 3.6.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,3|4;3,1,4,3|4;2,3,5,3|5;5,6,2,6|4;4,7,3,6|5;6,4,6,6|4;8,5,9,6|5;7,10,11,6|3;11,12,7,3|5;10,8,10,6|3;9,11,8,3|3;12,9,12,3|5;
+z=3.3.6.6	claimed=7	n=3	chambers=16	sigs=List(3.3.6.6, 3.4.6.3.6.4, 3.4.6)	regularOrbits=0,1	irregularOrbits=2,3	key=1,2,1,3|4;3,1,4,3|4;2,3,5,3|6;5,6,2,6|4;4,7,3,6|6;6,4,6,6|4;8,5,9,6|6;7,10,11,6|3;11,12,7,4|6;10,8,13,6|3;9,14,8,4|3;14,9,15,4|6;13,16,10,3|3;12,11,16,4|3;16,15,12,3|6;15,13,14,3|3;
+z=3.3.6.6	claimed=7	n=3	chambers=18	sigs=List(3.3.6.6, 3.3.3.3.3.6.3.6, 3.3.6)	regularOrbits=0,1	irregularOrbits=2,3	key=1,2,1,3|4;3,1,4,3|4;2,3,5,3|8;5,6,2,6|4;4,7,3,6|8;6,4,6,6|4;8,5,9,6|8;7,10,11,6|3;11,12,7,3|8;10,8,13,6|3;9,14,8,3|3;15,9,15,3|8;13,16,10,3|3;17,11,16,3|3;12,17,12,3|8;18,13,14,3|3;14,15,18,3|8;16,18,17,3|8;
+z=3.3.6.6	claimed=7	n=3	chambers=18	sigs=List(3.3.6.6, 3.3.3.6.3.6, 3.3.3.6)	regularOrbits=0,1	irregularOrbits=2,3	key=1,2,1,3|4;3,1,4,3|4;2,3,5,3|6;5,6,2,6|4;4,7,3,6|6;6,4,6,6|4;8,5,9,6|6;7,10,11,6|4;11,12,7,3|6;10,8,13,6|4;9,14,8,3|4;15,9,16,3|6;13,17,10,3|4;18,11,18,3|4;12,18,17,3|4;17,16,12,3|6;16,13,15,3|4;14,15,14,3|4;
+z=3.4.4.6	claimed=3	n=3	chambers=22	sigs=List(3.4.4.6, 3.4.6.8, 3.6.8)	regularOrbits=0,1,2,3	irregularOrbits=4	key=1,2,3,4|4;2,1,4,4|4;3,5,1,4|4;4,6,2,6|4;7,3,8,4|4;9,4,10,6|4;5,11,12,4|4;12,10,5,3|4;6,13,14,6|3;14,8,6,3|4;11,7,15,4|4;8,16,7,3|4;17,9,18,6|3;10,19,9,3|3;15,17,11,6|4;19,12,20,3|4;13,15,21,6|4;21,22,13,8|3;16,14,22,3|3;22,21,16,8|4;18,20,17,8|4;20,18,19,8|3;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.4.6, 3.4.4.6.4, 3.4.6)	regularOrbits=0,1,2,3,4	irregularOrbits=5	key=1,2,3,4|4;2,1,4,4|4;3,5,1,4|4;4,6,2,6|4;7,3,8,4|4;9,4,10,6|4;5,11,12,4|5;12,10,5,3|4;6,13,14,6|3;14,8,6,3|4;11,7,15,4|5;8,16,7,3|5;17,9,18,6|3;10,19,9,3|3;15,20,11,4|5;19,12,21,3|5;13,22,23,6|5;23,24,13,4|3;16,14,24,3|3;20,15,22,4|5;24,23,16,4|5;22,17,20,6|5;18,21,17,4|5;21,18,19,4|3;
+z=3.3.6.6	claimed=7	n=3	chambers=11	sigs=List(3.3.6.6, 3.6.4.6, 4.6.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,3|4;3,1,4,3|4;2,3,5,3|4;5,6,2,6|4;4,7,3,6|4;8,4,6,6|4;9,5,10,6|4;6,9,8,6|3;7,8,11,6|3;11,10,7,4|4;10,11,9,4|3;
+z=3.3.6.6	claimed=7	n=3	chambers=15	sigs=List(3.3.6.6, 3.3.3.6, 3.3.3.3.3.3.3)	regularOrbits=0,1	irregularOrbits=2,3	key=1,2,1,6|4;3,1,4,6|4;2,3,5,6|4;5,6,2,3|4;4,7,3,3|4;8,4,6,3|4;9,5,10,3|4;6,9,8,3|7;7,8,11,3|7;11,10,7,3|4;10,12,9,3|7;12,11,13,3|7;13,14,12,3|7;15,13,15,3|7;14,15,14,3|7;
+z=3.3.6.6	claimed=7	n=3	chambers=13	sigs=List(3.3.6.6, 3.4.3.6, 3.3.4.4.4)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,3,5,6|4;5,6,2,3|4;4,7,3,3|4;8,4,6,3|4;9,5,10,3|4;6,9,8,3|5;7,8,11,3|5;11,10,7,4|4;10,12,9,4|5;13,11,13,4|5;12,13,12,4|5;
+z=3.3.6.6	claimed=7	n=3	chambers=12	sigs=List(3.3.6.6, 3.3.6.3.6, 3.6.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,3|4;3,1,4,3|4;2,3,5,3|5;5,6,2,6|4;4,7,3,6|5;8,4,6,6|4;9,5,10,6|5;6,9,8,6|3;7,8,11,6|3;11,12,7,3|5;10,11,9,3|3;12,10,12,3|5;
+z=3.3.6.6	claimed=7	n=3	chambers=12	sigs=List(3.3.6.6, 3.6.3.6.6, 3.3.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,3,5,6|5;5,6,2,3|4;4,7,3,3|5;8,4,6,3|4;9,5,10,3|5;6,9,8,3|3;7,8,11,3|3;11,12,7,6|5;10,11,9,6|3;12,10,12,6|5;
+z=3.3.6.6	claimed=7	n=3	chambers=15	sigs=List(3.3.6.6, 3.3.3.3.3.3.3.6, 3.3.3)	regularOrbits=0,1	irregularOrbits=2,3	key=1,2,1,6|4;3,1,4,6|4;2,3,5,6|8;5,6,2,3|4;4,7,3,3|8;8,4,6,3|4;9,5,10,3|8;6,9,8,3|3;7,8,11,3|3;11,12,7,3|8;10,11,9,3|3;12,10,13,3|8;13,14,12,3|8;15,13,15,3|8;14,15,14,3|8;
+z=3.3.6.6	claimed=7	n=3	chambers=13	sigs=List(3.3.6.6, 3.4.4.4.3.6, 3.3.4)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,3,5,6|6;5,6,2,3|4;4,7,3,3|6;8,4,6,3|4;9,5,10,3|6;6,9,8,3|3;7,8,11,3|3;11,12,7,4|6;10,11,9,4|3;13,10,13,4|6;12,13,12,4|6;
+z=3.3.6.6	claimed=7	n=3	chambers=13	sigs=List(3.3.6.6, 3.4.4.3.6, 3.3.4.4)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,4|4;3,1,4,4|4;2,5,6,4|5;6,7,2,3|4;5,3,5,4|5;4,8,3,3|5;9,4,7,3|4;10,6,11,3|5;7,10,9,3|4;8,9,12,3|4;12,11,8,6|5;11,13,10,6|4;13,12,13,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=13	sigs=List(3.3.6.6, 3.4.4.3.6, 3.3.4.4)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,3,5,6|5;5,6,2,3|4;4,7,3,3|5;8,4,6,3|4;9,5,10,3|5;6,9,8,3|4;7,8,11,3|4;11,12,7,4|5;10,13,9,4|4;13,10,12,4|5;12,11,13,4|4;
+z=3.3.6.6	claimed=7	n=3	chambers=15	sigs=List(3.3.6.6, 3.3.3.3.6, 3.3.3.3.3.3)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,3,5,6|5;5,6,2,3|4;4,7,3,3|5;8,4,6,3|4;9,5,10,3|5;6,9,8,3|6;7,8,11,3|6;11,12,7,3|5;10,13,9,3|6;14,10,12,3|5;15,11,15,3|6;12,15,14,3|6;13,14,13,3|6;
+z=3.3.6.6	claimed=7	n=3	chambers=15	sigs=List(3.3.6.6, 3.3.3.3.3.3.6, 3.3.3.3)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,3,5,6|7;5,6,2,3|4;4,7,3,3|7;8,4,6,3|4;9,5,10,3|7;6,9,8,3|4;7,8,11,3|4;11,12,7,3|7;10,13,9,3|4;14,10,14,3|7;15,11,13,3|4;12,15,12,3|7;13,14,15,3|7;
+z=3.4.4.6	claimed=3	n=3	chambers=17	sigs=List(3.3.4.6.4, 3.4.3.4, 3.4.4.6)	regularOrbits=1,2,3	irregularOrbits=0	key=1,2,1,3|5;3,1,4,3|5;2,3,5,3|4;5,6,2,4|5;4,7,3,4|4;8,4,9,4|5;10,5,11,4|4;6,12,13,4|4;13,9,6,6|5;7,14,15,4|4;15,11,7,3|4;14,8,14,4|4;9,16,8,6|4;12,10,12,4|4;11,17,10,3|4;16,13,17,6|4;17,15,16,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=16	sigs=List(3.3.4.6.6.4, 3.3.6.6, 3.4.6)	regularOrbits=0,2	irregularOrbits=1	key=1,2,3,4|3;4,1,5,4|3;3,6,1,6|3;2,7,8,4|6;8,9,2,3|3;10,3,9,6|3;7,4,11,4|6;5,12,4,3|6;13,5,6,3|3;6,14,13,6|4;11,15,7,6|6;16,8,12,3|6;9,16,10,3|4;15,10,14,6|4;14,11,15,6|6;12,13,16,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=16	sigs=List(3.3.4.4, 3.4.6.6, 3.3.6.6)	regularOrbits=1,2	irregularOrbits=0	key=1,2,1,4|4;3,1,4,4|4;2,5,6,4|4;6,7,2,3|4;5,3,8,4|4;4,9,3,3|4;10,4,7,3|4;8,11,5,6|4;12,6,13,3|4;7,12,10,3|4;14,8,14,6|4;9,10,15,3|4;15,14,9,6|4;11,13,11,6|4;13,16,12,6|4;16,15,16,6|4;
+z=3.4.4.6	claimed=3	n=3	chambers=16	sigs=List(3.4.4.6, 4.4.4.6, 3.4.4.4)	regularOrbits=0,1,2	irregularOrbits=3	key=1,2,3,3|4;4,1,5,3|4;3,6,1,6|4;2,4,7,3|4;7,8,2,4|4;9,3,10,6|4;5,11,4,4|4;12,5,12,4|4;6,9,13,6|4;13,12,6,4|4;14,7,15,4|4;8,10,8,4|4;10,14,9,4|4;11,13,16,4|4;16,15,11,4|4;15,16,14,4|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=0,1,2	irregularOrbits=3	key=1,2,3,6|4;4,1,5,6|4;3,6,1,6|4;2,7,8,6|4;8,9,2,3|4;7,3,10,6|4;6,4,11,6|4;5,12,4,3|4;13,5,14,3|4;11,14,6,3|4;10,15,7,3|4;16,8,17,3|4;9,16,18,3|4;18,10,9,3|4;19,11,20,3|4;12,13,21,3|4;21,20,12,6|4;14,19,13,3|4;15,18,22,3|4;22,17,15,6|4;17,23,16,6|4;20,24,19,6|4;23,21,24,6|4;24,22,23,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=1,2,3	irregularOrbits=0	key=1,2,3,6|4;4,1,5,6|4;3,6,1,6|4;2,7,8,6|4;8,9,2,3|4;7,3,10,6|4;6,4,11,6|4;5,12,4,3|4;13,5,14,3|4;11,14,6,3|4;10,15,7,3|4;16,8,17,3|4;9,16,18,3|4;18,10,9,3|4;19,11,20,3|4;12,13,21,3|4;21,20,12,6|4;14,19,13,3|4;15,18,22,3|4;22,17,15,6|4;17,23,16,6|4;20,24,19,6|4;23,21,24,6|4;24,22,23,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=0,1,2	irregularOrbits=3	key=1,2,3,6|4;4,1,5,6|4;3,6,1,6|4;2,7,8,6|4;8,9,2,3|4;7,3,10,6|4;6,4,11,6|4;5,12,4,3|4;13,5,14,3|4;11,14,6,3|4;10,15,7,3|4;16,8,17,3|4;9,16,18,3|4;18,10,9,3|4;19,11,20,3|4;12,13,21,3|4;21,20,12,6|4;14,19,13,3|4;15,18,22,3|4;22,17,15,6|4;17,23,16,6|4;20,24,19,6|4;24,21,24,6|4;23,22,23,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=1,2,3	irregularOrbits=0	key=1,2,3,6|4;4,1,5,6|4;3,6,1,6|4;2,7,8,6|4;8,9,2,3|4;7,3,10,6|4;6,4,11,6|4;5,12,4,3|4;13,5,14,3|4;11,14,6,3|4;10,15,7,3|4;16,8,17,3|4;9,16,18,3|4;18,10,9,3|4;19,11,20,3|4;12,13,21,3|4;21,20,12,6|4;14,19,13,3|4;15,18,22,3|4;22,17,15,6|4;17,23,16,6|4;20,24,19,6|4;24,21,24,6|4;23,22,23,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6.6, 3.3.6)	regularOrbits=0,1,2	irregularOrbits=3	key=1,2,3,6|4;4,1,5,6|4;3,6,1,6|4;2,7,8,6|5;8,9,2,3|4;7,3,10,6|4;6,4,11,6|5;5,12,4,3|5;13,5,14,3|4;11,14,6,3|4;10,15,7,3|5;16,8,17,3|5;9,16,18,3|3;18,10,9,3|4;19,11,20,3|5;12,13,21,3|3;21,22,12,6|5;14,19,13,3|3;15,18,23,3|3;23,24,15,6|5;17,23,16,6|3;22,17,24,6|5;20,21,19,6|3;24,20,22,6|5;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6.6, 3.3.6)	regularOrbits=0,1,2	irregularOrbits=3	key=1,2,3,6|4;4,1,5,6|4;3,6,1,6|4;2,7,8,6|5;8,9,2,3|4;7,3,10,6|4;6,4,11,6|5;5,12,4,3|5;13,5,14,3|4;11,14,6,3|4;10,15,7,3|5;16,8,17,3|5;9,16,18,3|3;18,10,9,3|4;19,11,20,3|5;12,13,21,3|3;21,22,12,6|5;14,19,13,3|3;15,18,23,3|3;23,24,15,6|5;17,23,16,6|3;24,17,24,6|5;20,21,19,6|3;22,20,22,6|5;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.6.3.6.6, 3.3.6, 3.3.6.6)	regularOrbits=1,2,3	irregularOrbits=0	key=1,2,3,6|5;4,1,5,6|5;3,6,1,6|5;2,7,8,6|3;8,9,2,3|5;7,3,10,6|5;6,4,11,6|3;5,12,4,3|3;13,5,14,3|5;11,15,6,3|5;10,16,7,3|3;17,8,16,3|3;9,17,18,3|4;18,19,9,6|5;20,10,19,3|5;21,11,12,3|3;12,13,21,3|4;14,22,13,6|4;23,14,15,6|5;15,21,23,3|4;16,20,17,3|4;24,18,24,6|4;19,24,20,6|4;22,23,22,6|4;
+z=3.8.24	claimed=3	n=3	chambers=18	sigs=List(3.12.24, 3.8.24, 3.8.12)	regularOrbits=0,2,3	irregularOrbits=1	key=1,2,3,12|3;4,1,5,12|3;3,6,1,24|3;2,7,8,12|3;8,9,2,3|3;10,3,9,24|3;7,4,11,12|3;5,12,4,3|3;13,5,6,3|3;6,14,13,24|3;11,15,7,8|3;16,8,15,3|3;9,16,10,3|3;14,10,17,24|3;18,11,12,8|3;12,13,18,3|3;17,18,14,8|3;15,17,16,8|3;
+z=3.4.4.6	claimed=3	n=3	chambers=22	sigs=List(3.4.12, 3.6.4.12, 3.4.4.6)	regularOrbits=1,2,3,4	irregularOrbits=0	key=1,2,3,12|3;4,1,5,12|3;3,6,1,4|3;2,7,8,12|4;8,9,2,3|3;10,3,9,4|3;7,4,11,12|4;5,12,4,3|4;13,5,6,3|3;6,14,13,4|4;11,15,7,4|4;16,8,17,3|4;9,16,10,3|4;14,10,18,4|4;19,11,20,4|4;12,13,21,3|4;21,20,12,6|4;18,19,14,4|4;15,18,22,4|4;22,17,15,6|4;17,22,16,6|4;20,21,19,6|4;
+z=3.3.6.6	claimed=7	n=3	chambers=22	sigs=List(4.6.6, 3.6.4.6, 3.3.6.6)	regularOrbits=1,2,3	irregularOrbits=0	key=1,2,3,4|3;4,1,5,4|3;3,6,1,6|3;2,7,8,4|4;8,9,2,6|3;10,3,9,6|3;7,4,11,4|4;5,12,4,6|4;13,5,6,6|3;6,14,13,6|4;11,15,7,6|4;16,8,17,6|4;9,16,10,6|4;15,10,18,6|4;14,11,19,6|4;12,13,20,6|4;20,19,12,3|4;19,21,14,3|4;18,17,15,3|4;17,22,16,3|4;22,18,22,3|4;21,20,21,3|4;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.6, 3.4.4.6.4, 3.4.4.6)	regularOrbits=1,2,3,4	irregularOrbits=0	key=1,2,3,4|3;4,1,5,4|3;3,6,1,6|3;2,7,8,4|5;8,9,2,3|3;10,3,9,6|3;7,4,11,4|5;5,12,4,3|5;13,5,6,3|3;6,14,13,6|4;11,15,7,6|5;16,8,17,3|5;9,16,10,3|4;15,10,18,6|4;14,11,19,6|5;12,13,20,3|4;20,21,12,4|5;19,22,14,4|4;18,23,15,4|5;17,24,16,4|4;21,17,23,4|5;22,18,24,4|4;23,19,21,4|5;24,20,22,4|4;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.6, 3.4.4.6.4, 3.4.4.6)	regularOrbits=1,2,3	irregularOrbits=0	key=1,2,3,4|3;4,1,5,4|3;3,6,1,6|3;2,7,8,4|5;8,9,2,3|3;10,3,9,6|3;7,4,11,4|5;5,12,4,3|5;13,5,6,3|3;6,14,13,6|4;11,15,7,6|5;16,8,17,3|5;9,16,10,3|4;15,10,18,6|4;14,11,19,6|5;12,13,20,3|4;20,21,12,4|5;19,22,14,4|4;18,23,15,4|5;17,24,16,4|4;22,17,23,4|5;21,18,24,4|4;24,19,21,4|5;23,20,22,4|4;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.6, 3.4.4.6.4, 3.4.4.6)	regularOrbits=1,2,3	irregularOrbits=0	key=1,2,3,4|3;4,1,5,4|3;3,6,1,6|3;2,7,8,4|5;8,9,2,3|3;10,3,9,6|3;7,4,11,4|5;5,12,4,3|5;13,5,6,3|3;6,14,13,6|4;11,15,7,6|5;16,8,17,3|5;9,16,10,3|4;15,10,18,6|4;14,11,19,6|5;12,13,20,3|4;20,21,12,4|5;19,22,14,4|4;18,23,15,4|5;17,24,16,4|4;23,17,23,4|5;24,18,24,4|4;21,19,21,4|5;22,20,22,4|4;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.6, 3.4.4.6.4, 3.4.4.6)	regularOrbits=1,2,3,4	irregularOrbits=0	key=1,2,3,4|3;4,1,5,4|3;3,6,1,6|3;2,7,8,4|5;8,9,2,3|3;10,3,9,6|3;7,4,11,4|5;5,12,4,3|5;13,5,6,3|3;6,14,13,6|4;11,15,7,6|5;16,8,17,3|5;9,16,10,3|4;15,10,18,6|4;14,11,19,6|5;12,13,20,3|4;20,21,12,4|5;19,22,14,4|4;18,23,15,4|5;17,24,16,4|4;24,17,23,4|5;23,18,24,4|4;22,19,21,4|5;21,20,22,4|4;
+z=3.3.6.6	claimed=7	n=3	chambers=22	sigs=List(4.6.6, 3.6.4.6, 3.3.6.6)	regularOrbits=0,1,3	irregularOrbits=2	key=1,2,3,6|3;4,1,5,6|3;3,6,1,6|3;2,7,8,6|4;8,9,2,4|3;10,3,9,6|3;11,4,12,6|4;5,13,4,4|4;13,5,6,4|3;6,14,13,6|4;7,15,16,6|4;16,17,7,3|4;9,8,10,4|4;18,10,17,6|4;15,11,19,6|4;12,20,11,3|4;21,12,14,3|4;14,19,21,6|4;19,18,15,6|4;22,16,22,3|4;17,22,18,3|4;20,21,20,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.6.6, 3.3.6.3.6, 3.3.6.6)	regularOrbits=0,1,3	irregularOrbits=2	key=1,2,3,6|3;4,1,5,6|3;3,6,1,6|3;2,7,8,6|5;8,9,2,3|3;10,3,9,6|3;11,4,12,6|5;5,13,4,3|5;14,5,6,3|3;6,15,14,6|5;7,16,17,6|4;17,18,7,3|5;19,8,19,3|5;9,19,10,3|5;20,10,18,6|5;16,11,21,6|4;12,22,11,3|4;23,12,15,3|5;13,14,13,3|5;15,21,23,6|4;21,20,16,6|4;24,17,24,3|4;18,24,20,3|4;22,23,22,3|4;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.4.6, 3.4.4.6.4, 3.4.6)	regularOrbits=0,1,2,3	irregularOrbits=4	key=1,2,3,4|4;4,1,5,4|4;3,6,1,6|4;2,7,8,4|5;8,9,2,4|4;10,3,11,6|4;7,4,12,4|5;5,13,4,4|5;13,5,14,4|4;6,15,16,6|3;16,14,6,3|4;12,17,7,6|5;9,8,18,4|5;18,11,9,3|4;17,10,19,6|3;11,20,10,3|3;15,12,21,6|5;14,22,13,3|5;21,23,15,4|3;22,16,23,3|3;19,24,17,4|5;20,18,24,3|5;24,19,20,4|3;23,21,22,4|5;
+z=3.4.4.6	claimed=3	n=3	chambers=24	sigs=List(3.4.4.6, 3.4.4.6.4, 3.4.6)	regularOrbits=0,1,2,3	irregularOrbits=4	key=1,2,3,4|4;4,1,5,4|4;3,6,1,4|4;2,7,8,4|5;8,9,2,3|4;10,3,11,4|4;7,4,12,4|5;5,13,4,3|5;14,5,15,3|4;6,12,16,4|5;16,15,6,6|4;12,10,7,4|5;17,8,18,3|5;9,17,19,3|3;19,11,9,6|4;11,20,10,6|5;13,14,21,3|3;21,22,13,4|5;15,23,14,6|3;23,16,22,6|5;18,24,17,4|3;24,18,20,4|5;20,19,24,6|3;22,21,23,4|3;
+z=3.3.4.12	claimed=4	n=3	chambers=24	sigs=List(3.3.4.12, 3.4.12.3.6, 3.3.6)	regularOrbits=0,1,2,3	irregularOrbits=4	key=1,2,3,12|4;4,1,5,12|4;3,6,1,4|4;2,7,8,12|5;8,9,2,3|4;10,3,11,4|4;7,4,12,12|5;5,13,4,3|5;14,5,15,3|4;6,12,16,4|5;16,15,6,3|4;12,10,7,4|5;17,8,18,3|5;9,17,19,3|3;19,11,9,3|4;11,20,10,3|5;13,14,21,3|3;21,22,13,6|5;15,23,14,3|3;23,16,22,3|5;18,24,17,6|3;24,18,20,6|5;20,19,24,3|3;22,21,23,6|3;
+z=3.3.6.6	claimed=7	n=3	chambers=15	sigs=List(3.3.6.6, 3.6.6.6, 3.3.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,5,6,6|4;6,7,2,3|4;8,3,8,6|4;4,9,3,3|4;10,4,7,3|4;5,11,5,6|4;12,6,13,3|4;7,12,10,3|3;11,8,14,6|4;9,10,15,3|3;15,14,9,6|4;14,13,11,6|4;13,15,12,6|3;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=0,1,2	irregularOrbits=3	key=1,2,3,6|4;4,1,5,6|4;3,6,1,6|4;2,7,8,6|4;8,9,2,3|4;10,3,11,6|4;12,4,13,6|4;5,14,4,3|4;15,5,15,3|4;6,16,14,6|4;14,15,6,3|4;7,17,18,6|4;18,19,7,3|4;11,8,10,3|4;9,11,9,3|4;20,10,19,6|4;17,12,21,6|4;13,22,12,3|4;23,13,16,3|4;16,21,23,6|4;21,20,17,6|4;24,18,24,3|4;19,24,20,3|4;22,23,22,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=24	sigs=List(3.3.6.6, 3.6.3.6, 3.3.6.6)	regularOrbits=0,1,3	irregularOrbits=2	key=1,2,3,6|4;4,1,5,6|4;3,6,1,6|4;2,7,8,6|4;8,9,2,3|4;10,3,11,6|4;12,4,13,6|4;5,14,4,3|4;15,5,15,3|4;6,16,14,6|4;14,15,6,3|4;7,17,18,6|4;18,19,7,3|4;11,8,10,3|4;9,11,9,3|4;20,10,19,6|4;17,12,21,6|4;13,22,12,3|4;23,13,16,3|4;16,21,23,6|4;21,20,17,6|4;24,18,24,3|4;19,24,20,3|4;22,23,22,3|4;
+z=3.3.6.6	claimed=7	n=3	chambers=16	sigs=List(3.3.4.6.6.4, 3.4.6, 3.3.6.6)	regularOrbits=0,2	irregularOrbits=1	key=1,2,1,6|4;3,1,4,6|4;2,5,6,6|3;6,7,2,3|4;8,3,9,6|3;4,10,3,3|3;11,4,7,3|4;5,12,13,6|6;13,14,5,4|3;15,6,14,3|3;7,15,11,3|6;12,8,12,6|6;9,16,8,4|6;16,9,10,4|3;10,11,16,3|6;14,13,15,4|6;
+z=3.3.6.6	claimed=7	n=3	chambers=18	sigs=List(3.3.6.6, 3.3.6, 3.3.3.3.3.3.6.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,5,6,6|3;6,7,2,3|4;8,3,9,6|3;4,10,3,3|3;11,4,7,3|4;5,12,13,6|8;13,14,5,3|3;15,6,14,3|3;7,15,11,3|8;12,8,12,6|8;9,16,8,3|8;17,9,10,3|3;10,11,17,3|8;18,13,18,3|8;14,18,15,3|8;16,17,16,3|8;
+z=3.3.6.6	claimed=7	n=3	chambers=18	sigs=List(3.3.6.6, 3.3.3.6, 3.3.3.3.6.6)	regularOrbits=0,1	irregularOrbits=2	key=1,2,1,6|4;3,1,4,6|4;2,5,6,6|4;6,7,2,3|4;8,3,9,6|4;4,10,3,3|4;11,4,7,3|4;5,12,13,6|6;13,14,5,3|4;15,6,16,3|4;7,15,11,3|6;12,8,12,6|6;9,17,8,3|6;18,9,18,3|4;10,11,17,3|6;17,18,10,3|4;16,13,15,3|6;14,16,14,3|4;
+[info] UClassK3Probe:
+[info] - should search ≤ size-chamber relaxed symbols for k = 3 U(z) existence candidates (enable with -Duclass.k3x)
+[info] Run completed in 2 hours, 20 minutes, 3 seconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 8413 s (02:20:13.0), completed 15 lug 2026, 01:08:53
