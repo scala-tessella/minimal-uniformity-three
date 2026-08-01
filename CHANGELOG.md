@@ -7,6 +7,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 a paper, entries state what a re-check would find different from the previous release — a referee who checked
 an earlier version should be able to tell from here whether the claims, the specs, or only the packaging moved.
 
+## [Unreleased]
+
+### Changed
+
+- README: the figure-generation scope note no longer names a development-side class that is not part of
+  any public repository (referee nit on the paper's §8, fixed on both sides).
+
 ## [0.1.1] — 2026-08-01
 
 Archived as [doi:10.5281/zenodo.21740457](https://doi.org/10.5281/zenodo.21740457) — the version DOI to
@@ -60,5 +67,6 @@ Initial release: the complete verification surface for the paper, pinned to `res
   asserts that. The opt-in probes appear as *canceled*, not failed. A manual-dispatch job runs the full
   k ≤ 2 certification campaign (tools build + `-Dcert.k2` + `verify.sh`) in public on demand.
 
+[Unreleased]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.1.1...HEAD
 [0.1.1]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/scala-tessella/minimal-uniformity-three/releases/tag/v0.1.0

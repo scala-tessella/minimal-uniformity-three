@@ -61,9 +61,9 @@ Run one with `sbt "testOnly *<SpecName>"`.
   proofs, and the exact euclidean tail reproducing the 1,363-symbol catalogue. The trusted generator
   survives only as one side of the (fully checked) agreement gate. The kissat/drat-trim binaries are built
   at pinned tags by `tools/install-sat-tools.sh`, which records versions and binary hashes.
-- **Figure generation is excluded.** The paper's `UClassK3FiguresProbe` draws the witness figures; like the
-  companion `31-unit-edge-tilings` repo, this artifact carries the *proof*, not presentation. The witnesses'
-  metric data is fully re-verified here by `UClassK3ExistenceSpec`.
+- **Figure generation is excluded.** The witness figures are drawn by a development-side probe from the
+  witnesses' unique metric points; like the companion `31-unit-edge-tilings` repo, this artifact carries the
+  *proof*, not presentation. The witnesses' metric data is fully re-verified here by `UClassK3ExistenceSpec`.
 
 ## Archival
 
