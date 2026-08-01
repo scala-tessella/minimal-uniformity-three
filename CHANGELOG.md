@@ -12,7 +12,7 @@ an earlier version should be able to tell from here whether the claims, the spec
 ### Changed
 
 - README: the figure-generation scope note no longer names a development-side class that is not part of
-  any public repository (referee nit on the paper's §8, fixed on both sides).
+  any public repository.
 
 ## [0.1.1] — 2026-08-01
 
