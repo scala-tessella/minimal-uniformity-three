@@ -7,18 +7,19 @@ import org.scalatest.matchers.should.Matchers
 
 import java.nio.file.{Files, Path}
 
-/** ADR-0009 G4, rung k = 2 — the campaign probe (LONG, hours-scale: the unpruned relaxed D-set tree at 24
-  * chambers; guarded by `-Duclass.k2`). Exhaustively enumerates the relaxed symbols with ≤ 2 vertex orbits
-  * (complete by the G0 bound), then scans every (symbol, target z, designation) triple through the
-  * combinatorial U(z) check and the exact pinned linear layer. ZERO survivors ⇒ no U(z) tiling of uniformity
-  * ≤ 2 exists for any target — completing the lower bounds of the claimed-3 conjectures ((3.8.24),
-  * (3.4.3.12), (3.4².6)) and advancing all others to ≥ 3. Survivors (if any) are written in full to
-  * `certs/uclass-k2/` for affine-layer analysis: a metrically realizable survivor would CORRECT the
-  * corresponding conjecture. Progress prints every 15 s via the parallel enumerator's log.
+/** THE k ≤ 2 CATALOGUE AND SCAN — the producing run behind the paper's lower bound (LONG, hours-scale: the
+  * unpruned relaxed D-set tree at 24 chambers; guarded by `-Duclass.k2`). Exhaustively enumerates the relaxed
+  * symbols with ≤ 2 vertex orbits — complete to 24 chambers, which is where the paper's chamber bound puts
+  * the ceiling for two orbits, and certified complete by [[K2CompletenessProbe]] — then scans every (symbol,
+  * species z, designation) triple through the combinatorial U(z) check and the exact pinned linear layer.
+  * Exactly one survivor across all ten species, refuted in [[UClassK2VerdictSpec]]: no tiling in U(z) has
+  * uniformity ≤ 2. Survivors are written in full to `certs/uclass-k2/` for affine-layer analysis; the
+  * producing run's record is archived under `certs/uclass-k2-record/`. Progress prints every 15 s via the
+  * parallel enumerator's log.
   */
 class UClassK2Probe extends AnyFlatSpec with Matchers:
 
-  it should "settle rung k = 2 over all ≤ 24-chamber relaxed symbols (enable with -Duclass.k2)" in:
+  it should "scan every ≤ 24-chamber relaxed symbol with at most two orbits (enable with -Duclass.k2)" in:
     assume(sys.props.contains("uclass.k2"), "hours-long run — enable with -Duclass.k2")
     val dir = Path.of("certs", "uclass-k2")
     Files.createDirectories(dir)

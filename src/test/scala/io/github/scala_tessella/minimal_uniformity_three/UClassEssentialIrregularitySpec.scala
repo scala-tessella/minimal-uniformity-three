@@ -8,26 +8,38 @@ import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
 
-/** ADR-0009 D5 — ESSENTIAL IRREGULARITY: the fused-tile loophole and its exact area obstruction. The 60°/120°
-  * unit rhombus is two unit triangles, so both rhombus witnesses of `UClassK3ExistenceSpec` are triangle-pair
-  * FUSIONS of regular-polygon tilings (the 2-uniform [(3.6.3.6); (3².6²)] and the 3-uniform {(3.4.4.6),
-  * (3.3.4.3.4), (3.4.6.4)}) — legitimate in U(z) as formalized, but outside the intended spirit of "sparingly
-  * irregular". The refined class U⁺(z) demands every irregular tile be NO union of unit-edge regular
-  * polygons. This spec pins the exact AREA OBSTRUCTION over the alphabet {3,4,6,8,12,24} (unit areas √3/4, 1,
-  * 3√3/2, 2+2√2, 6+3√3, 12+6√2+6√3+6√6; any union has area t√3/4 + s + h·3√3/2 + o(2+2√2) + d(6+3√3) +
-  * D(12+6√2+6√3+6√6) with non-negative integer counts): areas are computed by exact shoelace over unit edge
-  * vectors at multiples of π/12 and expressed in the basis {1, √2, √3, √6} of the real subfield of ℚ(ζ₂₄).
-  * Verdicts: the 90°/150° hexagon (rational part 3/2 ∉ ℤ) and the 135°/165° dodecagon (√6 part forces a
-  * quarter 24-gon) are ESSENTIALLY IRREGULAR, so the (3.4.3.12) and (3.8.24) theorems persist in U⁺; the
-  * rhombus (= 2 triangles) and the 90°/180° octagon (= 4 squares) are unions, so the (3.4².6) and (3².6²)
-  * verdicts are class-U statements and revert to OPEN (≥ 3) in U⁺; the 90°/210° pinwheel dodecagon is
-  * INCONCLUSIVE at area level (3 + 3√3 admits 3s+2h, 3s+h+6t, 3s+12t) yet ESSENTIALLY IRREGULAR anyway, by
-  * corner forcing: a 90° corner is completable only by a single square corner (n = 4 unique; two corners sum
-  * to ≥ 120), that square's edges must lie along the two unit boundary edges so it spans both neighbouring
-  * 210-vertices, and the alternating (90, 210) boundary makes consecutive forced squares overload their
-  * shared 210-vertex (90 + 90 leaves 30°, a forever-table refusal). The degenerate (60,60,240)² "hexagon" of
-  * the (3².6²) reflex candidates is pinned as NON-SIMPLE (its boundary revisits the origin after three
-  * edges).
+/** FUSIONS AND THE EXACT AREA OBSTRUCTION. Call a tile a FUSION if it is a finite union of unit-edge regular
+  * polygons with pairwise disjoint interiors, meeting one another and the tile's boundary edges edge-to-edge
+  * — the paper's notion, and the subject of its open question for (3².4.12): is there a member of that
+  * species whose irregular tile is no fusion? This spec pins the exact AREA OBSTRUCTION that decides most
+  * tiles outright, and the corner argument that decides the one the area leaves open.
+  *
+  * The obstruction, over the alphabet {3,4,6,8,12,24} (unit areas √3/4, 1, 3√3/2, 2+2√2, 6+3√3,
+  * 12+6√2+6√3+6√6): any fusion has area t√3/4 + s + h·3√3/2 + o(2+2√2) + d(6+3√3) + D(12+6√2+6√3+6√6) with
+  * non-negative integer counts, so a tile whose exact area lies outside that lattice is no fusion. Areas are
+  * computed by exact shoelace over unit edge vectors at multiples of π/12 and expressed in the basis {1, √2,
+  * √3, √6} of the real subfield of ℚ(ζ₂₄) — no numerics.
+  *
+  * The verdicts:
+  *
+  *   - the 90°/150° hexagon of the (3.4.3.12) witness (rational part 3/2 ∉ ℤ) and the 135°/165° dodecagon of
+  *     the (3.8.24) one (its √6 part would force a quarter 24-gon) are NO FUSION: those two witnesses carry
+  *     genuinely non-decomposable tiles;
+  *   - the 60°/120° rhombus IS a fusion (two unit triangles), which is what puts the rhombus patterns of
+  *     [[UClassK3ExistenceSpec]] outside the class as defined and into the paper's wider spliced reading; so
+  *     is the 90°/180° octagon (four squares). For (3².6²) the paper closes the question this way round:
+  *     every irregular tile of the species is a fusion of unit triangles;
+  *   - the 90°/210° pinwheel dodecagon of the (3.4².6) witness is INCONCLUSIVE at area level (3 + 3√3 admits
+  *     3s+2h, 3s+h+6t, 3s+12t) and yet NO FUSION, by corner forcing: a 90° corner is completable only by a
+  *     single square corner (n = 4 is the unique single fill; two corners sum to ≥ 120°), that square's edges
+  *     must lie along the two unit boundary edges so it spans both neighbouring 210° vertices, and the
+  *     strictly alternating (90, 210) boundary makes consecutive forced squares overload their shared 210°
+  *     vertex (90 + 90 leaves 30°, which no corner fills).
+  *
+  * The degenerate (60,60,240)² "hexagon" of the (3².6²) reflex candidates is pinned as NON-SIMPLE (its
+  * boundary revisits the origin after three edges) — closure and healthy angles do not imply a simple
+  * polygon. [[EndpointEssentialSpec]] carries the complementary criterion, the forced-square count, for the
+  * tiles this area alphabet does not reach.
   */
 class UClassEssentialIrregularitySpec extends AnyFlatSpec with Matchers with ScalaCheckPropertyChecks:
 
@@ -79,7 +91,7 @@ class UClassEssentialIrregularitySpec extends AnyFlatSpec with Matchers with Sca
 
   private def rat(n: Long, d: Long): Rat = Rat.make(n, d)
 
-  behavior of "the essential-irregularity area obstruction (ADR-0009 D5)"
+  behavior of "the fusion area obstruction"
 
   it should "confirm the engine on regular tiles" in:
     area(List(60, 60, 60)) shouldBe ((rat(0, 1), rat(0, 1), rat(1, 4), rat(0, 1)))

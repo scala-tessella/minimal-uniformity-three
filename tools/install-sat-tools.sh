@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ADR-0008 D3: build the certification toolchain — kissat (DRAT-emitting CDCL solver) and drat-trim (the
+# Build the certification toolchain — kissat (DRAT-emitting CDCL solver) and drat-trim (the
 # proof checker) — at PINNED tags, then smoke-test the solve->proof->verify pipeline and record versions,
 # commits and binary sha256 in tools/bin/TOOLS.manifest (CertifyProbe copies them into run manifests).
 # Dev/CI only: the library stays pure-JVM SAT4J; nothing built here is a runtime dependency.

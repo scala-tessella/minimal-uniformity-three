@@ -2,50 +2,52 @@ package io.github.scala_tessella.minimal_uniformity_three
 
 import io.github.scala_tessella.research_core.*
 
+import io.github.scala_tessella.research_core.Frac
+import io.github.scala_tessella.research_core.Cyclo24
+
 import io.github.scala_tessella.research_core.DelaneySymbols.{DSet, DSymbol}
 import io.github.scala_tessella.research_core.MetricLayer.AngleSystem
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-/** ADR-0009 G4, rung-3 EXISTENCE verdict (2026-07-12): FOUR of the ten minimal-uniformity conjectures are
-  * settled — minimal uniformity EXACTLY 3 for z = (3.8.24), (3.4.3.12), (3.4².6) (confirming their claimed
-  * value) AND for z = (3².6²), CORRECTING its claimed value 7. The ≤ 22-chamber search over ALL ten targets
-  * (`UClassK3Probe`, artifacts in `certs/uclass-k3/`) surfaced genuine witnesses for exactly these four
-  * (smallest per target pinned below by canonical key; (3².6²) has eight convex survivors, 11–22 chambers)
-  * and none for the other six. Per witness this spec verifies the full existence chain, machine-checked end
-  * to end:
+/** THE k = 3 EXISTENCE CHAIN, verified from canonical keys alone. Four three-orbit patterns are pinned below
+  * and put through the whole chain end to end:
   *
-  *   1. Euclidean symbol, exactly 3 vertex orbits, the expected vertex configurations;
-  *   2. exactly ONE U(z) designation surviving the combinatorial check, the pinned linear layer and the
-  *      forced-regular filter (the rung-2 lesson) — with the intended irregular face orbit;
-  *   3. the pinned system plus the linear closure equivalents (triangle equilateral, quadrilateral = rhombus,
-  *      v ≥ 2 identically closed by roots of unity, edge-axis mirror hexagon palindrome) is consistent and
-  *      RIGID (affine dimension 0), so the angle point is unique and forced — and the designated-irregular
-  *      face takes NON-regular angles there, so the realization's truth-designation is the designation
-  *      itself;
+  *   1. euclidean symbol, exactly 3 vertex orbits, the expected vertex configurations;
+  *   2. exactly ONE designation surviving the combinatorial check, the pinned linear layer and the
+  *      forced-regular filter — with the intended irregular face orbit;
+  *   3. that system plus the linear closure equivalents (triangle equilateral, quadrilateral = rhombus, v ≥ 2
+  *      identically closed by roots of unity, edge-axis mirror hexagon palindrome) is consistent and RIGID
+  *      (affine dimension 0), so the angle point is unique and forced — and the designated-irregular face
+  *      takes NON-regular angles there, so the realization's truth-designation is the designation itself;
   *   4. at that unique point every angle lies in (0, π) (CONVEX) and every face orbit closes EXACTLY, the
-  *      edge-vector sum computed in ℚ(ζ₂₄) (all angles are multiples of π/12) — no numerics anywhere.
+  *      edge-vector sum computed in ℚ(ζ₂₄) — all four patterns have angles that are multiples of π/12, so no
+  *      numerics enter anywhere.
   *
-  * By the paper's realization proposition (prop:realize, convex angles), each point realizes as a genuine
-  * edge-to-edge unit-edge tiling of the plane; the tiling is in U(z) with its truth-designation as verified,
-  * so by rungs 1–2 (`UClassSpec`, `UClassK2VerdictSpec`: no U(z) tiling has uniformity ≤ 2) its full symmetry
-  * group has EXACTLY 3 vertex orbits. Together with the rung-2 lower bound this settles minimal uniformity =
-  * 3 for all four targets. Nothing is borrowed from the k ≤ 1 global-affinity verification: closure is
-  * checked exactly at the (unique) point itself.
+  * WHICH READING. The designation is computed by [[UClass.candidates]] under its DEFAULT reading — the
+  * SPLICED one of the paper's remark on the wider readings, where the regular tiles alone, with the irregular
+  * ones cut out, must form a contiguous arc of z up to rotation. That is what this spec checks, and the four
+  * patterns divide accordingly:
   *
-  * The (3.8.24) and (3.4.3.12) witnesses are the manuscript's claimed patterns — (3.8.12ᵢ)/(3.8.24)/
-  * (3.12ᵢ.24) with the irregular dodecagon at 135°/165°, and (3.4.3.6ᵢ)/(3.4.3.12)/(3.6ᵢ.3.12) with the
-  * irregular hexagon at 90°/150°. The (3.4².6) witness is a DISCOVERY: the manuscript's pattern needs a
-  * reflex-cornered dodecagon (210° at (3.4.12ᵢ)), outside the convex category, whereas this tiling —
-  * (3.4.4.6)/(3.4.4ᵢ.4)/(6.4.4ᵢ.4) with an irregular 60°/120° rhombus — completes the conjecture entirely
-  * within the convex category, unconditionally. The (3².6²) witness is a CORRECTION and a surprise: regular
-  * triangles and hexagons with an irregular 60°/120° rhombus, vertex orbits (3.3.6.6)/(3.6.4ᵢ.6)/(6.6.4ᵢ), at
-  * 11 chambers — the claimed minimal uniformity was 7.
+  *   - (3.8.24) and (3.4.3.12) are the paper's uniformity-3 witnesses. Their designations are legal under the
+  *     definition itself, so steps 1–4 here are the machine side of the paper's witness theorem: an irregular
+  *     dodecagon at 135°/165° among triangles, octagons and 24-gons, and an irregular hexagon at 90°/150°
+  *     among triangles, squares and regular 12-gons. Realization is separate — [[WitnessRealizationProbe]]
+  *     discharges the paper's realization certificate for both.
+  *   - (3.4².6) and (3².6²) at k = 3 are the RHOMBUS PAIR, and they are legal only under the spliced reading.
+  *     Both fuse pairs of unit triangles of a regular-polygon tiling into a 60°/120° rhombus, and the fused
+  *     rhombus hides a vertex of a type z does not contain — an economy the definition's arc clause refuses.
+  *     They are therefore NOT members of U(3.4².6) or U(3².6²) as the paper defines the class, and neither
+  *     species is settled at 3: the paper's witness for (3.4².6) is the reflex pinwheel (uniformity 3, no
+  *     convex tiling of uniformity 3 or 4 exists for it), and (3².6²) is settled at FIVE, its three-orbit
+  *     designations all refuted at the closure level through 26 chambers. What these two entries certify is
+  *     exactly the wider-reading value recorded beside the paper's summary table: under the spliced reading
+  *     both species admit convex tilings of uniformity 3. [[StrictArcSpec]] pins where the readings part on
+  *     every banked pattern, and [[StrictRefilterProbe]] re-derives every banked designation under each.
   *
-  * SCOPE (ADR-0009 D5): these are class-U statements. The 60°/120° rhombus is two unit triangles, so both
-  * rhombus witnesses are triangle-pair FUSIONS of regular tilings; in the refined class U⁺ (irregular tiles
-  * essentially irregular — no unions of unit regular polygons, `UClassEssentialIrregularitySpec`) the
-  * (3.8.24) and (3.4.3.12) theorems persist while (3.4².6) and (3².6²) reopen.
+  * The two rhombus tiles are also unions of unit regular polygons, so they are what the paper's open fusion
+  * question is about ([[UClassEssentialIrregularitySpec]] carries the exact area obstruction that separates
+  * such tiles from the genuinely non-decomposable ones).
   */
 class UClassK3ExistenceSpec extends AnyFlatSpec with Matchers:
 
@@ -154,8 +156,8 @@ class UClassK3ExistenceSpec extends AnyFlatSpec with Matchers:
       kAcc += 12 - (12L * g.num / g.den).toInt
     sx.isZero && sy.isZero
 
-  /** One rung-3 existence witness: target, canonical key, expected configurations (walk order, `i` marking
-    * faces of the irregular-designated orbit), and the irregular face's forced corner angles (π units).
+  /** One k = 3 pattern: species, canonical key, expected configurations (walk order, `i` marking faces of the
+    * irregular-designated orbit), and the irregular face's forced corner angles (π units).
     */
   private case class Witness(
       z: List[Int],
@@ -191,7 +193,7 @@ class UClassK3ExistenceSpec extends AnyFlatSpec with Matchers:
       key =
         "1,2,1,3|4;3,1,4,3|4;2,3,5,3|4;5,6,2,6|4;4,7,3,6|4;6,4,6,6|4;8,5,9,6|4;7,10,11,6|3;11,9,7,4|4;10,8,10,6|3;9,11,8,4|3",
       configs = Set("3.6.6.3", "3.6.4i.6", "6.6.4i"),
-      irregularAngles = Set(Frac(1, 3), Frac(2, 3))   // 60°, 120° — corrects the claimed uniformity 7
+      irregularAngles = Set(Frac(1, 3), Frac(2, 3))   // 60°, 120° — the rhombus, spliced reading only
     )
   )
 
@@ -207,7 +209,7 @@ class UClassK3ExistenceSpec extends AnyFlatSpec with Matchers:
     unforced should have size 1
     unforced.head
 
-  behavior of "the rung-3 existence witnesses (ADR-0009 G4)"
+  behavior of "the k = 3 existence chain (spliced reading)"
 
   it should "reconstruct faithfully: Euclidean symbols with exactly 3 vertex orbits" in:
     for (w, ds) <- symbols do

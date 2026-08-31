@@ -7,12 +7,74 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 a paper, entries state what a re-check would find different from the previous release — a referee who checked
 an earlier version should be able to tell from here whether the claims, the specs, or only the packaging moved.
 
-## [Unreleased]
+## [0.2.0] — 2026-08-31
+
+**The artifact catches up with the paper.** Version 0.1.1 covered the ladder as it stood then: four
+witnesses, minimal uniformity 3. The paper now proves all ten values — 3, 3, 3, 4, 4, 4, 5, 5, 7, 10 — and
+this release carries the instruments behind every one of them. A referee who checked 0.1.1 will find the
+verdicts it contained unchanged; what is new is everything above uniformity three, and a good deal of
+prose that 0.1.1 got wrong.
+
+### Added
+
+- **`UClassK4ExistenceSpec`** — the always-on existence chain for the seven patterns at uniformity 4, 5, 7
+  and 10, re-derived from the appendix's canonical keys. Closure leaves ℚ(ζ₂₄) here, so it is decided by
+  vanishing sums of roots of unity, integer-only; the fields come out ℚ(ζ₁₈), ℚ(ζ₁₀), ℚ(ζ₁₂), ℚ(ζ₃₀),
+  ℚ(ζ₂₀) and ℚ(ζ₄₂), matching the paper species by species. Per pattern: the claimed chamber count and
+  uniformity, a legal designation, metric rigidity at the truth-designation, exact closure, simplicity of
+  every face boundary, no straight corner, and convexity exactly where the paper reports it.
+- **The lower-bound instruments**: `ChamberBoundSpec`, `ConvexTileSpec`, `ReflexTile3366Spec`,
+  `TwoClassTileSpec`, `UClassLowerBoundSpec` — the corner-word enumerations and the hand cross-check of the
+  window bounds, each confronted with every banked pattern.
+- **The readings of condition (3)**: `StrictArcSpec`, `StrictWitnessSpec` with its witness bank, and the
+  opt-in `StrictRefilterProbe`, which re-derives every banked designation under each reading and triages
+  the survivors at closure level.
+- **The walk and its prunes**, opt-in: `UClassK3ShardProbe` (the sharded band walk, both valence regimes,
+  the distinct-letter window prunes), `VertexCapProbe` (the cap checked against the unpruned walk),
+  `K6CandidateProbe`, `Valence2GateProbe`, `UClassK4ExistenceProbe`.
+- **The staircase certification layer**: `KCertifySpec`, always on — with the layer off the encoding
+  reproduces the certified two-orbit one op for op, with it on it matches the staircase-filtered universe,
+  and the layer is shown to have teeth — and `KCertifyObligationProbe` (`-Dcert.k3.obl`), which discharges a
+  chamber count's obligation end to end. Together they make the three-orbit record extensible by a reader:
+  the obligations still outstanding are a matter of solver hours, not of missing code.
+- **Saturation**: `SaturationProbe` (the single-split audit of condition (4)) and `JointSaturationProbe`
+  (simultaneous splits).
+- **Realization and the exact plane**: `WitnessRealizationProbe`, `DefusionEndpointProbe`,
+  `EndpointVerifyProbe`, `EndpointEssentialSpec`, and `Lattice3366Probe`, the SAT search on the triangular
+  lattice behind the (3².6²) result.
+- **Producing-run records** for every new campaign, each with a README stating its scope:
+  `certs/uclass-k4-record/`, `certs/uclass-k6-record/` … `certs/uclass-k9-record/` (hit lists in full where
+  small, per-species summaries where they run to megabytes, with the triage logs that dispose of every
+  hit), `certs/uclass-strict-record/` and `certs/kcert-k3-record/`. `certs/uclass-k3-record/` gains the
+  25–26 chamber band.
 
 ### Changed
 
-- README: the figure-generation scope note no longer names a development-side class that is not part of
-  any public repository.
+- **Pinned to `research-core` 0.8.0** (from 0.3.1), which is where the orbit-bounded walk, the staircase and
+  euclidean curvature filters, the valence-2 mode and the exact `ℤ[ζ_N]` plane and de-fusion engine now
+  live. None of the promoted specs could be archived before that release existed.
+- **`UClassK3ExistenceSpec` is reframed, and this is a correction.** Its documentation claimed four species
+  settled at uniformity 3, "correcting (3².6²)'s claimed value 7". That is not what the paper proves:
+  (3².6²) is settled at **5**, and its convex rhombus patterns at three orbits are legal only under the
+  wider spliced reading of condition (3) — none admits a designation legal under the definition that
+  realizes. The same holds for the (3.4².6) rhombus pattern, whose species is witnessed instead by the
+  reflex pinwheel. No assertion changed: the spec always computed under the default (spliced) reading and
+  every verdict in it still holds. What changed is that it now says so, and names the two rhombus entries
+  for what they are — the machine check behind the wider-reading values recorded beside the paper's
+  summary table.
+- **The refined-class framing is gone from the artifact, as it is from the paper.**
+  `UClassEssentialIrregularitySpec` and `EndpointEssentialSpec` are reframed around the notion the paper
+  kept: a *fusion*, a tile that is a finite union of unit-edge regular polygons meeting edge-to-edge. The exact area obstruction and the
+  forced-square count are unchanged; they now answer the paper's open question for (3².4.12) instead of a
+  class that no longer exists.
+- **Every private reference is gone.** Fifteen pointers into a private repository — decision-record
+  numbers, and the campaign, gate and track names that went with them — were published in 0.1.0 and 0.1.1,
+  where a reader could follow none of them. The prose they sat in already carried the explanation, so in
+  nearly every case the citation was the one part of the sentence that added nothing.
+- README rebuilt around the paper's ten results, with the claim table split into always-on verdicts and
+  opt-in producing runs, and a new section on what certifies what: DRAT-certified at two orbits,
+  agreement-validated beyond, exact and self-contained for the witness verdicts.
+- CI runs the always-on suite on JDK 17 and 21 as before; the opt-in matrix is documented rather than run.
 
 ## [0.1.1] — 2026-08-01
 
@@ -67,6 +129,7 @@ Initial release: the complete verification surface for the paper, pinned to `res
   asserts that. The opt-in probes appear as *canceled*, not failed. A manual-dispatch job runs the full
   k ≤ 2 certification campaign (tools build + `-Dcert.k2` + `verify.sh`) in public on demand.
 
-[Unreleased]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/scala-tessella/minimal-uniformity-three/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/scala-tessella/minimal-uniformity-three/releases/tag/v0.1.0

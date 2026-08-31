@@ -1,7 +1,7 @@
 # k ≤ 2 completeness certificate — producing-run record
 
-Record of the campaign that produced the k ≤ 2 DRAT completeness certificate (paper §8), run
-2026-08-01 on the development machine: `manifest.tsv` (per chamber count C = 1..24: universe size,
+Record of the campaign that produced the k ≤ 2 DRAT completeness certificate described in the paper's
+computational-methods section: `manifest.tsv` (per chamber count C = 1..24: universe size,
 labelings, SAT models, CNF size, kissat/drat-trim verdicts, wall time) and `catalogue-keys.txt`
 (the 1,363 canonical keys the exact euclidean tail reproduces from the certified universe).
 

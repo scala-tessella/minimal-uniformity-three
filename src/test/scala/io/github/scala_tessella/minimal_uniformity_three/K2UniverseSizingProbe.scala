@@ -7,11 +7,11 @@ import org.scalatest.matchers.should.Matchers
 
 import java.util.concurrent.atomic.{AtomicLong, AtomicLongArray}
 
-/** ADR-0009 paper certification, track A2 — SIZING scan for the k ≤ 2 certification universe (all complete
-  * D-sets, ≤ 2 vertex orbits, canonically labeled, NO curvature pruning): counts per chamber count C up to
-  * `-Dcert.k2.size=<maxSize>` (default 14). The numbers decide the obligation architecture: per-C blocking à
-  * la track A is feasible only where the labeling counts stay within DIMACS/kissat reach, and the growth
-  * ratio per two chambers extrapolates the top slices. Two modes:
+/** THE SIZING SCAN behind the k ≤ 2 certificate's architecture (all complete D-sets, ≤ 2 vertex orbits,
+  * canonically labeled, NO curvature pruning): counts per chamber count C up to `-Dcert.k2.size=<maxSize>`
+  * (default 14). The numbers are what decides the obligation architecture: per-C blocking is feasible only
+  * where the labeling counts stay within DIMACS/kissat reach, and the growth ratio per two chambers
+  * extrapolates the top slices. Two modes:
   *
   *   - RAW (default): the unpruned ≤ 2-orbit universe, with per-D-set evaluation of the tier-1 curvature
   *     relaxation ([[DelaneySymbols.tier1Feasible]]) and of exact euclidean feasibility — asserting the

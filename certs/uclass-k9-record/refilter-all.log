@@ -1,0 +1,822 @@
+== certs/uclass-k4/window-hits-min1-maxSize24.tsv: 562 hits
+== certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv: 874 hits
+== certs/uclass-k4/window-hits-min25-maxSize29.tsv: 335 hits
+== certs/uclass-k4/window-hits-min25-maxSize29-v2.tsv: 469 hits
+== certs/uclass-k3/window-hits-min25-maxSize26.tsv: 30 hits
+== certs/uclass-k3/window-hits-min25-maxSize26-v2.tsv: 30 hits
+== certs/uclass-k6/window-hits-min1-maxSize24-v2-shapes3.tsv: 8 hits
+== certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv: 175 hits
+== certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv: 654 hits
+== certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv: 3665 hits
+== certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv: 20806 hits
+read 27608 hit lines, 20706 distinct (species, symbol) pairs (banked patterns included)
+  banked (4.5.20) v2 k=4 candidate                  certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=4; certs/uclass-k6/window-hits-min1-maxSize24-v2-shapes3.tsv n=4; certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv n=4; certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv n=4; certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv n=4
+  banked (3.8.24) w k=3                             certs/uclass-k4/window-hits-min1-maxSize24.tsv n=3; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=3; certs/uclass-k6/window-hits-min1-maxSize24-v2-shapes3.tsv n=3; certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv n=3; certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv n=3; certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv n=3
+  banked (3.4.3.12) w k=3                           certs/uclass-k4/window-hits-min1-maxSize24.tsv n=3; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=3
+  banked (3.4.4.6) w k=3                            certs/uclass-k4/window-hits-min1-maxSize24.tsv n=3; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=3
+  banked (3.3.6.6) w k=3                            certs/uclass-k4/window-hits-min1-maxSize24.tsv n=3; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=3
+  banked (3.9.18) w k=4                             certs/uclass-k4/window-hits-min1-maxSize24.tsv n=4; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=4; certs/uclass-k6/window-hits-min1-maxSize24-v2-shapes3.tsv n=4; certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv n=4; certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv n=4; certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv n=4
+  banked (5.5.10) w k=4                             certs/uclass-k4/window-hits-min1-maxSize24.tsv n=4; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=4
+  banked (3.10.15) pattern k=5                      certs/uclass-k6/window-hits-min1-maxSize24-v2-shapes3.tsv n=5; certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv n=5; certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv n=5; certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv n=5
+  banked (3.7.42) P1 k=10                           NOT IN THE HITS FILES
+  banked (3.7.42) P2 fused k=6                      certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv n=6; certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv n=6; certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv n=6; certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv n=6
+  banked (3.4.4.6) 22ch cand1                       certs/uclass-k4/window-hits-min1-maxSize24.tsv n=3; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=3
+  banked (3.4.4.6) 22ch cand2                       certs/uclass-k4/window-hits-min1-maxSize24.tsv n=3; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=3
+  banked (3.4.4.6) 22ch cand3                       certs/uclass-k4/window-hits-min1-maxSize24.tsv n=3; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=3
+  banked (3.3.4.12) fusion28 #1                     certs/uclass-k4/window-hits-min25-maxSize29.tsv n=4; certs/uclass-k4/window-hits-min25-maxSize29-v2.tsv n=4
+  banked (3.3.4.12) fusion28 #2                     certs/uclass-k4/window-hits-min25-maxSize29.tsv n=4; certs/uclass-k4/window-hits-min25-maxSize29-v2.tsv n=4
+  banked (3.4.4.6) saturated k=4 reflex-a           NOT IN THE HITS FILES
+  banked (3.4.4.6) saturated k=4 convex             NOT IN THE HITS FILES
+  banked (3.4.4.6) saturated k=4 reflex-b           NOT IN THE HITS FILES
+  banked (5.5.10) penrose-rhombi k=5                NOT IN THE HITS FILES
+  banked (3.3.4.12) uplus pattern k=7               NOT IN THE HITS FILES
+  banked (4.5.20) pattern k=7                       certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv n=7; certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv n=7; certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv n=7
+  banked (3.3.6.6) uplus flexible 24ch (appendix)   certs/uclass-k4/window-hits-min1-maxSize24.tsv n=3; certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv n=3
+
+ISOLATED AUDIT — banked patterns under their strict designation; vertices with > 1 irregular tile:
+  (4.5.20) v2 k=4 candidate                    ISOLATED-OK
+  (3.8.24) w k=3                               ISOLATED-OK
+  (3.4.3.12) w k=3                             ISOLATED-OK
+  (3.4.4.6) w k=3                              not in the strict class
+  (3.3.6.6) w k=3                              not in the strict class
+  (3.9.18) w k=4                               ISOLATED-OK
+  (5.5.10) w k=4                               ISOLATED-OK
+  (3.10.15) pattern k=5                        ISOLATED-OK
+  (3.7.42) P1 k=10                             ISOLATED-OK
+  (3.7.42) P2 fused k=6                        ISOLATED-OK
+  (3.4.4.6) 22ch cand1                         ISOLATED-OK
+  (3.4.4.6) 22ch cand2                         not in the strict class
+  (3.4.4.6) 22ch cand3                         ISOLATED-OK
+  (3.3.4.12) fusion28 #1                       ISOLATED-OK
+  (3.3.4.12) fusion28 #2                       ISOLATED-OK
+  (3.4.4.6) saturated k=4 reflex-a             FAILS: (4.6i.4i.6), (6i.3.6.4i)
+  (3.4.4.6) saturated k=4 convex               FAILS: (6i.4i.3.4), (6i.6.3.4i)
+  (3.4.4.6) saturated k=4 reflex-b             FAILS: (6i.4i.6.3), (6i.4i.6.4)
+  (5.5.10) penrose-rhombi k=5                  not in the strict class
+  (3.3.4.12) uplus pattern k=7                 FAILS: (12i.6i.3.3), (12i.6i.4.3)
+  (4.5.20) pattern k=7                         ISOLATED-OK
+  (3.3.6.6) uplus flexible 24ch (appendix)     not in the strict class
+  (3.4.4.6) strict pinwheel k=3 C22            ISOLATED-OK
+  (3.4.4.6) strict fused-dodecagon k=3 C22     ISOLATED-OK
+  (3.3.6.6) strict lattice k=5 C24             ISOLATED-OK
+
+STRICT CANDIDATES: 473 designations over 461 symbols
+  z=3.10.15  n=5: 1 designations / 1 symbols, n=8: 6 designations / 6 symbols, n=9: 29 designations / 29 symbols
+  z=3.3.4.12  n=3: 2 designations / 2 symbols, n=4: 5 designations / 5 symbols
+  z=3.3.6.6  n=3: 3 designations / 3 symbols, n=4: 4 designations / 4 symbols
+  z=3.4.3.12  n=3: 2 designations / 2 symbols, n=4: 3 designations / 3 symbols
+  z=3.4.4.6  n=3: 12 designations / 12 symbols, n=4: 13 designations / 13 symbols
+  z=3.7.42  n=6: 1 designations / 1 symbols, n=9: 1 designations / 1 symbols, n=10: 1 designations / 1 symbols
+  z=3.8.24  n=3: 1 designations / 1 symbols, n=4: 3 designations / 2 symbols, n=5: 2 designations / 2 symbols, n=6: 9 designations / 9 symbols, n=7: 11 designations / 11 symbols, n=8: 79 designations / 73 symbols, n=9: 132 designations / 131 symbols
+  z=3.9.18  n=4: 2 designations / 2 symbols, n=6: 1 designations / 1 symbols, n=7: 4 designations / 3 symbols, n=8: 11 designations / 11 symbols, n=9: 9 designations / 9 symbols
+  z=4.5.20  n=4: 1 designations / 1 symbols, n=6: 10 designations / 10 symbols, n=7: 11 designations / 11 symbols, n=8: 17 designations / 17 symbols, n=9: 41 designations / 41 symbols
+  z=5.5.10  n=4: 2 designations / 2 symbols, n=6: 5 designations / 5 symbols, n=7: 8 designations / 6 symbols, n=8: 14 designations / 13 symbols, n=9: 17 designations / 17 symbols
+[0] z=3.3.4.12 n=3 C=24 reg=0,1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[1] z=3.3.4.12 n=3 C=24 reg=0,1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[2] z=3.3.6.6 n=3 C=12 reg=1,2 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[3] z=3.3.6.6 n=3 C=15 reg=0,1 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) develops (78 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[4] z=3.3.6.6 n=3 C=24 reg=0,1,3,4 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[5] z=3.3.6.6 n=4 C=19 reg=0,1,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[6] z=3.4.3.12 n=3 C=12 reg=0,1,2 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) closed, strict-valid at radius 6 (68 tiles) — verifying at radius 10
+WITNESS [6] z=3.4.3.12 n=3 C=12 reg=0,1,2 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) minimal C=12 k=3 (cell C_T=144) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(90/90/90/150/150/150)A=2.3660 union=false
+[7] z=3.4.3.12 n=3 C=24 reg=0,1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) closed, strict-valid at radius 6 (68 tiles) — verifying at radius 10
+WITNESS [7] z=3.4.3.12 n=3 C=24 reg=0,1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) minimal C=12 k=3 (cell C_T=144) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(90/90/90/150/150/150)A=2.3660 union=false
+[8] z=3.4.3.12 n=4 C=24 reg=0,1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) closed, strict-valid at radius 6 (68 tiles) — verifying at radius 10
+WITNESS [8] z=3.4.3.12 n=4 C=24 reg=0,1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) minimal C=12 k=3 (cell C_T=144) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(90/90/90/150/150/150)A=2.3660 union=false
+[9] z=3.4.4.6 n=3 C=22 reg=1,2,3,4 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) closed, strict-valid at radius 6 (71 tiles) — verifying at radius 10
+WITNESS [9] z=3.4.4.6 n=3 C=22 reg=1,2,3,4 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) minimal C=22 k=3 (cell C_T=132) convex=false strictSaturated=false essential=false rigid irregular: 12-gon(90/90/90/90/90/90/210/210/210/210/210/210)A=5.5981 union=true
+[10] z=3.4.4.6 n=3 C=22 reg=0,1,2 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) closed, strict-valid at radius 6 (64 tiles) — verifying at radius 10
+WITNESS [10] z=3.4.4.6 n=3 C=22 reg=0,1,2 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) minimal C=22 k=3 (cell C_T=132) convex=false strictSaturated=true essential=true rigid irregular: 12-gon(90/90/90/90/90/90/210/210/210/210/210/210)A=8.1962 union=false
+[11] z=3.4.4.6 n=3 C=24 reg=0,1,2 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[12] z=3.4.4.6 n=3 C=24 reg=0,1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[13] z=3.4.4.6 n=3 C=24 reg=0,1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[14] z=3.4.4.6 n=3 C=24 reg=0,1,3,4 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[15] z=3.4.4.6 n=3 C=24 reg=0,1,2,3,4 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[16] z=3.4.4.6 n=3 C=24 reg=1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) inconsistent closure rows — DEAD
+[17] z=3.4.4.6 n=3 C=24 reg=1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) inconsistent closure rows — DEAD
+[18] z=3.4.4.6 n=3 C=24 reg=0,1,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, degenerate corner — DEAD
+[19] z=3.4.4.6 n=3 C=24 reg=1,2,3,4 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) inconsistent closure rows — DEAD
+[20] z=3.4.4.6 n=3 C=24 reg=1,2,3,4 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) inconsistent closure rows — DEAD
+[21] z=3.8.24 n=3 C=18 reg=1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [21] z=3.8.24 n=3 C=18 reg=1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[22] z=3.8.24 n=4 C=24 reg=0,1,2,4 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, closure residual 2.932e+00 — DEAD
+[23] z=3.9.18 n=4 C=24 reg=0,1,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) closed, strict-valid at radius 6 (20 tiles) — verifying at radius 10
+WITNESS [23] z=3.9.18 n=4 C=24 reg=0,1,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) minimal C=24 k=4 (cell C_T=144) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(60/60/140/140/160/160)A=1.8508 union=false
+[24] z=3.9.18 n=4 C=24 reg=0,2,3 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) rigid, closure residual 2.532e+00 — DEAD
+[25] z=5.5.10 n=4 C=18 reg=0,2 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) closed, strict-valid at radius 6 (29 tiles) — verifying at radius 10
+WITNESS [25] z=5.5.10 n=4 C=18 reg=0,2 (certs/uclass-k4/window-hits-min1-maxSize24.tsv) minimal C=18 k=4 (cell C_T=72) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(108/108/108/108/144/144)A=2.4899 union=false
+[26] z=3.3.6.6 n=4 C=19 reg=0,1,3 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) rigid, degenerate corner — DEAD
+[27] z=3.4.3.12 n=4 C=16 reg=0,2,3 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+WITNESS [27] z=3.4.3.12 n=4 C=16 reg=0,2,3 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(150/150/150/150/150/150/150/150/150/150/150/150/150/150/150/150/150/150/210/210/210/210/210/210)A=41.7846 union=skipped
+[28] z=3.4.3.12 n=4 C=18 reg=0,1,2,4 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) closed, strict-valid at radius 6 (51 tiles) — verifying at radius 10
+WITNESS [28] z=3.4.3.12 n=4 C=18 reg=0,1,2,4 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) minimal C=18 k=4 (cell C_T=144) convex=false strictSaturated=true essential=true rigid irregular: 16-gon(90/90/90/90/90/90/90/90/150/150/150/150/300/300/300/300)A=9.4641 union=false
+[29] z=3.8.24 n=4 C=22 reg=0,2,3 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [29] z=3.8.24 n=4 C=22 reg=0,2,3 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[30] z=3.8.24 n=4 C=22 reg=1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [30] z=3.8.24 n=4 C=22 reg=1,2,3 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[31] z=4.5.20 n=4 C=16 reg=0,1,2 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [31] z=4.5.20 n=4 C=16 reg=0,1,2 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped
+[32] z=5.5.10 n=4 C=20 reg=1,2 (certs/uclass-k4/window-hits-min1-maxSize24-v2.tsv) rigid, degenerate corner — DEAD
+[33] z=3.3.4.12 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) develops (53 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[34] z=3.3.4.12 n=4 C=28 reg=0,1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) closed, strict-valid at radius 6 (53 tiles) — verifying at radius 10
+[34] z=3.3.4.12 n=4 C=28 reg=0,1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) INVALID at radius 10 — DEAD
+[35] z=3.3.4.12 n=4 C=28 reg=0,1,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) closed, strict-valid at radius 6 (48 tiles) — verifying at radius 10
+WITNESS [35] z=3.3.4.12 n=4 C=28 reg=0,1,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) minimal C=28 k=4 (cell C_T=224) convex=false strictSaturated=true essential=false rigid irregular: 12-gon(60/60/60/60/150/150/150/150/240/240/240/240)A=5.7321 union=true
+[36] z=3.3.4.12 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) closed, strict-valid at radius 6 (47 tiles) — verifying at radius 10
+WITNESS [36] z=3.3.4.12 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) minimal C=28 k=4 (cell C_T=112) convex=false strictSaturated=true essential=false rigid irregular: 12-gon(60/60/60/60/150/150/150/150/240/240/240/240)A=5.7321 union=true
+[37] z=3.3.4.12 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) develops (56 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[38] z=3.3.6.6 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[39] z=3.3.6.6 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[40] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[41] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[42] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) closed, strict-valid at radius 6 (57 tiles) — verifying at radius 10
+WITNESS [42] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) minimal C=28 k=4 (cell C_T=112) convex=false strictSaturated=false essential=false rigid irregular: 12-gon(90/90/90/90/150/150/150/150/210/210/210/210)A=7.4641 union=true
+[43] z=3.4.4.6 n=4 C=28 reg=0,1,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[44] z=3.4.4.6 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) closed, strict-valid at radius 6 (54 tiles) — verifying at radius 10
+WITNESS [44] z=3.4.4.6 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) minimal C=28 k=4 (cell C_T=112) convex=false strictSaturated=false essential=false rigid irregular: 12-gon(90/90/90/90/150/150/150/150/210/210/210/210)A=6.5981 union=true
+[45] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[46] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5,6 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[47] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[48] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5,6 (certs/uclass-k4/window-hits-min25-maxSize29.tsv) rigid, degenerate corner — DEAD
+[49] z=3.4.4.6 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29-v2.tsv) closed, strict-valid at radius 6 (54 tiles) — verifying at radius 10
+WITNESS [49] z=3.4.4.6 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29-v2.tsv) minimal C=28 k=4 (cell C_T=168) convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(90/90/90/90/90/90/120/120/120/120/120/120/270/270/270/270/270/270)A=12.9904 union=skipped
+[50] z=3.4.4.6 n=4 C=28 reg=1,2,3,4 (certs/uclass-k4/window-hits-min25-maxSize29-v2.tsv) rigid, degenerate corner — DEAD
+[51] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29-v2.tsv) embedding failure at radius 6 — DEAD
+[52] z=3.4.4.6 n=4 C=28 reg=1,2,3,4,5 (certs/uclass-k4/window-hits-min25-maxSize29-v2.tsv) rigid, degenerate corner — DEAD
+[53] z=3.10.15 n=5 C=22 reg=0,1,2 (certs/uclass-k6/window-hits-min1-maxSize24-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [53] z=3.10.15 n=5 C=22 reg=0,1,2 (certs/uclass-k6/window-hits-min1-maxSize24-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[54] z=5.5.10 n=6 C=36 reg=0,1,2 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (30 tiles) — verifying at radius 10
+WITNESS [54] z=5.5.10 n=6 C=36 reg=0,1,2 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) minimal C=18 k=4 (cell C_T=72) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(108/108/108/108/144/144)A=2.4899 union=false
+[55] z=4.5.20 n=6 C=32 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [55] z=4.5.20 n=6 C=32 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped
+[56] z=3.8.24 n=6 C=32 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [56] z=3.8.24 n=6 C=32 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 15-gon(60/60/60/135/135/135/165/165/165/195/195/195/225/225/225)A=12.0587 union=skipped
+[57] z=3.8.24 n=6 C=36 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [57] z=3.8.24 n=6 C=36 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[58] z=5.5.10 n=6 C=36 reg=0,1,2 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (30 tiles) — verifying at radius 10
+WITNESS [58] z=5.5.10 n=6 C=36 reg=0,1,2 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) minimal C=18 k=4 (cell C_T=72) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(108/108/108/108/144/144)A=2.4899 union=false
+[59] z=4.5.20 n=6 C=28 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [59] z=4.5.20 n=6 C=28 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(90/90/90/90/108/108/108/108/198/198/198/198/198/198/198/198/252/252)A=16.4812 union=skipped
+[60] z=4.5.20 n=6 C=30 reg=0,1,2,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) rigid, closure residual 2.794e+00 — DEAD
+[61] z=4.5.20 n=6 C=30 reg=0,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[62] z=3.8.24 n=6 C=32 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) develops (26 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[63] z=4.5.20 n=6 C=34 reg=0,1,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[64] z=4.5.20 n=6 C=36 reg=0,1,2,3,5 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[65] z=3.8.24 n=5 C=26 reg=0,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [65] z=3.8.24 n=5 C=26 reg=0,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[66] z=3.8.24 n=5 C=26 reg=0,1,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [66] z=3.8.24 n=5 C=26 reg=0,1,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/300/300/300/300)A=39.7719 union=skipped
+[67] z=5.5.10 n=6 C=28 reg=0,1,2 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (21 tiles) — verifying at radius 10
+WITNESS [67] z=5.5.10 n=6 C=28 reg=0,1,2 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) minimal C=28 k=6 (cell C_T=112) convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(108/108/108/108/144/144/144/144/144/144/144/144/216/216/252/252)A=13.6251 union=skipped
+[68] z=3.7.42 n=6 C=28 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+[68] z=3.7.42 n=6 C=28 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[69] z=4.5.20 n=6 C=28 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [69] z=4.5.20 n=6 C=28 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(90/90/90/90/108/108/108/108/198/198/198/198/198/198/198/198/252/252)A=16.4812 union=skipped
+[70] z=3.8.24 n=6 C=30 reg=0,1,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [70] z=3.8.24 n=6 C=30 reg=0,1,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[71] z=3.9.18 n=6 C=30 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) develops (15 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[72] z=3.8.24 n=6 C=32 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [72] z=3.8.24 n=6 C=32 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(60/60/60/60/60/60/195/195/195/195/195/195/225/225/225/225/225/225)A=13.3577 union=skipped; 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[73] z=4.5.20 n=6 C=32 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [73] z=4.5.20 n=6 C=32 reg=1,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=10.4223 union=false
+[74] z=3.8.24 n=6 C=32 reg=0,1,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [74] z=3.8.24 n=6 C=32 reg=0,1,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 15-gon(60/60/60/135/135/135/165/165/165/195/195/195/225/225/225)A=12.0587 union=skipped
+[75] z=4.5.20 n=6 C=32 reg=0,1,2 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [75] z=4.5.20 n=6 C=32 reg=0,1,2 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped
+[76] z=4.5.20 n=6 C=34 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [76] z=4.5.20 n=6 C=34 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 12-gon(90/90/90/90/162/162/162/162/198/198/198/198)A=8.4223 union=false
+[77] z=3.8.24 n=6 C=34 reg=0,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [77] z=3.8.24 n=6 C=34 reg=0,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[78] z=5.5.10 n=6 C=36 reg=0,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (29 tiles) — verifying at radius 10
+WITNESS [78] z=5.5.10 n=6 C=36 reg=0,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) minimal C=18 k=4 (cell C_T=72) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(108/108/108/108/144/144)A=2.4899 union=false
+[79] z=3.8.24 n=6 C=36 reg=0,1,2,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (17 tiles) — verifying at radius 10
+WITNESS [79] z=3.8.24 n=6 C=36 reg=0,1,2,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[80] z=5.5.10 n=6 C=36 reg=0,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (29 tiles) — verifying at radius 10
+WITNESS [80] z=5.5.10 n=6 C=36 reg=0,2,3 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) minimal C=18 k=4 (cell C_T=72) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(108/108/108/108/144/144)A=2.4899 union=false
+[81] z=3.8.24 n=6 C=36 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [81] z=3.8.24 n=6 C=36 reg=1,2,3,4 (certs/uclass-k6/window-hits-min25-maxSize36-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[82] z=5.5.10 n=7 C=40 reg=0,1,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (24 tiles) — verifying at radius 10
+WITNESS [82] z=5.5.10 n=7 C=40 reg=0,1,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) minimal C=10 k=3 (cell C_T=80) convex=false strictSaturated=true essential=true rigid irregular: 10-gon(108/108/108/108/144/144/144/144/216/216)A=6.5186 union=false
+[83] z=5.5.10 n=7 C=40 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (24 tiles) — verifying at radius 10
+WITNESS [83] z=5.5.10 n=7 C=40 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) minimal C=10 k=3 (cell C_T=80) convex=false strictSaturated=true essential=true rigid irregular: 10-gon(108/108/108/108/144/144/144/144/216/216)A=6.5186 union=false
+[84] z=5.5.10 n=7 C=42 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 1.000e+00 — DEAD
+[85] z=4.5.20 n=7 C=40 reg=1,2,3,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (17 tiles) — verifying at radius 10
+WITNESS [85] z=4.5.20 n=7 C=40 reg=1,2,3,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 16-gon(90/90/90/90/108/108/108/108/162/162/162/162/270/270/270/270)A=9.0403 union=false
+[86] z=3.9.18 n=7 C=36 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [86] z=3.9.18 n=7 C=36 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(60/60/60/140/140/140/160/160/160/200/200/200/200/200/200/200/200/200)A=13.0334 union=skipped
+[87] z=3.9.18 n=7 C=36 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [87] z=3.9.18 n=7 C=36 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(60/60/60/140/140/140/160/160/160/200/200/200/200/200/200/200/200/200)A=13.0334 union=skipped
+[88] z=4.5.20 n=7 C=32 reg=0,1,2,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [88] z=4.5.20 n=7 C=32 reg=0,1,2,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped
+[89] z=4.5.20 n=7 C=36 reg=1,2,3,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[90] z=3.8.24 n=7 C=36 reg=1,2,3,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) develops (28 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[91] z=3.8.24 n=7 C=40 reg=1,2,3,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) develops (36 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[92] z=3.8.24 n=7 C=36 reg=0,1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [92] z=3.8.24 n=7 C=36 reg=0,1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 48-gon(60/60/60/60/60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225)A=22.1903 union=skipped
+[93] z=3.8.24 n=7 C=36 reg=1,2,3,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [93] z=3.8.24 n=7 C=36 reg=1,2,3,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false; 21-gon(60/60/60/60/60/60/135/135/135/135/135/135/225/225/225/225/225/225/300/300/300)A=12.0587 union=skipped
+[94] z=3.8.24 n=7 C=36 reg=1,2,3,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [94] z=3.8.24 n=7 C=36 reg=1,2,3,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 21-gon(60/60/60/60/60/60/165/165/165/165/165/165/195/195/195/195/195/195/300/300/300)A=12.0587 union=skipped; 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[95] z=5.5.10 n=7 C=36 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (22 tiles) — verifying at radius 10
+WITNESS [95] z=5.5.10 n=7 C=36 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) minimal C=36 k=7 (cell C_T=72) convex=false strictSaturated=true essential=true rigid irregular: 11-gon(108/108/108/108/108/108/144/144/216/216/252)A=4.2104 union=false
+[96] z=3.8.24 n=7 C=36 reg=0,1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [96] z=3.8.24 n=7 C=36 reg=0,1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 48-gon(60/60/60/60/60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225)A=22.1903 union=skipped
+[97] z=4.5.20 n=7 C=38 reg=1,2,3,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+WITNESS [97] z=4.5.20 n=7 C=38 reg=1,2,3,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 20-gon(90/90/90/90/90/90/90/90/108/108/108/108/252/252/252/252/270/270/270/270)A=8.4223 union=false
+[98] z=3.8.24 n=7 C=38 reg=1,2,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 2.414e+00 — DEAD
+[99] z=3.8.24 n=7 C=38 reg=0,2,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[100] z=3.8.24 n=7 C=38 reg=1,2,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[101] z=3.8.24 n=7 C=38 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) develops (13 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[102] z=3.8.24 n=7 C=38 reg=1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) develops (13 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[103] z=4.5.20 n=7 C=40 reg=1,2,3,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (17 tiles) — verifying at radius 10
+WITNESS [103] z=4.5.20 n=7 C=40 reg=1,2,3,4,5 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 16-gon(90/90/90/90/108/108/108/108/162/162/162/162/270/270/270/270)A=6.4223 union=false
+[104] z=5.5.10 n=7 C=40 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 3.236e+00 — DEAD
+[105] z=5.5.10 n=7 C=40 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 3.236e+00 — DEAD
+[106] z=4.5.20 n=7 C=28 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [106] z=4.5.20 n=7 C=28 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped; 20-gon(108/108/108/108/108/108/108/108/198/198/198/198/198/198/198/198/198/198/198/198)A=19.9222 union=skipped
+[107] z=4.5.20 n=7 C=32 reg=0,1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [107] z=4.5.20 n=7 C=32 reg=0,1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped
+[108] z=4.5.20 n=7 C=32 reg=0,1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [108] z=4.5.20 n=7 C=32 reg=0,1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped
+[109] z=3.9.18 n=7 C=34 reg=0,1,2 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [109] z=3.9.18 n=7 C=34 reg=0,1,2 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 6-gon(60/60/140/140/160/160)A=1.8508 union=false; 8-gon(60/60/60/60/200/200/220/220)A=2.7169 union=false
+[110] z=3.9.18 n=7 C=34 reg=0,1,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [110] z=3.9.18 n=7 C=34 reg=0,1,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 6-gon(60/60/140/140/160/160)A=1.8508 union=false; 8-gon(60/60/60/60/200/200/220/220)A=2.7169 union=false
+[111] z=5.5.10 n=7 C=36 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 2.618e+00 — DEAD
+[112] z=5.5.10 n=7 C=36 reg=0,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) rigid, closure residual 4.236e+00 — DEAD
+[113] z=4.5.20 n=7 C=40 reg=1,2,3,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (16 tiles) — verifying at radius 10
+WITNESS [113] z=4.5.20 n=7 C=40 reg=1,2,3,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 16-gon(90/90/90/90/108/108/108/108/162/162/162/162/270/270/270/270)A=6.4223 union=false
+[114] z=4.5.20 n=7 C=40 reg=0,1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+WITNESS [114] z=4.5.20 n=7 C=40 reg=0,1,2,4 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 16-gon(90/90/90/90/108/108/108/108/162/162/162/162/270/270/270/270)A=9.0403 union=false
+[115] z=4.5.20 n=7 C=32 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [115] z=4.5.20 n=7 C=32 reg=1,2,3 (certs/uclass-k7/window-hits-min1-maxSize42-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped
+[116] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (20 tiles) — verifying at radius 10
+WITNESS [116] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) minimal C=44 k=8 (cell C_T=88) convex=false strictSaturated=false essential=true rigid irregular: 14-gon(108/108/108/108/108/108/108/108/144/144/252/252/252/252)A=9.0085 union=false
+[117] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+WITNESS [117] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) minimal C=22 k=5 (cell C_T=88) convex=false strictSaturated=false essential=true rigid irregular: 14-gon(108/108/108/108/144/144/144/144/144/144/216/216/216/216)A=10.5474 union=false
+[118] z=3.8.24 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 3.664e+00 — DEAD
+[119] z=3.8.24 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[120] z=3.8.24 n=8 C=48 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[121] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [121] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=43.2360 union=skipped
+[122] z=3.10.15 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [122] z=3.10.15 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[123] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) develops (29 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[124] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+WITNESS [124] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) minimal C=22 k=5 (cell C_T=88) convex=false strictSaturated=false essential=true rigid irregular: 14-gon(108/108/108/108/144/144/144/144/144/144/216/216/216/216)A=10.5474 union=false
+[125] z=3.8.24 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [125] z=3.8.24 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[126] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [126] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[127] z=3.10.15 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [127] z=3.10.15 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[128] z=3.9.18 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+WITNESS [128] z=3.9.18 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 21-gon(60/60/60/140/140/140/140/140/140/140/140/140/160/160/160/200/200/200/300/300/300)A=11.7343 union=false
+[129] z=3.9.18 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+WITNESS [129] z=3.9.18 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 21-gon(60/60/60/140/140/140/140/140/140/140/140/140/160/160/160/200/200/200/300/300/300)A=11.7343 union=false
+[130] z=3.9.18 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [130] z=3.9.18 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) minimal C=44 k=8 (cell C_T=132) convex=false strictSaturated=false essential=true rigid irregular: 7-gon(60/60/60/140/160/200/220)A=2.2838 union=false
+[131] z=3.9.18 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.532e+00 — DEAD
+[132] z=3.9.18 n=8 C=48 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (20 tiles) — verifying at radius 10
+WITNESS [132] z=3.9.18 n=8 C=48 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) minimal C=24 k=4 (cell C_T=144) convex=true strictSaturated=true essential=true rigid irregular: 6-gon(60/60/140/140/160/160)A=1.8508 union=false
+[133] z=3.9.18 n=8 C=48 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.532e+00 — DEAD
+[134] z=4.5.20 n=8 C=38 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[135] z=4.5.20 n=8 C=40 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+[135] z=4.5.20 n=8 C=40 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[136] z=3.8.24 n=8 C=42 reg=1,2,3,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[137] z=3.8.24 n=8 C=42 reg=0,2,3,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[138] z=4.5.20 n=8 C=42 reg=1,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 4.520e+00 — DEAD
+[139] z=4.5.20 n=8 C=44 reg=1,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[140] z=3.8.24 n=8 C=44 reg=0,1,3,4,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[141] z=4.5.20 n=8 C=44 reg=1,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 4.520e+00 — DEAD
+[142] z=3.8.24 n=8 C=46 reg=1,2,3,4,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[143] z=3.8.24 n=8 C=48 reg=0,1,3,4,5,7 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[144] z=4.5.20 n=8 C=48 reg=0,1,2,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.902e+00 — DEAD
+[145] z=3.9.18 n=8 C=36 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [145] z=3.9.18 n=8 C=36 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(60/60/60/60/60/60/200/200/200/200/200/200/220/220/220/220/220/220)A=13.5986 union=skipped
+[146] z=3.8.24 n=8 C=40 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (3 tiles) — verifying at radius 10
+WITNESS [146] z=3.8.24 n=8 C=40 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=43.2360 union=skipped
+[147] z=3.8.24 n=8 C=40 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [147] z=3.8.24 n=8 C=40 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[148] z=3.8.24 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [148] z=3.8.24 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=29.8118 union=skipped
+[149] z=3.8.24 n=8 C=40 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+[149] z=3.8.24 n=8 C=40 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[150] z=3.10.15 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (6 tiles) — verifying at radius 10
+WITNESS [150] z=3.10.15 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[151] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [151] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=43.2360 union=skipped
+[152] z=4.5.20 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+[152] z=4.5.20 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[153] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) develops (8 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[154] z=3.8.24 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+[154] z=3.8.24 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[155] z=3.8.24 n=8 C=40 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [155] z=3.8.24 n=8 C=40 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[156] z=3.8.24 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+[156] z=3.8.24 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[157] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [157] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[158] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [158] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=29.8118 union=skipped
+[159] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+[159] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[160] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (6 tiles) — verifying at radius 10
+WITNESS [160] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[161] z=3.8.24 n=8 C=40 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (16 tiles) — verifying at radius 10
+WITNESS [161] z=3.8.24 n=8 C=40 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 52-gon(60/60/60/60/60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/165/165/165/165/165/165/165/165/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/225/300/300/300/300)A=20.4582 union=skipped
+[162] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [162] z=3.8.24 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(60/60/60/60/60/60/195/195/195/195/195/195/225/225/225/225/225/225)A=13.3577 union=skipped
+[163] z=3.10.15 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [163] z=3.10.15 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 42-gon(60/60/60/60/60/60/144/144/144/144/144/144/156/156/156/156/156/156/204/204/204/204/204/204/204/204/204/204/204/204/216/216/216/216/216/216/216/216/216/216/216/216)A=81.3598 union=skipped
+[164] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (6 tiles) — verifying at radius 10
+WITNESS [164] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=43.2360 union=skipped
+[165] z=3.10.15 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+[165] z=3.10.15 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[166] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [166] z=3.8.24 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=29.8118 union=skipped
+[167] z=4.5.20 n=8 C=42 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+[167] z=4.5.20 n=8 C=42 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[168] z=4.5.20 n=8 C=42 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [168] z=4.5.20 n=8 C=42 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(90/90/90/90/162/162/162/162/162/162/162/162/162/162/162/162/198/198/198/198/198/198/198/198/198/198/198/198)A=32.4412 union=skipped
+[169] z=3.8.24 n=8 C=44 reg=0,2,3,4,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[170] z=3.8.24 n=8 C=44 reg=0,2,3,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[171] z=3.8.24 n=8 C=44 reg=0,1,3,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[172] z=3.8.24 n=8 C=44 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[173] z=3.8.24 n=8 C=44 reg=0,1,3,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[174] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+[174] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[175] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [175] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[176] z=3.8.24 n=8 C=44 reg=0,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [176] z=3.8.24 n=8 C=44 reg=0,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[177] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (16 tiles) — verifying at radius 10
+[177] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[178] z=3.8.24 n=8 C=44 reg=1,2,3,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[179] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+WITNESS [179] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) minimal C=22 k=5 (cell C_T=88) convex=false strictSaturated=false essential=true rigid irregular: 14-gon(108/108/108/108/144/144/144/144/144/144/216/216/216/216)A=10.5474 union=false
+[180] z=3.10.15 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [180] z=3.10.15 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 36-gon(144/144/144/144/144/144/144/144/144/144/144/144/156/156/156/156/156/156/156/156/156/156/156/156/204/204/204/204/204/204/216/216/216/216/216/216)A=78.7618 union=skipped
+[181] z=3.8.24 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [181] z=3.8.24 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[182] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [182] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[183] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+WITNESS [183] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) minimal C=22 k=5 (cell C_T=88) convex=false strictSaturated=false essential=true rigid irregular: 14-gon(108/108/108/108/144/144/144/144/144/144/216/216/216/216)A=10.5474 union=false
+[184] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [184] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[185] z=3.8.24 n=8 C=44 reg=0,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [185] z=3.8.24 n=8 C=44 reg=0,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=28.0798 union=skipped
+[186] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [186] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[187] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 5.854e+00 — DEAD
+[188] z=3.8.24 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [188] z=3.8.24 n=8 C=44 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=28.0798 union=skipped
+[189] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [189] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=28.0798 union=skipped
+[190] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 5.854e+00 — DEAD
+[191] z=4.5.20 n=8 C=46 reg=1,2,3,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (19 tiles) — verifying at radius 10
+WITNESS [191] z=4.5.20 n=8 C=46 reg=1,2,3,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 6-gon(90/90/108/108/162/162)A=2.2601 union=false; 16-gon(108/108/108/108/162/162/162/162/162/162/162/162/198/198/198/198)A=17.4807 union=skipped
+[192] z=4.5.20 n=8 C=32 reg=0,1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [192] z=4.5.20 n=8 C=32 reg=0,1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(90/90/90/90/90/90/90/90/198/198/198/198/252/252/252/252)A=13.0403 union=skipped
+[193] z=3.9.18 n=8 C=36 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) develops (19 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[194] z=3.9.18 n=8 C=36 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) develops (12 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[195] z=3.9.18 n=8 C=36 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [195] z=3.9.18 n=8 C=36 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(140/140/140/140/140/140/160/160/160/160/160/160)A=11.0005 union=false
+[196] z=3.8.24 n=8 C=40 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+[196] z=3.8.24 n=8 C=40 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[197] z=3.8.24 n=8 C=40 reg=1,2,3,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [197] z=3.8.24 n=8 C=40 reg=1,2,3,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false; 24-gon(60/60/60/60/60/60/135/135/135/135/135/135/165/165/165/165/165/165/300/300/300/300/300/300)A=10.7597 union=false
+[198] z=4.5.20 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) embedding failure at radius 6 — DEAD
+[199] z=3.8.24 n=8 C=40 reg=0,1,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [199] z=3.8.24 n=8 C=40 reg=0,1,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=43.2360 union=skipped
+[200] z=4.5.20 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (25 tiles) — verifying at radius 10
+[200] z=4.5.20 n=8 C=40 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[201] z=3.9.18 n=8 C=40 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (16 tiles) — verifying at radius 10
+WITNESS [201] z=3.9.18 n=8 C=40 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(140/140/140/140/140/140/160/160/160/160/160/160)A=11.0005 union=false
+[202] z=4.5.20 n=8 C=40 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+[202] z=4.5.20 n=8 C=40 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[203] z=3.8.24 n=8 C=42 reg=0,2,4,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[204] z=3.8.24 n=8 C=42 reg=1,2,4,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.414e+00 — DEAD
+[205] z=3.8.24 n=8 C=42 reg=1,2,4,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[206] z=3.8.24 n=8 C=42 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) develops (13 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[207] z=3.8.24 n=8 C=42 reg=1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) develops (14 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[208] z=4.5.20 n=8 C=42 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (24 tiles) — verifying at radius 10
+[208] z=4.5.20 n=8 C=42 reg=0,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[209] z=4.5.20 n=8 C=42 reg=1,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) embedding failure at radius 6 — DEAD
+[210] z=3.8.24 n=8 C=44 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[211] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 5.854e+00 — DEAD
+[212] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 1.000e+00 — DEAD
+[213] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 1.618e+00 — DEAD
+[214] z=3.8.24 n=8 C=44 reg=0,1,2,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 3.664e+00 — DEAD
+[215] z=4.5.20 n=8 C=44 reg=1,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) embedding failure at radius 6 — DEAD
+[216] z=3.8.24 n=8 C=44 reg=0,1,2,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [216] z=3.8.24 n=8 C=44 reg=0,1,2,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[217] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [217] z=3.8.24 n=8 C=44 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[218] z=5.5.10 n=8 C=44 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 4.236e+00 — DEAD
+[219] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (16 tiles) — verifying at radius 10
+[219] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[220] z=3.8.24 n=8 C=44 reg=0,1,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[221] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [221] z=3.8.24 n=8 C=44 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[222] z=3.8.24 n=8 C=44 reg=1,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [222] z=3.8.24 n=8 C=44 reg=1,2,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[223] z=3.8.24 n=8 C=44 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 3.664e+00 — DEAD
+[224] z=3.8.24 n=8 C=44 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[225] z=3.8.24 n=8 C=44 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 3.664e+00 — DEAD
+[226] z=3.8.24 n=8 C=44 reg=0,1,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[227] z=3.8.24 n=8 C=46 reg=1,2,3,4 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) develops (17 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[228] z=3.8.24 n=8 C=46 reg=1,2,3,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) develops (17 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[229] z=3.8.24 n=8 C=46 reg=0,2,4,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[230] z=3.8.24 n=8 C=46 reg=1,2,3,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.414e+00 — DEAD
+[231] z=3.8.24 n=8 C=46 reg=1,2,3,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[232] z=3.8.24 n=8 C=48 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[233] z=3.8.24 n=8 C=48 reg=0,2,3,4,6,7 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[234] z=3.8.24 n=8 C=48 reg=0,1,2,4,6,7 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[235] z=3.8.24 n=8 C=48 reg=0,1,2,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[236] z=3.8.24 n=8 C=48 reg=0,1,2,4,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[237] z=3.8.24 n=8 C=48 reg=1,2,3,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[238] z=3.8.24 n=8 C=48 reg=0,1,2,4,5,6 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[239] z=3.8.24 n=8 C=48 reg=0,1,3,4,5 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[240] z=3.8.24 n=8 C=32 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [240] z=3.8.24 n=8 C=32 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 8-gon(60/60/60/60/195/195/225/225)A=2.6980 union=false
+[241] z=5.5.10 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (22 tiles) — verifying at radius 10
+WITNESS [241] z=5.5.10 n=8 C=40 reg=0,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 10-gon(108/108/108/108/144/144/144/144/216/216)A=6.5186 union=false
+[242] z=5.5.10 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) closed, strict-valid at radius 6 (22 tiles) — verifying at radius 10
+WITNESS [242] z=5.5.10 n=8 C=40 reg=1,2,3 (certs/uclass-k8/window-hits-min1-maxSize48-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 10-gon(108/108/108/108/144/144/144/144/216/216)A=6.5186 union=false
+[243] z=3.8.24 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [243] z=3.8.24 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/300/300)A=42.3700 union=skipped
+[244] z=3.8.24 n=9 C=44 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (19 tiles) — verifying at radius 10
+[244] z=3.8.24 n=9 C=44 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[245] z=3.8.24 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [245] z=3.8.24 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[246] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [246] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/225/225/225/225/300/300)A=28.9458 union=skipped
+[247] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [247] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/225/225/225/225/300/300)A=28.9458 union=skipped
+[248] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+WITNESS [248] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[249] z=3.10.15 n=9 C=44 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (6 tiles) — verifying at radius 10
+WITNESS [249] z=3.10.15 n=9 C=44 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 45-gon(60/60/60/60/60/60/144/144/144/144/144/144/156/156/156/156/156/156/156/156/156/156/156/156/204/204/204/204/204/204/204/204/204/204/204/204/216/216/216/216/216/216/300/300/300)A=80.0608 union=skipped
+[250] z=3.10.15 n=9 C=44 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+[250] z=3.10.15 n=9 C=44 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[251] z=3.9.18 n=9 C=44 reg=0,1,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (26 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[252] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [252] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/300/300)A=42.3700 union=skipped
+[253] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (10 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[254] z=3.8.24 n=9 C=48 reg=0,2,3,4,6,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[255] z=3.8.24 n=9 C=48 reg=0,1,3,4,6,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[256] z=3.8.24 n=9 C=48 reg=0,1,3,4,6,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[257] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[258] z=3.8.24 n=9 C=48 reg=0,1,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[259] z=3.8.24 n=9 C=48 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (22 tiles) — verifying at radius 10
+[259] z=3.8.24 n=9 C=48 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[260] z=3.8.24 n=9 C=48 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [260] z=3.8.24 n=9 C=48 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[261] z=3.8.24 n=9 C=48 reg=0,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+WITNESS [261] z=3.8.24 n=9 C=48 reg=0,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 26-gon(135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/300/300)A=27.2138 union=skipped
+[262] z=3.8.24 n=9 C=48 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+WITNESS [262] z=3.8.24 n=9 C=48 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[263] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [263] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 26-gon(135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/300/300)A=27.2138 union=skipped
+[264] z=3.8.24 n=9 C=48 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (20 tiles) — verifying at radius 10
+[264] z=3.8.24 n=9 C=48 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[265] z=3.8.24 n=9 C=48 reg=0,1,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[266] z=3.10.15 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [266] z=3.10.15 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[267] z=3.10.15 n=9 C=40 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (4 tiles) — verifying at radius 10
+WITNESS [267] z=3.10.15 n=9 C=40 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[268] z=3.9.18 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+[268] z=3.9.18 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[269] z=3.9.18 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (3 tiles) — verifying at radius 10
+WITNESS [269] z=3.9.18 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[270] z=5.5.10 n=9 C=44 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (28 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[271] z=3.10.15 n=9 C=44 reg=0,1,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [271] z=3.10.15 n=9 C=44 reg=0,1,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[272] z=5.5.10 n=9 C=44 reg=0,1,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.618e+00 — DEAD
+[273] z=5.5.10 n=9 C=44 reg=0,1,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (19 tiles) — verifying at radius 10
+WITNESS [273] z=5.5.10 n=9 C=44 reg=0,1,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(108/108/108/108/144/144/144/144/144/144/144/144/144/144/144/144/144/144/144/144/216/216/252/252/252/252/252/252)A=27.8379 union=skipped
+[274] z=5.5.10 n=9 C=44 reg=0,1,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+WITNESS [274] z=5.5.10 n=9 C=44 reg=0,1,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(108/108/108/108/144/144/144/144/144/144/144/144/144/144/144/144/144/144/144/144/216/216/252/252/252/252/252/252)A=42.4140 union=skipped
+[275] z=4.5.20 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+[275] z=4.5.20 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[276] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.574e+00 — DEAD
+[277] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.574e+00 — DEAD
+[278] z=3.9.18 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [278] z=3.9.18 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[279] z=3.10.15 n=9 C=46 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.574e+00 — DEAD
+[280] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.574e+00 — DEAD
+[281] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.828e+00 — DEAD
+[282] z=4.5.20 n=9 C=46 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) embedding failure at radius 6 — DEAD
+[283] z=5.5.10 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 3.236e+00 — DEAD
+[284] z=5.5.10 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 3.236e+00 — DEAD
+[285] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [285] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=28.0798 union=skipped
+[286] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+[286] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[287] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [287] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 48-gon(60/60/60/60/60/60/144/144/144/144/144/144/156/156/156/156/156/156/156/156/156/156/156/156/156/156/156/156/156/156/204/204/204/204/204/204/204/204/204/204/204/204/300/300/300/300/300/300)A=78.7618 union=skipped
+[288] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (23 tiles) — verifying at radius 10
+[288] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[289] z=3.8.24 n=9 C=48 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [289] z=3.8.24 n=9 C=48 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[290] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (25 tiles) — verifying at radius 10
+[290] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[291] z=5.5.10 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.000e+00 — DEAD
+[292] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (27 tiles) — verifying at radius 10
+[292] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[293] z=5.5.10 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.000e+00 — DEAD
+[294] z=3.8.24 n=9 C=48 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [294] z=3.8.24 n=9 C=48 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[295] z=5.5.10 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.618e+00 — DEAD
+[296] z=5.5.10 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 5.854e+00 — DEAD
+[297] z=5.5.10 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.618e+00 — DEAD
+[298] z=5.5.10 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.618e+00 — DEAD
+[299] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [299] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[300] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+[300] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[301] z=4.5.20 n=9 C=48 reg=0,1,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) embedding failure at radius 6 — DEAD
+[302] z=4.5.20 n=9 C=48 reg=1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[303] z=4.5.20 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [303] z=4.5.20 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(90/90/90/90/108/108/108/108/162/162/162/162/162/162/162/162/162/162/162/162/198/198/198/198/198/198/198/198/270/270/270/270)A=29.4720 union=skipped
+[304] z=4.5.20 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+[304] z=4.5.20 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[305] z=4.5.20 n=9 C=48 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+[305] z=4.5.20 n=9 C=48 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[306] z=3.8.24 n=9 C=50 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [306] z=3.8.24 n=9 C=50 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=true essential=true rigid irregular: 14-gon(60/60/135/135/135/135/165/165/165/165/195/195/225/225)A=11.6257 union=false
+[307] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [307] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 14-gon(60/60/135/135/135/135/165/165/165/165/195/195/225/225)A=11.6257 union=false
+[308] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.828e+00 — DEAD
+[309] z=4.5.20 n=9 C=50 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (33 tiles) — verifying at radius 10
+[309] z=4.5.20 n=9 C=50 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[310] z=3.8.24 n=9 C=52 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [310] z=3.8.24 n=9 C=52 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/300/300/300/300)A=26.3477 union=skipped
+[311] z=4.5.20 n=9 C=52 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (20 tiles) — verifying at radius 10
+WITNESS [311] z=4.5.20 n=9 C=52 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 6-gon(90/90/108/108/162/162)A=2.2601 union=false; 20-gon(108/108/108/108/108/108/108/108/162/162/162/162/162/162/162/162/270/270/270/270)A=12.3238 union=skipped
+[312] z=5.5.10 n=9 C=52 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.618e+00 — DEAD
+[313] z=3.8.24 n=9 C=52 reg=0,1,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [313] z=3.8.24 n=9 C=52 reg=0,1,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/300/300/300/300)A=39.7719 union=skipped
+[314] z=3.8.24 n=9 C=52 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [314] z=3.8.24 n=9 C=52 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/300/300/300/300)A=39.7719 union=skipped
+[315] z=4.5.20 n=9 C=52 reg=0,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 6.180e-01 — DEAD
+[316] z=3.8.24 n=9 C=52 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [316] z=3.8.24 n=9 C=52 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[317] z=3.8.24 n=9 C=52 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [317] z=3.8.24 n=9 C=52 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[318] z=3.8.24 n=9 C=52 reg=0,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [318] z=3.8.24 n=9 C=52 reg=0,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/300/300/300/300)A=26.3477 union=skipped
+[319] z=3.8.24 n=9 C=52 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [319] z=3.8.24 n=9 C=52 reg=0,1,2,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/300/300/300/300)A=39.7719 union=skipped
+[320] z=4.5.20 n=9 C=52 reg=1,2,3,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[321] z=3.8.24 n=9 C=54 reg=1,2,3,4,5,6,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [321] z=3.8.24 n=9 C=54 reg=1,2,3,4,5,6,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[322] z=3.8.24 n=9 C=54 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [322] z=3.8.24 n=9 C=54 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[323] z=3.8.24 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (6 tiles) — verifying at radius 10
+WITNESS [323] z=3.8.24 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=39.8218 union=skipped
+[324] z=3.8.24 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (5 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[325] z=3.10.15 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [325] z=3.10.15 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[326] z=3.8.24 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (4 tiles) — verifying at radius 10
+WITNESS [326] z=3.8.24 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=39.8218 union=skipped
+[327] z=3.10.15 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (3 tiles) — verifying at radius 10
+WITNESS [327] z=3.10.15 n=9 C=40 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 42-gon(60/60/60/60/60/60/144/144/144/144/144/144/156/156/156/156/156/156/204/204/204/204/204/204/204/204/204/204/204/204/216/216/216/216/216/216/216/216/216/216/216/216)A=42.0221 union=skipped
+[328] z=3.8.24 n=9 C=40 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [328] z=3.8.24 n=9 C=40 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(60/60/60/60/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225)A=28.5622 union=skipped
+[329] z=5.5.10 n=9 C=44 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 3.078e+00 — DEAD
+[330] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [330] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=38.0898 union=skipped
+[331] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [331] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=38.0898 union=skipped
+[332] z=5.5.10 n=9 C=44 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 3.078e+00 — DEAD
+[333] z=3.10.15 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [333] z=3.10.15 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[334] z=5.5.10 n=9 C=52 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (28 tiles) — verifying at radius 10
+WITNESS [334] z=5.5.10 n=9 C=52 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) minimal C=52 k=9 (cell C_T=104) convex=false strictSaturated=true essential=true rigid irregular: 12-gon(108/108/108/108/144/144/144/144/144/144/252/252)A=5.5676 union=false
+[335] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [335] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(90/90/90/90/108/108/108/108/162/162/162/162/162/162/162/162/162/162/162/162/198/198/198/198/198/198/198/198/270/270/270/270)A=49.9038 union=skipped
+[336] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+[336] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[337] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [337] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[338] z=3.10.15 n=9 C=48 reg=0,1,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [338] z=3.10.15 n=9 C=48 reg=0,1,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[339] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [339] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[340] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [340] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[341] z=4.5.20 n=9 C=52 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (20 tiles) — verifying at radius 10
+WITNESS [341] z=4.5.20 n=9 C=52 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 6-gon(90/90/108/108/162/162)A=2.2601 union=false; 20-gon(108/108/108/108/108/108/108/108/162/162/162/162/162/162/162/162/270/270/270/270)A=17.4317 union=skipped
+[342] z=3.8.24 n=9 C=52 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [342] z=3.8.24 n=9 C=52 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 28-gon(135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/300/300/300/300)A=39.7719 union=skipped
+[343] z=3.8.24 n=9 C=44 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+[343] z=3.8.24 n=9 C=44 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[344] z=4.5.20 n=9 C=44 reg=0,1,2,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [344] z=4.5.20 n=9 C=44 reg=0,1,2,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 8-gon(108/108/108/108/162/162/162/162)A=4.1079 union=false; 20-gon(90/90/90/90/108/108/108/108/162/162/162/162/198/198/198/198/252/252/252/252)A=19.8439 union=skipped
+[345] z=4.5.20 n=9 C=44 reg=0,1,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[346] z=4.5.20 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (14 tiles) — verifying at radius 10
+[346] z=4.5.20 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[347] z=3.8.24 n=9 C=46 reg=0,1,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[348] z=3.8.24 n=9 C=46 reg=1,2,3,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[349] z=4.5.20 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.030e+00 — DEAD
+[350] z=4.5.20 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[351] z=4.5.20 n=9 C=46 reg=1,2,3,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (15 tiles) — verifying at radius 10
+WITNESS [351] z=4.5.20 n=9 C=46 reg=1,2,3,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 12-gon(90/90/90/90/162/162/162/162/198/198/198/198)A=8.4223 union=false; 18-gon(90/90/90/90/90/90/90/90/162/162/162/162/252/252/252/252/252/252)A=9.5685 union=false
+[352] z=4.5.20 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.727e+00 — DEAD
+[353] z=4.5.20 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 6.247e+00 — DEAD
+[354] z=3.8.24 n=9 C=46 reg=0,1,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[355] z=3.8.24 n=9 C=46 reg=0,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[356] z=3.8.24 n=9 C=48 reg=0,1,3,4,5,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[357] z=4.5.20 n=9 C=48 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[358] z=4.5.20 n=9 C=48 reg=1,2,4,5,6,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[359] z=4.5.20 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (18 tiles) — verifying at radius 10
+[359] z=4.5.20 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[360] z=4.5.20 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.030e+00 — DEAD
+[361] z=4.5.20 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 6.247e+00 — DEAD
+[362] z=3.8.24 n=9 C=50 reg=0,1,3,4,5,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[363] z=3.8.24 n=9 C=50 reg=0,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.932e+00 — DEAD
+[364] z=4.5.20 n=9 C=50 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (19 tiles) — verifying at radius 10
+[364] z=4.5.20 n=9 C=50 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[365] z=4.5.20 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.727e+00 — DEAD
+[366] z=4.5.20 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 9.882e+00 — DEAD
+[367] z=4.5.20 n=9 C=52 reg=1,2,3,4,6,7 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.284e+00 — DEAD
+[368] z=3.9.18 n=9 C=40 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 1.000e+00 — DEAD
+[369] z=3.9.18 n=9 C=40 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [369] z=3.9.18 n=9 C=40 reg=0,1,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 21-gon(60/60/60/60/60/60/140/140/140/140/140/140/220/220/220/220/220/220/300/300/300)A=12.2996 union=skipped
+[370] z=3.9.18 n=9 C=40 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [370] z=3.9.18 n=9 C=40 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 21-gon(60/60/60/60/60/60/160/160/160/160/160/160/200/200/200/200/200/200/300/300/300)A=12.2996 union=skipped
+[371] z=3.9.18 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [371] z=3.9.18 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[372] z=3.9.18 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (3 tiles) — verifying at radius 10
+WITNESS [372] z=3.9.18 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[373] z=3.7.42 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+[373] z=3.7.42 n=9 C=42 reg=1,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[374] z=4.5.20 n=9 C=42 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (4 tiles) — verifying at radius 10
+WITNESS [374] z=4.5.20 n=9 C=42 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[375] z=3.8.24 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [375] z=3.8.24 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[376] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+[376] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[377] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [377] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(60/60/60/60/60/60/195/195/195/195/195/195/225/225/225/225/225/225)A=13.3577 union=skipped
+[378] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [378] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/225/225/225/225/300/300)A=42.3700 union=skipped
+[379] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [379] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[380] z=3.10.15 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [380] z=3.10.15 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[381] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [381] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[382] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [382] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[383] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [383] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/225/225/225/225/300/300)A=42.3700 union=skipped
+[384] z=3.10.15 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+WITNESS [384] z=3.10.15 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[385] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+[385] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[386] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [386] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[387] z=3.8.24 n=9 C=44 reg=0,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (6 tiles) — verifying at radius 10
+WITNESS [387] z=3.8.24 n=9 C=44 reg=0,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/60/60/60/60/195/195/195/195/195/195/195/195/195/195/195/195/195/195/195/195/225/225/225/225/225/225/225/225)A=44.9681 union=skipped
+[388] z=3.8.24 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [388] z=3.8.24 n=9 C=44 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[389] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [389] z=3.8.24 n=9 C=44 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/225/225/225/225/300/300)A=28.9458 union=skipped
+[390] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [390] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 21-gon(60/60/60/60/60/60/165/165/165/165/165/165/195/195/195/195/195/195/300/300/300)A=12.0587 union=skipped
+[391] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [391] z=3.8.24 n=9 C=44 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 21-gon(60/60/60/60/60/60/135/135/135/135/135/135/225/225/225/225/225/225/300/300/300)A=12.0587 union=skipped
+[392] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [392] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/225/225/225/225/300/300)A=42.3700 union=skipped
+[393] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [393] z=3.8.24 n=9 C=44 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[394] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [394] z=3.8.24 n=9 C=44 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 30-gon(60/60/60/60/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/195/195/195/195/225/225/225/225/300/300)A=28.9458 union=skipped
+[395] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+[395] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[396] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+[396] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[397] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [397] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(60/60/60/60/135/135/165/165/195/195/195/195/225/225/225/225)A=12.4917 union=skipped
+[398] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.828e+00 — DEAD
+[399] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[400] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[401] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+[401] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[402] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [402] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(60/60/60/60/135/135/165/165/195/195/195/195/225/225/225/225)A=12.4917 union=skipped
+[403] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 7.328e+00 — DEAD
+[404] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 3.664e+00 — DEAD
+[405] z=4.5.20 n=9 C=46 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (17 tiles) — verifying at radius 10
+[405] z=4.5.20 n=9 C=46 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[406] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 7.328e+00 — DEAD
+[407] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 3.664e+00 — DEAD
+[408] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[409] z=3.8.24 n=9 C=46 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (7 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[410] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[411] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [411] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 16-gon(60/60/60/60/135/135/165/165/195/195/195/195/225/225/225/225)A=12.4917 union=skipped
+[412] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.827e+00 — DEAD
+[413] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.827e+00 — DEAD
+[414] z=3.10.15 n=9 C=46 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 9.563e-01 — DEAD
+[415] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 9.563e-01 — DEAD
+[416] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (20 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[417] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[418] z=3.8.24 n=9 C=46 reg=1,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (16 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[419] z=3.8.24 n=9 C=46 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (12 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[420] z=3.8.24 n=9 C=46 reg=1,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (7 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[421] z=3.8.24 n=9 C=46 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+[421] z=3.8.24 n=9 C=46 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[422] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 3.664e+00 — DEAD
+[423] z=3.8.24 n=9 C=46 reg=0,2,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.414e+00 — DEAD
+[424] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 7.078e+00 — DEAD
+[425] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 3.664e+00 — DEAD
+[426] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (13 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[427] z=3.8.24 n=9 C=46 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[428] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.827e+00 — DEAD
+[429] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.827e+00 — DEAD
+[430] z=3.10.15 n=9 C=46 reg=0,2,3 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.827e+00 — DEAD
+[431] z=3.10.15 n=9 C=46 reg=0,2,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 2.827e+00 — DEAD
+[432] z=4.5.20 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [432] z=4.5.20 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(90/90/90/90/108/108/108/108/162/162/162/162/162/162/162/162/162/162/162/162/198/198/198/198/198/198/198/198/270/270/270/270)A=30.4412 union=skipped
+[433] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [433] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[434] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [434] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[435] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+[435] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[436] z=4.5.20 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (17 tiles) — verifying at radius 10
+[436] z=4.5.20 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[437] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (7 tiles) — verifying at radius 10
+WITNESS [437] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[438] z=3.8.24 n=9 C=48 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [438] z=3.8.24 n=9 C=48 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 18-gon(60/60/60/60/60/60/195/195/195/195/195/195/225/225/225/225/225/225)A=13.3577 union=skipped
+[439] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [439] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[440] z=3.8.24 n=9 C=48 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [440] z=3.8.24 n=9 C=48 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[441] z=3.8.24 n=9 C=48 reg=0,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [441] z=3.8.24 n=9 C=48 reg=0,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 26-gon(135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/300/300)A=40.6379 union=skipped
+[442] z=3.8.24 n=9 C=48 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [442] z=3.8.24 n=9 C=48 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 24-gon(135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/195/195/195/195)A=41.5040 union=skipped
+[443] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+[443] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[444] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [444] z=3.8.24 n=9 C=48 reg=0,1,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[445] z=3.8.24 n=9 C=48 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [445] z=3.8.24 n=9 C=48 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[446] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [446] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=28.0798 union=skipped
+[447] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+[447] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[448] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [448] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[449] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [449] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(90/90/90/90/108/108/108/108/162/162/162/162/162/162/162/162/162/162/162/162/198/198/198/198/198/198/198/198/270/270/270/270)A=33.2762 union=skipped
+[450] z=3.8.24 n=9 C=48 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [450] z=3.8.24 n=9 C=48 reg=1,2,3,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=true rigid irregular: 12-gon(135/135/135/135/135/135/165/165/165/165/165/165)A=10.7597 union=false
+[451] z=3.8.24 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+WITNESS [451] z=3.8.24 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[452] z=5.5.10 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (24 tiles) — verifying at radius 10
+WITNESS [452] z=5.5.10 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) minimal C=48 k=9 (cell C_T=192) convex=false strictSaturated=false essential=true rigid irregular: 6-gon(108/108/108/108/144/144)A=2.4899 union=false; 14-gon(108/108/108/108/108/108/108/108/216/216/216/216/216/216)A=9.3718 union=false
+[453] z=3.8.24 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (16 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[454] z=3.8.24 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) develops (16 tiles) but a vertex is strict-illegal or over-wound — DEAD
+[455] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [455] z=3.8.24 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[456] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (12 tiles) — verifying at radius 10
+WITNESS [456] z=3.8.24 n=9 C=48 reg=0,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 26-gon(135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/165/165/165/165/195/195/195/195/300/300)A=40.6379 union=skipped
+[457] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [457] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=true strictSaturated=true essential=false rigid irregular: 
+[458] z=3.8.24 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (8 tiles) — verifying at radius 10
+WITNESS [458] z=3.8.24 n=9 C=48 reg=1,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(60/60/60/60/135/135/135/135/135/135/135/135/135/135/135/135/165/165/165/165/195/195/195/195/225/225/225/225/300/300/300/300)A=41.5040 union=skipped
+[459] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (5 tiles) — verifying at radius 10
+[459] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) EMBEDDING FAILURE at radius 10 — DEAD
+[460] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (23 tiles) — verifying at radius 10
+[460] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) INVALID at radius 10 — DEAD
+[461] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (10 tiles) — verifying at radius 10
+WITNESS [461] z=3.10.15 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 48-gon(60/60/60/60/60/60/144/144/144/144/144/144/144/144/144/144/144/144/144/144/144/144/144/144/156/156/156/156/156/156/216/216/216/216/216/216/216/216/216/216/216/216/300/300/300/300/300/300)A=78.7618 union=skipped
+[462] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [462] z=4.5.20 n=9 C=48 reg=0,2,3,4 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 32-gon(90/90/90/90/108/108/108/108/162/162/162/162/162/162/162/162/162/162/162/162/198/198/198/198/198/198/198/198/270/270/270/270)A=49.8729 union=skipped
+[463] z=3.8.24 n=9 C=50 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [463] z=3.8.24 n=9 C=50 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 14-gon(60/60/135/135/135/135/165/165/165/165/195/195/225/225)A=11.6257 union=false
+[464] z=3.8.24 n=9 C=50 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (9 tiles) — verifying at radius 10
+[464] z=3.8.24 n=9 C=50 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) no species vertex at radius 10 — DEAD
+[465] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (13 tiles) — verifying at radius 10
+WITNESS [465] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 14-gon(60/60/135/135/135/135/165/165/165/165/195/195/225/225)A=11.6257 union=false
+[466] z=3.8.24 n=9 C=50 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[467] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[468] z=3.8.24 n=9 C=50 reg=1,2,3,4,5,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[469] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (11 tiles) — verifying at radius 10
+WITNESS [469] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=false essential=true rigid irregular: 14-gon(60/60/135/135/135/135/165/165/165/165/195/195/225/225)A=11.6257 union=false
+[470] z=3.8.24 n=9 C=50 reg=1,2,3,4,5 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) rigid, closure residual 4.146e+00 — DEAD
+[471] z=4.5.20 n=9 C=52 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) closed, strict-valid at radius 6 (22 tiles) — verifying at radius 10
+WITNESS [471] z=4.5.20 n=9 C=52 reg=1,2,3,4,6 (certs/uclass-k9/window-hits-min1-maxSize54-v2-shapes3.tsv) NO CERTIFIED CELL convex=false strictSaturated=skipped essential=false rigid irregular: 20-gon(108/108/108/108/108/108/108/108/162/162/162/162/162/162/162/162/270/270/270/270)A=15.4807 union=skipped; 6-gon(90/90/108/108/162/162)A=2.2601 union=false
+[472] z=3.7.42 n=10 C=60 reg=0,1,2,3,4 (banked:(3.7.42) P1 k=10) closed, strict-valid at radius 6 (19 tiles) — verifying at radius 10
+[472] z=3.7.42 n=10 C=60 reg=0,1,2,3,4 (banked:(3.7.42) P1 k=10) no species vertex at radius 10 — DEAD
+
+TRIAGE: 221 strict witness designation(s); 0 flexible designation(s): 0 dead, 0 open
+wrote certs/uclass-strict/isolated-strict-candidates.tsv and certs/uclass-strict/isolated-strict-witnesses.tsv

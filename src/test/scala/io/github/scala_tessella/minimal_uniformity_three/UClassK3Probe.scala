@@ -7,15 +7,18 @@ import org.scalatest.matchers.should.Matchers
 
 import java.nio.file.{Files, Path}
 
-/** ADR-0009 G4, rung-3 EXISTENCE probe (guarded by `-Duclass.k3x`; chamber budget via `-Duclass.k3x.size`,
-  * default 18). All ten targets have lower bound ≥ 3 from rung 2; this probe searches for EXISTENCE at k = 3:
-  * 3-vertex-orbit symbols whose U(z) designation survives the combinatorial check, the pinned linear layer
-  * AND the forced-regular filter (the rung-2 lesson). It scans ALL TEN targets, not just the claimed-3 ones —
-  * a hit for a claimed-4+ target is a conjecture CORRECTION, exactly how (3².6²) fell from its claimed 7 to
-  * the proven 3. A SEARCH, not a completeness scan: any budget that surfaces a genuine candidate suffices, so
-  * it runs the relaxed enumeration at growing `maxSize` well below the 36-chamber G0 bound (the witnesses are
-  * symmetry-rich: actual sizes 11–22). Hits land in `certs/uclass-k3/` for the closure-level analysis pinned
-  * in `UClassK3ExistenceSpec`.
+/** THE k = 3 ALL-SPECIES SEARCH (guarded by `-Duclass.k3x`; chamber budget via `-Duclass.k3x.size`, default
+  * 18). Every species has lower bound ≥ 3 from the two-orbit refutation ([[UClassK2VerdictSpec]]); this probe
+  * searches for EXISTENCE at k = 3 — three-vertex-orbit symbols whose U(z) designation survives the
+  * combinatorial check, the pinned linear layer AND the forced-regular filter. It scans ALL TEN species, not
+  * only those the paper settles at 3: a hit for any other species would lower its value, which is exactly
+  * what this search exists to rule out.
+  *
+  * A SEARCH, not a completeness scan — any budget that surfaces a genuine candidate suffices, so it runs the
+  * relaxed enumeration at growing `maxSize` well below the three-orbit chamber bound (the witnesses are
+  * symmetry-rich: actual sizes 11–22). The exhaustive three-orbit statement to that bound is the banded walk
+  * of [[UClassK3ShardProbe]] instead. Hits land in `certs/uclass-k3/` for the closure-level analysis pinned
+  * in [[UClassK3ExistenceSpec]]; the producing runs' hit lists are archived under `certs/uclass-k3-record/`.
   */
 class UClassK3Probe extends AnyFlatSpec with Matchers:
 

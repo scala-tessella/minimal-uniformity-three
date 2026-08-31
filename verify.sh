@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Independently verify the k <= 2 completeness certificate's UNSAT proofs with drat-trim.
 # Completeness is certified iff all 24 obligations (certs/k2/, one per chamber count 1..24) report
-# `s VERIFIED`. The proofs are regenerable — run `sbt -Dcert.k2 test` first (or unpack a downloaded
+# `s VERIFIED`. SCOPE: this checks the TWO-ORBIT certificate, which is the one the paper calls
+# DRAT-certified. The three-orbit staircase obligations are a separate, partial record
+# (certs/kcert-k3-record/) and are not checked here — nor claimed to be. The proofs are regenerable — run `sbt -Dcert.k2 test` first (or unpack a downloaded
 # proof pack into certs/k2/); this script then re-checks them with drat-trim ALONE, independently of
 # the JVM pipeline that produced them.
 # drat-trim's exit code is unreliable (it returns 1 even on a trivial-UNSAT it VERIFIES), so the

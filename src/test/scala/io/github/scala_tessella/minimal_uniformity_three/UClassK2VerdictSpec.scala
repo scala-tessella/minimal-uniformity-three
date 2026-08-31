@@ -6,15 +6,15 @@ import io.github.scala_tessella.research_core.DelaneySymbols.{DSet, DSymbol}
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-/** ADR-0009 G4, rung-2 verdict. The exhaustive ≤ 24-chamber campaign of 2026-07-12 (catalogue: 1363 relaxed
-  * symbols with ≤ 2 vertex orbits; artifacts in `certs/uclass-k2/`) produced exactly ONE combinatorial +
+/** THE k ≤ 2 REFUTATION. The exhaustive ≤ 24-chamber scan ([[UClassK2Probe]]; catalogue: 1363 relaxed symbols
+  * with ≤ 2 vertex orbits, archived under `certs/uclass-k2-record/`) produced exactly ONE combinatorial +
   * pinned-linear survivor across all ten targets — for z = (3.4.4.6), the 12-chamber symbol pinned below by
   * its canonical key, with vertex orbits (3.4.6.4) and (3.4.4.6) and one of its two hexagon orbits designated
   * irregular. This spec REFUTES it at the linear level: the designated hexagon is FORCED regular (60 + 90 + γ
   * + 90 = 360 at every corner of the (3.4.6ᵢ.4) vertex, and an equiangular equilateral hexagon is regular),
   * so every realization's truth-designation is the all-regular one, which fails the cyclic-subset constraint.
-  * Hence rung 2 is settled: NO U(z) tiling with uniformity ≤ 2 exists for any of the ten targets — all lower
-  * bounds are ≥ 3, completing those of the claimed-3 conjectures ((3.8.24), (3.4.3.12), (3.4².6)).
+  * Hence the paper's lower bound at two orbits: NO tiling in U(z) has uniformity ≤ 2, for any of the ten
+  * non-Archimedean species — every minimal uniformity in the table is at least 3.
   */
 class UClassK2VerdictSpec extends AnyFlatSpec with Matchers:
 
@@ -43,7 +43,7 @@ class UClassK2VerdictSpec extends AnyFlatSpec with Matchers:
   private lazy val ds = symbolFromKey(survivorKey)
   private val z       = List(3, 4, 4, 6)
 
-  behavior of "the rung-2 survivor (ADR-0009 G4)"
+  behavior of "the single two-orbit survivor"
 
   it should "reconstruct faithfully from its canonical key" in:
     DelaneySymbols.canonicalKey(ds) shouldBe survivorKey + ";"

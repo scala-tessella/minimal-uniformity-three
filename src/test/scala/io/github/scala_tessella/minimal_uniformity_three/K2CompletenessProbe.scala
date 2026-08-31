@@ -12,21 +12,22 @@ import java.nio.file.{Files, Path, StandardOpenOption}
 import scala.collection.mutable
 import scala.jdk.CollectionConverters.*
 
-/** ADR-0009 paper certification, track A2 — the k ≤ 2 completeness obligation, end to end (the k = 1 track A
-  * pattern of [[K1CompletenessProbe]], one level up). Certification universe: ALL D-sets on ≤ 24 chambers
-  * with ≤ 2 vertex orbits satisfying the TIER-1 curvature relaxation
-  * ([[DelaneySymbols.relaxedOrbitBoundedDSets]] with `tier1 = true`); the tier-1 lemma (euclidean-feasible ⇒
-  * tier-1, proved at [[DelaneySymbols.tier1Feasible]]) bridges it to the class of interest — the raw unpruned
-  * ≤ 2-orbit universe (~10⁸ D-sets at the top slices) is out of blocking reach, the tier-1 one is enumerable,
-  * and no euclidean symbol lives outside it. Four gates, per chamber count C = 1..24:
+/** THE k ≤ 2 COMPLETENESS CERTIFICATE, end to end — the one-vertex-orbit certification pattern, one level up.
+  * Certification universe: ALL D-sets on ≤ 24 chambers with ≤ 2 vertex orbits satisfying the TIER-1 curvature
+  * relaxation ([[DelaneySymbols.relaxedOrbitBoundedDSets]] with `tier1 = true`); the tier-1 lemma
+  * (euclidean-feasible ⇒ tier-1, proved at [[DelaneySymbols.tier1Feasible]]) bridges it to the class of
+  * interest — the raw unpruned ≤ 2-orbit universe (~10⁸ D-sets at the top slices) is out of blocking reach,
+  * the tier-1 one is enumerable, and no euclidean symbol lives outside it. Four gates, per chamber count C =
+  * 1..24:
   *
   *   - AGREEMENT: the SAT enumeration of [[K2Certify]] models (labeled BFS-numbered D-sets) equals,
   *     op-for-op, the BFS relabelings of the generator's tier-1 universe slice — two independent enumerators,
   *     one universe, EXHAUSTIVE AT EVERY C (the tier-1 cut is what makes this affordable);
-  *   - FIDELITY: every SAT4J model satisfies the emitted base CNF (the pure-JVM check of ADR-0008);
+  *   - FIDELITY: every SAT4J model satisfies the emitted base CNF, checked in pure JVM code against the CNF
+  *     as emitted — the encoder and the checker share no code path;
   *   - OBLIGATION: base + blocking is UNSAT under kissat with a drat-trim-VERIFIED proof — no tier-1 D-set
-  *     beyond the list exists. With the tier-1 lemma, THE certificate of the paper's Theorem 3.1 lower-bound
-  *     layer: the trusted-generator k ≤ 2 catalogue leaves the trust base;
+  *     beyond the list exists. With the tier-1 lemma, THE certificate behind the paper's lower bound at two
+  *     vertex orbits: the trusted-generator k ≤ 2 catalogue leaves the trust base;
   *   - TAIL: the exact JVM tail ([[DelaneySymbols.euclideanSymbolsOf]], maxN = 2) over the certified universe
   *     reproduces the 1363-symbol catalogue (93 one-orbit + 1270 two-orbit).
   *

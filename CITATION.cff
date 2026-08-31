@@ -4,16 +4,19 @@ message: >-
   checked, not the repository in general. Each release has its own version DOI; see the
   "Archival" section in README.md.
 title: >-
-  minimal-uniformity-three: machine-checked companion to "Minimal uniformity three:
-  unit-edge tilings around the non-Archimedean vertex types"
+  minimal-uniformity-three: machine-checked companion to "Minimal uniformity of the
+  non-Archimedean vertex types in unit-edge tilings"
 abstract: >-
-  The verification artifact for the paper's claims: the U(z) minimal-uniformity ladder
-  (the k = 1 scan, the k <= 2 catalogue and refutation, the four rigid uniformity-3
-  witnesses, the essential-irregularity verdicts), re-derived in exact rational and
-  cyclotomic arithmetic, and the k <= 2 DRAT completeness certificate — 24 UNSAT
-  obligations over the tier-1 certification universe, kissat-solved and
-  drat-trim-verified. The repository holds only the claim specs; all machinery is the
-  pinned research-core library.
+  The verification artifact for the paper's claims: the minimal uniformity of all ten
+  non-Archimedean vertex species, proved to be 3, 3, 3, 4, 4, 4, 5, 5, 7 and 10. Lower
+  bounds are exhaustive scans of Delaney-Dress symbol catalogues — DRAT-certified
+  complete at up to two vertex orbits (24 UNSAT obligations over the tier-1
+  certification universe, kissat-solved and drat-trim-verified), cross-validated by an
+  orbit-bounded generator walk beyond — sharpened by corner-word enumerations, a chamber
+  bound and stabiliser counting; upper bounds are rigid explicit tilings re-derived from
+  their canonical keys in exact rational and cyclotomic arithmetic, with closure decided
+  by vanishing sums of roots of unity. The repository holds only the claim specs; all
+  machinery is the pinned research-core library.
 type: software
 authors:
   - given-names: Mario
@@ -24,12 +27,12 @@ authors:
 license: Apache-2.0
 repository-code: https://github.com/scala-tessella/minimal-uniformity-three
 url: https://github.com/scala-tessella/minimal-uniformity-three
-version: 0.1.1
-date-released: '2026-08-01'
+version: 0.2.0
+date-released: '2026-08-31'
 # Version DOI of this release — the one to cite. Zenodo mints it when the release is published, so
 # it cannot be present in the tree that release archives; the copy in a deposit carries the concept
 # DOI, and the version DOI is recorded here in the first commit after the tag.
-doi: 10.5281/zenodo.21740457
+# (0.2.0's version DOI is added here in the first commit after the tag)
 identifiers:
   - type: doi
     value: 10.5281/zenodo.21739354
@@ -57,12 +60,11 @@ references:
     title: research-core
     abstract: >-
       The pinned library providing every piece of machinery this artifact depends on
-      (research-core 0.3.1 and research-core-solver 0.3.1).
+      (research-core 0.8.0 and research-core-solver 0.8.0).
     authors:
       - given-names: Mario
         family-names: Càllisto
         orcid: https://orcid.org/0009-0009-1215-3278
-    version: 0.3.1
-    doi: 10.5281/zenodo.21739112
+    version: 0.8.0
     repository-code: https://github.com/scala-tessella/research-core
     license: Apache-2.0

@@ -1,12 +1,18 @@
-# k = 3 all-species search — producing-run record
+# k = 3 searches — producing-run record
 
-Record of the rung-3 existence searches (2026-07-12/15): per `maxSize` ramp (14, 18, 22, 24
-chambers), every (symbol, species, designation) hit passing the combinatorial check, the pinned
-linear layer, and the forced-regularity filter, over ALL ten species — `hits-maxSize22.tsv` (42
-hits) is the paper's exhaustive ≤ 22-chamber search from which the closure/genuineness levels
-leave convex witnesses for exactly four species (re-verified by canonical key in
-`UClassK3ExistenceSpec`); `hits-maxSize24.tsv` (79) is the extended ≤ 24-chamber sweep.
-`run-maxSize24.log` is the campaign's heartbeat.
+Records of the three-orbit searches.
 
-This directory is a *record*, separate from `certs/uclass-k3/`, where a fresh
-`sbt -Duclass.k3x test` run writes its own outputs.
+**The all-species search** (`UClassK3Probe`), per `maxSize` ramp: every (symbol, species,
+designation) hit passing the combinatorial check, the pinned linear layer and the forced-regularity
+filter, over all ten species — `hits-maxSize14.tsv`, `-18`, `-22` (42 hits) and `-24` (79).
+`run-maxSize24.log` is the campaign's heartbeat. The hits that survive to the closure level are
+re-verified from their canonical keys in `UClassK3ExistenceSpec`.
+
+**The 25–26 chamber band** (`UClassK3ShardProbe`), the sharded walk that carries the three-orbit
+catalogue past the reach of the unpruned enumeration: `window-hits-min25-maxSize26.tsv` and its
+valence-2 twin `-v2.tsv` (30 hits each). These are the band the paper's k = 3 completion rests on;
+every designation in them is re-derived under each reading of condition (3) by
+`StrictRefilterProbe`, whose triage output is archived in `certs/uclass-strict-record/`.
+
+These directories are *records*, separate from `certs/uclass-k3/`, where a fresh
+`sbt -Duclass.k3x test` or `-Duclass.k3s` run writes its own outputs.
