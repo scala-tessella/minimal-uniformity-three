@@ -77,7 +77,7 @@ class StrictRefilterProbe extends AnyFlatSpec with Matchers:
 
   /** Patterns the manuscript relies on that the hits files may not hold (30 chambers, k = 7, the flexible
     * family): every banked entry, plus the appendix's 24-chamber flexible $(3^2.6^2)$ family of
-    * `prop:uplus3366`. Each enters the same re-filter and triage, so its strict SUB-designations (a further
+    * `thm:uplus3366`. Each enters the same re-filter and triage, so its strict SUB-designations (a further
     * face orbit declared irregular) get a closure verdict too.
     */
   private val extraPatterns: List[(String, List[Int], String)] =

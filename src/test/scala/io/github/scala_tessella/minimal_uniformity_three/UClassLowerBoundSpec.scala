@@ -10,17 +10,34 @@ import org.scalatest.matchers.should.Matchers
 /** THE LOWER-BOUND LEMMAS, machine-checked — the hand cross-check of the paper's window bounds. Several
   * species fall to counting (tile stabilisers, corner orbits, chamber bounds) rather than to a bigger
   * exhaustion, and the arithmetic those arguments rest on is small enough to be re-derived on every run, so
-  * it is pinned here and confronted with every banked witness rather than trusted to a hand computation:
+  * it is pinned here and confronted with every banked witness rather than trusted to a hand computation.
   *
-  *   - L1, the TILE-STABILISER reduction: corner-orbit counts of a regular n-gon under every stabiliser the
-  *     crystallographic restriction allows, and the case tables they force per species;
-  *   - L3, the vertex-angle DIOPHANTINE tables: the completion alphabet at a corner of the largest tile,
+  * WHAT THE PAPER USES from this spec:
+  *
+  *   - the TILE-STABILISER reduction: corner-orbit counts of a regular n-gon under every stabiliser the
+  *     crystallographic restriction allows, and the case tables they force per species. Its predictions are
+  *     confronted with every banked witness and must be the observed counts — 7 for the 42-gon of the
+  *     ten-orbit (3.7.42) pattern, 5 for the 20-gon of the seven-orbit (4.5.20) one, 3 for the 15-gon of the
+  *     five-orbit (3.10.15) one;
+  *   - the vertex-angle DIOPHANTINE tables: the completion alphabet at a corner of the largest tile,
   *     cross-checked against [[UClass.cyclicSubset]] so the enumeration cannot drift from the predicate the
-  *     campaign actually scans with;
-  *   - L6, the ODD-SLICE theorem: the per-orbit vertex caps force C even above 12k − 6, checked against every
-  *     D-set count the k = 3 campaign has measured;
-  *   - the (3.10.15) chain: k ≤ 4 forces p6m and then C ≤ 24 chambers, which makes the 31–48 four-orbit
-  *     window vacuous for that species.
+  *     searches actually scan with;
+  *   - the chamber bounds per species and orbit count, which is what makes a search window finite — the
+  *     (3.10.15) chain (k ≤ 4 forces p6m and then C ≤ 24 chambers, making the 31–48 four-orbit window vacuous
+  *     for that species) among them.
+  *
+  * WHAT IS RETAINED AS A CROSS-CHECK, its paper result having been superseded. The paper's distinct-letter
+  * window theorem now closes (3.7.42) and (4.5.20) by a single argument, and the two routes below, which
+  * closed them by hand before that theorem existed, were dropped from the manuscript. They are kept here
+  * because they reach the same bounds by different means, in milliseconds, and a second route that agrees is
+  * worth more than the lines it costs — but nothing in the paper rests on them:
+  *
+  *   - the ODD-SLICE theorem: the per-orbit vertex caps force C even above 12k − 6, checked against every
+  *     D-set count the k = 3 searches have measured. Other tests here still reason from it (the thin C = 29
+  *     slice, for one), so it is load-bearing inside this spec even though the manuscript dropped it;
+  *   - the STABILISER CHAIN closing (3.7.42) at k ≤ 5 and (4.5.20) at k ≥ 6 — the V = 36 refutation, the
+  *     20-gon collar analysis and the 45° rhombus. Superseded by the window theorem, which reaches further
+  *     with less case analysis.
   *
   * All of it is integer arithmetic on small sets — the whole suite runs in milliseconds and stays in the
   * default (unguarded) tier.
@@ -60,7 +77,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
   private def forcedK(n: Int, m: Int): Int =
     (cornerOrbits(n, m, None) +: (0 until n).map(c => cornerOrbits(n, m, Some(c)))).min
 
-  it should "count corner orbits of a regular n-gon under each admissible stabiliser (L1)" in:
+  it should "count corner orbits of a regular n-gon under each admissible stabiliser" in:
     // rotation-only stabilisers leave n/m orbits; a reflection can at best halve them
     cornerOrbits(15, 3, None) shouldBe 5
     cornerOrbits(15, 1, None) shouldBe 15
@@ -71,7 +88,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
     (0 until 10).map(c => cornerOrbits(10, 2, Some(c))).distinct.sorted shouldBe Vector(3)
     (0 until 10).map(c => cornerOrbits(10, 1, Some(c))).distinct.sorted shouldBe Vector(5, 6)
 
-  it should "force k >= 4 for (3.7.42) from the heptagon alone, with no case split (L1)" in:
+  it should "force k >= 4 for (3.7.42) from the heptagon alone, with no case split" in:
     // 7 is coprime to every crystallographic rotation order, so a regular heptagon's stabiliser is at most a
     // single reflection: 7 corners, one fixed, three swapped pairs
     admissibleRotations(7) shouldBe List(1)
@@ -80,7 +97,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
     admissibleRotations(5) shouldBe List(1)
     forcedK(5, 1) shouldBe 3
 
-  it should "tabulate the stabiliser case split per open species (L1)" in:
+  it should "tabulate the stabiliser case split per open species" in:
     val cases = Map(
       42 -> Map(6 -> 4, 3 -> 7, 2 -> 11, 1 -> 21),
       20 -> Map(4 -> 3, 2 -> 5, 1 -> 10),
@@ -92,7 +109,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
       admissibleRotations(n).toSet shouldBe expected.keySet
       for (m, k) <- expected do withClue(s"$n-gon, rotation order $m: ")(forcedK(n, m) shouldBe k)
 
-  it should "leave exactly one stabiliser pair alive for (3.10.15) at k <= 4 (L1, step 1)" in:
+  it should "leave exactly one stabiliser pair alive for (3.10.15) at k <= 4" in:
     // every stabiliser type except D3 on the 15-gon and D2 on the decagon already forces k >= 5
     val survivors15 = admissibleRotations(15).filter(forcedK(15, _) <= 4)
     val survivors10 = admissibleRotations(10).filter(forcedK(10, _) <= 4)
@@ -120,7 +137,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
     .toList
     .sortBy(w => (w.length, w.mkString))
 
-  it should "derive the vertex-angle unit and the all-regular vertex per species (L3)" in:
+  it should "derive the vertex-angle unit and the all-regular vertex per species" in:
     val units = Map(List(3, 7, 42) -> 21, List(3, 10, 15) -> 15, List(4, 5, 20) -> 10, List(3, 3, 4, 12) -> 6)
     for (z, n) <- units do
       angleUnit(z) shouldBe n
@@ -129,7 +146,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
       z.map(corner).sum shouldBe 2 * n
       for w <- rvsCandidates(z) if w.length < z.length do w.map(corner).sum should be < 2 * n
 
-  it should "leave a four-letter alphabet at a corner of the largest tile (L3)" in:
+  it should "leave a four-letter alphabet at a corner of the largest tile" in:
     val expected = Map(
       List(3, 7, 42)  -> List(0, 7, 15, 22),
       List(3, 10, 15) -> List(0, 5, 12, 17),
@@ -146,7 +163,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
       // residue zero happens only at the full word: an all-regular vertex IS the z-vertex
       atBig.filter(w => w.map(p => n * (p - 2) / p).sum == 2 * n).foreach(_.length shouldBe z.length)
 
-  // ---- L6: the odd-slice theorem ----------------------------------------------------------------------
+  // ---- the odd-slice theorem ----------------------------------------------------------------------
 
   /** The per-orbit vertex caps of `DelaneySymbols.vertexOrbitCap12`, valence >= 3: chains 4/6/12 by length
     * 1/2/>=3, cycles 8/12/24 by length 2/4/>=6.
@@ -155,7 +172,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
   private val maxCap        = vertexCaps.max
   private val secondBestCap = vertexCaps.filter(_ < maxCap).max
 
-  it should "force C even above 12k - 6, for every k (L6)" in:
+  it should "force C even above 12k - 6, for every k (the odd-slice theorem)" in:
     maxCap shouldBe 24
     secondBestCap shouldBe 12
     // euclidean feasibility needs sum12 >= 2C; the largest sum strictly below 24k is 24k - 12, so once
@@ -170,7 +187,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
     emptyOdd(4) shouldBe List(43, 45, 47)
     emptyOdd(5) shouldBe List(55, 57, 59)
 
-  it should "agree with every measured k = 3 D-set count (L6)" in:
+  it should "agree with every measured k = 3 D-set count" in:
     // staircase-universe counts banked by the obligation manifest and the band walks of 2026-08-29
     val measured = Map(
       8  -> 105,
@@ -229,10 +246,10 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
     // the G0 bound alone would have allowed 12k = 48: the window 31-48 cannot contain a four-orbit symbol
     chamberBound(vMax) should be < 12 * 4
 
-  // ---- the generalised L1 chain, applied to the remaining open rows ------------------------------------
+  // ---- the generalised stabiliser chain, applied to the remaining open rows ------------------------------------
 
-  /** The L1 counting chain in general. `anchor` is a regular n-gon whose letter occurs ONCE in z (so no
-    * vertex meets two copies and corner orbits are read off the stabiliser); `pointGroup` is |G/T|;
+  /** The stabiliser counting chain in general. `anchor` is a regular n-gon whose letter occurs ONCE in z (so
+    * no vertex meets two copies and corner orbits are read off the stabiliser); `pointGroup` is |G/T|;
     * `anchorStab` the order of Stab(anchor) and `anchorOrbits` its number of corner orbits; `k` the assumed
     * uniformity bound; `knownCorners` / `knownFaces` the corners and count of the face orbits forced to
     * exist. Returns (V low, V high, chamber bound).
@@ -341,8 +358,8 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
       cnt <- cornerOrbits(n, m, None) +: (0 until n).map(c => cornerOrbits(n, m, Some(c)))
     yield cnt).toSet
 
-  it should "not contradict any banked witness (L1 falsification against real tilings)" in:
-    // L1 says the corners of a regular n-gon whose letter occurs ONCE in z meet at least
+  it should "not contradict any banked witness (falsification against real tilings)" in:
+    // the stabiliser floor says the corners of a regular n-gon whose letter occurs ONCE in z meet at least
     // ceil(n / 2m) vertex orbits. Every banked witness IS a tiling, so a witness whose anchor tile
     // meets FEWER orbits than any crystallographic stabiliser permits would refute the lemma.
     var checked = 0
@@ -362,7 +379,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
             f"  | lemma floor $floor%2d, achievable ${allowed.toList.sorted.mkString(",")}" +
             (if allowed(met) then "" else "   <-- NOT an achievable stabiliser count"))
           checked += 1
-          withClue(s"$name: anchor $n-gon meets $met vertex orbits, below the L1 floor $floor: ")(
+          withClue(s"$name: anchor $n-gon meets $met vertex orbits, below the stabiliser floor $floor: ")(
             met should be >= floor
           )
           withClue(s"$name: anchor meets more orbits than the tiling has: ")(met should be <= uniform)
@@ -380,7 +397,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
       (2 * threshold(k, j)) shouldBe maxSumWith(k, j)
     // at three orbits the thresholds reproduce the campaign's own window boundaries
     (0 until 3).map(threshold(3, _)) shouldBe Vector(18, 24, 30)
-    // and the last one is exactly L6, where ALL orbits are cycles and C is therefore even
+    // and the last one is exactly the odd-slice case, where ALL orbits are cycles and C is therefore even
     threshold(3, 2) shouldBe 12 * 3 - 6
     threshold(4, 3) shouldBe 12 * 4 - 6
 
@@ -393,7 +410,7 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
     admissibleThird(27) shouldBe List(6, 8, 12, 24)
     admissibleThird(29) shouldBe List(12, 24)
     admissibleThird(30) shouldBe List(12, 24)
-    // at C = 29 a third orbit at cap 24 would make three cycles and force C even (L6), so its cap is
+    // at C = 29 a third orbit at cap 24 would make three cycles and force C even (odd slice), so its cap is
     // exactly 12 — a chain of length >= 3 or a 4-cycle — and C odd rules the 4-cycle out: an ODD chain.
     // The measured slice is correspondingly thin: 10 D-sets against 2,014 at C = 28.
     admissibleThird(29).filter(_ < 24) shouldBe List(12)
@@ -805,9 +822,9 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
 
   // ---- stronger tests of the chain: 2,240 banked symbols, and species where a k-tiling EXISTS ------------
 
-  it should "hold L1 over every banked candidate symbol, not merely the witnesses" in:
+  it should "hold the stabiliser floor over every banked candidate symbol, not merely the witnesses" in:
     // The witness audit covered ~24 patterns. The four-orbit sweeps banked 2,240 candidate symbols
-    // with their canonical keys; L1 must hold on every one of them. For each, rebuild the symbol,
+    // with their canonical keys; the stabiliser floor must hold on every one. For each, rebuild the symbol,
     // take the largest letter of z occurring ONCE, and confront the vertex orbits its face orbit
     // meets with the counts a crystallographic stabiliser can produce.
     val dir     = java.nio.file.Path.of("certs", "uclass-k4")
@@ -835,7 +852,9 @@ class UClassLowerBoundSpec extends AnyFlatSpec with Matchers:
             met should be <= vertexOs.size
           checked += 1
           species += zStr
-    println(s"L1 checked on $checked anchor incidences across ${species.size} species, ${files.size} files")
+    println(
+      s"stabiliser floor checked on $checked anchor incidences across ${species.size} species, ${files.size} files"
+    )
     checked should be > 500
 
   it should "not under-predict chambers for species where a k = 4 tiling is KNOWN to exist" in:
