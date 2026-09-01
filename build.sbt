@@ -18,8 +18,8 @@ lazy val root = project
     name           := "minimal-uniformity-three",
     publish / skip := true,
     libraryDependencies ++= Seq(
-      "io.github.scala-tessella" %% "research-core"        % "0.8.0",
-      "io.github.scala-tessella" %% "research-core-solver" % "0.8.0",
+      "io.github.scala-tessella" %% "research-core"        % "0.8.1",
+      "io.github.scala-tessella" %% "research-core-solver" % "0.8.1",
       "org.scalatest"            %% "scalatest"       % "3.2.20"   % Test,
       "org.scalacheck"           %% "scalacheck"      % "1.19.0"   % Test,
       "org.scalatestplus"        %% "scalacheck-1-19" % "3.2.20.0" % Test

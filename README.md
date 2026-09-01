@@ -22,7 +22,7 @@ can be tiled around it when irregular tiles are admitted as sparingly as possibl
 This repository contains **only the paper's proof specs**. All machinery — the Delaney–Dress symbol engine
 and its orbit-bounded walk, the exact angle/moduli layer, cyclotomic arithmetic, the exact `ℤ[ζ_N]` plane and
 de-fusion engine, the U(z) class construction, and the SAT/DRAT certification harness — is the pinned
-[`research-core`](https://github.com/scala-tessella/research-core) `0.8.0` library. Nothing here is specific
+[`research-core`](https://github.com/scala-tessella/research-core) `0.8.1` library. Nothing here is specific
 to any other result.
 
 ## Reproduce
@@ -36,7 +36,7 @@ sbt -Dcert.k2 test                    # the k <= 2 DRAT completeness certificate
 
 `sbt test` runs every always-on spec: the claim verdicts, re-derived in exact arithmetic from the appendix's
 canonical keys. Everything heavy is opt-in behind a `-D` flag and appears as *canceled*, not failed, when the
-flag is absent. `research-core 0.8.0` resolves from Maven Central.
+flag is absent. `research-core 0.8.1` resolves from Maven Central.
 
 The certification campaign has been **run in public CI**: green in 24 minutes on an ubuntu runner —
 toolchain built from source, all 24 obligations verified, proofs re-checked by `verify.sh` —
@@ -100,7 +100,9 @@ Not every claim is certified the same way, and the difference matters.
 - **Agreement-validated.** Beyond two orbits the statements rest on the generator walk: exact, deterministic,
   shard-resumable, replayable from a clean checkout, and cross-checked against an independent enumeration.
   That is weaker than a DRAT certificate, and the paper says so at each theorem. The three-orbit staircase
-  obligations discharged so far are recorded in `certs/kcert-k3-record/`, which states its own scope; the
+  obligations are recorded in `certs/kcert-k3-record/` — C = 1–25 unbroken, which covers the whole range the
+  paper's chamber bound makes relevant, though it is not the closed, `verify.sh`-checkable campaign the
+  two-orbit certificate is, and that record states the difference; the
   encoding they use is validated on every run by `KCertifySpec`, and `KCertifyObligationProbe` runs a
   chamber count's obligation, so a reader can extend the record rather than take it on trust.
 - **Exact and self-contained.** The witness verdicts need no external tool and no long run: they re-derive
@@ -132,7 +134,7 @@ the tree that release archives: the `CITATION.cff` inside a deposit carries no v
 is recorded in this table, and in `CITATION.cff` on the main branch, in the first commit after the tag; the
 concept DOI (all versions) is [10.5281/zenodo.21739354](https://doi.org/10.5281/zenodo.21739354).
 
-Pinned to `research-core 0.8.0` / `research-core-solver 0.8.0`, each an immutable Central release. That
+Pinned to `research-core 0.8.1` / `research-core-solver 0.8.1`, each an immutable Central release. That
 release — not the `research-core` repository's main branch, which may since have moved on — is the
 authoritative source for what this artifact depends on. The pin makes this a closed, reproducible artifact
 independent of any moving repository. The DRAT proofs are regenerable by `-Dcert.k2` (also runnable in
@@ -144,7 +146,7 @@ Every heavy campaign's producing run is backed by a small, archived, independent
 | record | what it holds |
 |---|---|
 | `k2-record/` | the k ≤ 2 certificate's manifest and the 1,363 catalogue keys |
-| `kcert-k3-record/` | the three-orbit staircase obligations discharged so far — a partial record, and says so |
+| `kcert-k3-record/` | the three-orbit staircase obligations: C = 1–25 unbroken, plus four slices in the wider band |
 | `uclass-k2-record/` | the k = 2 scan's catalogue size and its single survivor |
 | `uclass-k3-record/` | the k = 3 all-species hit lists per chamber ramp, and the 25–26 chamber band |
 | `uclass-k4-record/` | the four-orbit window hits, both valence regimes |

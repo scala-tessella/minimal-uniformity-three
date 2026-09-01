@@ -60,11 +60,11 @@ references:
     title: research-core
     abstract: >-
       The pinned library providing every piece of machinery this artifact depends on
-      (research-core 0.8.0 and research-core-solver 0.8.0).
+      (research-core 0.8.1 and research-core-solver 0.8.1).
     authors:
       - given-names: Mario
         family-names: Càllisto
         orcid: https://orcid.org/0009-0009-1215-3278
-    version: 0.8.0
+    version: 0.8.1
     repository-code: https://github.com/scala-tessella/research-core
     license: Apache-2.0

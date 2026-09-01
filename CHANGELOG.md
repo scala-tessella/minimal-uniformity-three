@@ -45,14 +45,18 @@ prose that 0.1.1 got wrong.
 - **Producing-run records** for every new campaign, each with a README stating its scope:
   `certs/uclass-k4-record/`, `certs/uclass-k6-record/` … `certs/uclass-k9-record/` (hit lists in full where
   small, per-species summaries where they run to megabytes, with the triage logs that dispose of every
-  hit), `certs/uclass-strict-record/` and `certs/kcert-k3-record/`. `certs/uclass-k3-record/` gains the
-  25–26 chamber band.
+  hit), `certs/uclass-strict-record/` and `certs/kcert-k3-record/` — the last carrying the three-orbit
+  staircase obligations for C = 1–25 unbroken, plus C = 31, 32, 34 and 36, with solve times and the
+  instance and tool-binary hashes. `certs/uclass-k3-record/` gains the 25–26 chamber band.
 
 ### Changed
 
-- **Pinned to `research-core` 0.8.0** (from 0.3.1), which is where the orbit-bounded walk, the staircase and
+- **Pinned to `research-core` 0.8.1** (from 0.3.1), which is where the orbit-bounded walk, the staircase and
   euclidean curvature filters, the valence-2 mode and the exact `ℤ[ζ_N]` plane and de-fusion engine now
-  live. None of the promoted specs could be archived before that release existed.
+  live. None of the promoted specs could be archived before that release existed. 0.8.1 adds the DRAT
+  text-proof fallback: drat-trim decides a proof's format by sniffing its opening bytes, and misread a
+  sound binary refutation of the C = 4 obligation as text. It fails closed — NOT VERIFIED, never a false
+  VERIFIED — so no recorded verdict was in doubt; `certs/kcert-k3-record/README.md` tells the story.
 - **`UClassK3ExistenceSpec` is reframed, and this is a correction.** Its documentation claimed four species
   settled at uniformity 3, "correcting (3².6²)'s claimed value 7". That is not what the paper proves:
   (3².6²) is settled at **5**, and its convex rhombus patterns at three orbits are legal only under the
