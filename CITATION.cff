@@ -28,7 +28,7 @@ license: Apache-2.0
 repository-code: https://github.com/scala-tessella/minimal-uniformity-three
 url: https://github.com/scala-tessella/minimal-uniformity-three
 version: 0.2.0
-date-released: '2026-08-31'
+date-released: '2026-09-01'
 # Version DOI of this release — the one to cite. Zenodo mints it when the release is published, so
 # it cannot be present in the tree that release archives; the copy in a deposit carries the concept
 # DOI, and the version DOI is recorded here in the first commit after the tag.

@@ -7,7 +7,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 a paper, entries state what a re-check would find different from the previous release — a referee who checked
 an earlier version should be able to tell from here whether the claims, the specs, or only the packaging moved.
 
-## [0.2.0] — 2026-08-31
+## [0.2.0] — 2026-09-01
 
 **The artifact catches up with the paper.** Version 0.1.1 covered the ladder as it stood then: four
 witnesses, minimal uniformity 3. The paper now proves all ten values — 3, 3, 3, 4, 4, 4, 5, 5, 7, 10 — and
