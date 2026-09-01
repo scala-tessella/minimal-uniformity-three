@@ -66,5 +66,6 @@ references:
         family-names: Càllisto
         orcid: https://orcid.org/0009-0009-1215-3278
     version: 0.8.1
+    doi: 10.5281/zenodo.22238457
     repository-code: https://github.com/scala-tessella/research-core
     license: Apache-2.0

@@ -134,9 +134,10 @@ the tree that release archives: the `CITATION.cff` inside a deposit carries no v
 is recorded in this table, and in `CITATION.cff` on the main branch, in the first commit after the tag; the
 concept DOI (all versions) is [10.5281/zenodo.21739354](https://doi.org/10.5281/zenodo.21739354).
 
-Pinned to `research-core 0.8.1` / `research-core-solver 0.8.1`, each an immutable Central release. That
-release — not the `research-core` repository's main branch, which may since have moved on — is the
-authoritative source for what this artifact depends on. The pin makes this a closed, reproducible artifact
+Pinned to `research-core 0.8.1` / `research-core-solver 0.8.1`, each an immutable Central release, archived
+at [10.5281/zenodo.22238457](https://doi.org/10.5281/zenodo.22238457). That release — not the
+`research-core` repository's main branch, which may since have moved on — is the authoritative source for
+what this artifact depends on. The pin makes this a closed, reproducible artifact
 independent of any moving repository. The DRAT proofs are regenerable by `-Dcert.k2` (also runnable in
 public from the Actions tab) and are therefore not stored in git.
 
