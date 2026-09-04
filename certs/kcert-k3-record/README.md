@@ -27,8 +27,9 @@ off and the staircase-filtered universe with it on.
 ## Provenance, and one verdict that changed
 
 C = 1–7 were produced by this artifact's own pipeline against `research-core 0.8.1`. C = 8 and above
-come from the long producing runs on the development machine, whose solve times these rows report
-(C = 24 alone took 9,524 s and a 3.8 GB proof).
+come from the long producing runs on the development machine — one 16-core 3.6 GHz desktop, 31 GB,
+a 64-bit JVM — whose wall-clock solve times these rows report (C = 24 alone took 9,524 s and a
+3.8 GB proof).
 
 C = 4 is worth a word. Under `research-core 0.8.0` it recorded `drat = false` on a proof that was
 perfectly sound. kissat writes binary DRAT, drat-trim decides the format by sniffing the opening
